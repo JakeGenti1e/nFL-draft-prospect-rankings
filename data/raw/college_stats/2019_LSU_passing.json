@@ -1,0 +1,156 @@
+[
+  {
+    "season": 2019,
+    "playerId": "3915511",
+    "player": "Joe Burrow",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "ATT",
+    "stat": "527"
+  },
+  {
+    "season": 2019,
+    "playerId": "3915511",
+    "player": "Joe Burrow",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "COMPLETIONS",
+    "stat": "402"
+  },
+  {
+    "season": 2019,
+    "playerId": "3915511",
+    "player": "Joe Burrow",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "INT",
+    "stat": "6"
+  },
+  {
+    "season": 2019,
+    "playerId": "3915511",
+    "player": "Joe Burrow",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "PCT",
+    "stat": "0.763"
+  },
+  {
+    "season": 2019,
+    "playerId": "3915511",
+    "player": "Joe Burrow",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "TD",
+    "stat": "60"
+  },
+  {
+    "season": 2019,
+    "playerId": "3915511",
+    "player": "Joe Burrow",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "YDS",
+    "stat": "5671"
+  },
+  {
+    "season": 2019,
+    "playerId": "3915511",
+    "player": "Joe Burrow",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "YPA",
+    "stat": "10.8"
+  },
+  {
+    "season": 2019,
+    "playerId": "4242210",
+    "player": "Myles Brennan",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "ATT",
+    "stat": "40"
+  },
+  {
+    "season": 2019,
+    "playerId": "4242210",
+    "player": "Myles Brennan",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "COMPLETIONS",
+    "stat": "24"
+  },
+  {
+    "season": 2019,
+    "playerId": "4242210",
+    "player": "Myles Brennan",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "INT",
+    "stat": "1"
+  },
+  {
+    "season": 2019,
+    "playerId": "4242210",
+    "player": "Myles Brennan",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "PCT",
+    "stat": "0.600"
+  },
+  {
+    "season": 2019,
+    "playerId": "4242210",
+    "player": "Myles Brennan",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "TD",
+    "stat": "1"
+  },
+  {
+    "season": 2019,
+    "playerId": "4242210",
+    "player": "Myles Brennan",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "YDS",
+    "stat": "353"
+  },
+  {
+    "season": 2019,
+    "playerId": "4242210",
+    "player": "Myles Brennan",
+    "position": "QB",
+    "team": "LSU",
+    "conference": "SEC",
+    "category": "passing",
+    "statType": "YPA",
+    "stat": "8.8"
+  }
+]
