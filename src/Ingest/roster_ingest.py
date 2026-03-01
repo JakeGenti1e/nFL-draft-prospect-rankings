@@ -187,7 +187,7 @@ def save_rosters(df: pd.DataFrame, year: int):
 
 
 if __name__ == "__main__":
-    year = 2023
+    year = 2018
     raw = fetch_rosters_year(year)
     df = normalize_rosters(raw)
     print("[INFO] df shape:", df.shape, flush=True)
