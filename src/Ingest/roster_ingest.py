@@ -40,14 +40,15 @@ def _get_json(url: str, params: dict | None = None):
 
         # Rate limit handling
         if r.status_code == 429:
-              retry_after = r.headers.get("Retry-After")
-              if retry_after is not None:
+            retry_after = r.headers.get("Retry-After")
+            if retry_after is not None:
                 wait = float(retry_after)
-              else:
-                wait = min(2 ** attempt, 30)  # exponential backoff cap
-                print(f"[429] rate limited, sleeping {wait:.1f}s (attempt {attempt}/6)", flush=True)
-                time.sleep(wait)
-                continue
+            else:
+                wait = min(2 ** attempt, 30)
+
+            print(f"[429] rate limited, sleeping {wait:.1f}s (attempt {attempt}/6)", flush=True)
+            time.sleep(wait)
+            continue
               
         # Non-JSON debugging (helps if you hit HTML)
         ct = (r.headers.get("Content-Type") or "").lower()
@@ -99,14 +100,39 @@ def fetch_roster(year: int, team: str) -> list[dict]:
     params = {"year": year, "team": team}
     return _get_json(url, params=params)
 
+def schools_from_stats(year: int) -> list[str]:
+    stats_path = PROCESSED_DIR / f"player_season_stats_{year}.parquet"
+    if not stats_path.exists():
+        raise FileNotFoundError(f"Missing stats parquet for {year}: {stats_path}")
+
+    df = pd.read_parquet(stats_path)
+
+    if "school" not in df.columns:
+        raise RuntimeError(f"'school' column not found in {stats_path}")
+
+    schools = sorted(df["school"].dropna().astype(str).str.strip().unique().tolist())
+    print(f"[OK] schools from stats for {year}: {len(schools)}", flush=True)
+    return schools
 
 def fetch_rosters_year(year: int) -> list[dict]:
-    teams = fetch_fbs_teams(year)
+    teams = schools_from_stats(year)
 
     all_rows: list[dict] = []
+    year_dir = RAW_DIR / str(year)
+    year_dir.mkdir(parents=True, exist_ok=True)
+
     for i, team in enumerate(teams, start=1):
-        print(f"→ roster {year} [{i}/{len(teams)}] {team}", flush=True)
-        rows = fetch_roster(year, team)
+        safe_team = team.lower().replace(" ", "_").replace("/", "_")
+        team_path = year_dir / f"{safe_team}.json"
+
+        if team_path.exists():
+            print(f"✓ cached roster {year} [{i}/{len(teams)}] {team}", flush=True)
+            rows = json.loads(team_path.read_text(encoding="utf-8"))
+        else:
+            print(f"→ roster {year} [{i}/{len(teams)}] {team}", flush=True)
+            rows = fetch_roster(year, team)
+            team_path.write_text(json.dumps(rows, indent=2), encoding="utf-8")
+            time.sleep(SLEEP_SEC)
 
         # add team/year as explicit columns (even if API includes them)
         for row in rows:
@@ -114,7 +140,6 @@ def fetch_rosters_year(year: int) -> list[dict]:
             row.setdefault("season", year)
 
         all_rows.extend(rows)
-        time.sleep(SLEEP_SEC)
 
     raw_path = RAW_DIR / f"rosters_{year}.json"
     raw_path.write_text(json.dumps(all_rows, indent=2), encoding="utf-8")
