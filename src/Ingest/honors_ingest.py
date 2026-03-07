@@ -1,117 +1,63 @@
-import os
-import time
-import requests
 from pathlib import Path
-import pandas as pd
 import json
+import time
+import pandas as pd
+import requests
 
+API_KEY = "YOUR_API_KEY"
+API_BASE = "https://api.collegefootballdata.com"
 
-API_KEY = os.environ.get("CFBD_API_KEY")
-print("https://api.collegefootballdata.com")
-BASE_URL = "https://api.collegefootballdata.com"
+HEADERS = {
+    "Authorization": f"Bearer {API_KEY}"
+}
 
-BASE_DIR = Path(__file__).resolve().parents[2]
-RAW_DIR = BASE_DIR / "data" / "raw" / "combine"
-PROCESSED_DIR = BASE_DIR / "data" / "processed"
+def _get_json(url: str, params: dict | None = None):
+    resp = requests.get(
+        url,
+        headers=HEADERS,
+        params=params,
+        timeout=30
+    )
 
+    resp.raise_for_status()
+    return resp.json()
+RAW_DIR = Path("data/raw/honors")
 RAW_DIR.mkdir(parents=True, exist_ok=True)
-PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
+def fetch_awards(year: int) -> list[dict]:
+    url = f"{API_BASE}/awards"
+    params = {"year": year}
+    return _get_json(url, params=params)
 
-def headers():
-    if not API_KEY:
-        raise RuntimeError("CFBD_API_KEY not set")
-    return {
-        "Authorization": f"Bearer {API_KEY}",
-        "Accept": "application/json"
-    }
+def get_or_fetch_awards(year: int) -> list[dict]:
+    cache_path = RAW_DIR / f"honors_{year}.json"
 
-def fetch_combine_year(year: int) -> list[dict]:
-    url = f"{BASE_URL}/draft/combine"
-    print(f"→ Fetching combine data for {year}", flush=True)
+    if cache_path.exists():
+        print(f"[cache] {year}")
+        with open(cache_path, "r", encoding="utf-8") as f:
+            return json.load(f)
 
-    r = requests.get(url, headers=headers(), params={"year": year}, timeout=30)
+    print(f"[fetch] {year}")
+    data = fetch_awards(year)
 
-    print("← status:", r.status_code, flush=True)
-    print("← content-type:", r.headers.get("Content-Type"), flush=True)
-    print("← body preview:", r.text[:250].replace("\n", " "), flush=True)
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
 
-    r.raise_for_status()
-
-    # If it's not JSON, fail with a clear message
-    ct = (r.headers.get("Content-Type") or "").lower()
-    if "application/json" not in ct:
-        raise ValueError("Combine endpoint did not return JSON (see body preview above).")
-
-    data = r.json()
-    print(f"Retrieved {len(data):,} combine rows", flush=True)
+    time.sleep(2)
     return data
 
-def save_raw(data: list[dict], year: int):
-    path = RAW_DIR / f"combine_{year}.json"
-    path.write_text(json.dumps(data, indent=2), encoding="utf-8")
-    print(f"Saved raw → {path}", flush=True)
+def main():
+    all_rows = []
 
+    for year in range(2019, 2026):
+        rows = get_or_fetch_awards(year)
+        all_rows.extend(rows)
 
-def normalize_combine(data: list[dict]) -> pd.DataFrame:
-    if not data:
-        return pd.DataFrame()
+    df = pd.DataFrame(all_rows)
+    print(df.head())
 
-    df = pd.json_normalize(data)
+    out_path = Path("data/processed/honors.parquet")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    df.to_parquet(out_path, index=False)
 
-    # Clean column names
-    df.columns = [c.strip().lower().replace(" ", "_") for c in df.columns]
-
-    # Rename common fields
-    rename_map = {
-        "playerid": "player_id",
-        "year": "draft_year",
-        "fortyyd": "forty",
-        "vertical": "vertical",
-        "broadjump": "broad_jump",
-        "threecone": "three_cone",
-        "shuttle": "shuttle",
-        "benchpress": "bench"
-    }
-
-    for k, v in rename_map.items():
-        if k in df.columns:
-            df = df.rename(columns={k: v})
-
-    # Convert numeric fields
-    numeric_cols = [
-        "height", "weight", "forty", "vertical",
-        "broad_jump", "three_cone", "shuttle", "bench"
-    ]
-
-    for col in numeric_cols:
-        if col in df.columns:
-            df[col] = pd.to_numeric(df[col], errors="coerce")
-
-    # Deduplicate by player + draft year
-    if {"player_id", "draft_year"}.issubset(df.columns):
-        df = df.drop_duplicates(subset=["player_id", "draft_year"])
-
-    print("Normalized shape:", df.shape, flush=True)
-    return df
-
-
-def save_processed(df: pd.DataFrame, year: int):
-    if df.empty:
-        print("No combine data to save")
-        return
-
-    path = PROCESSED_DIR / f"combine_{year}.parquet"
-    df.to_parquet(path, index=False)
-    print(f"Saved processed → {path}", flush=True)
-
-
-if __name__ == "__main__":
-    year = 2024
-    raw = fetch_combine_year(year)
-    save_raw(raw, year)
-
-    df = normalize_combine(raw)
-    save_processed(df, year)
-
-    print("Combine ingest complete", flush=True)
+    print(f"Saved to {out_path}")
