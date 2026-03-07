@@ -61,3 +61,6 @@ def main():
     df.to_parquet(out_path, index=False)
 
     print(f"Saved to {out_path}")
+
+if __name__ == "__main__":
+    main()
