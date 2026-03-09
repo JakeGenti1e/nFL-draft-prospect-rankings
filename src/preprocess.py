@@ -27,11 +27,38 @@ rosters_23["name"] = rosters_23["firstName"] + " " + rosters_23["lastName"]
 rosters_24["name"] = rosters_24["firstName"] + " " + rosters_24["lastName"]
 rosters_25["name"] = rosters_25["firstName"] + " " + rosters_25["lastName"]
 
-processed_19 = rosters_19[['name','height','weight','team','position', 'season']]
-processed_20 = rosters_20[['name','height','weight','team','position', 'season']]
-processed_21 = rosters_21[['name','height','weight','team','position', 'season']]
-processed_22 = rosters_22[['name','height','weight','team','position', 'season']]
-processed_23 = rosters_23[['name','height','weight','team','position', 'season']]
-processed_24 = rosters_24[['name','height','weight','team','position', 'season']]
-processed_25 = rosters_25[['name','height','weight','team','position', 'season']]
+processed_rosters_19 = rosters_19[['name','height','weight','team','position', 'season']]
+processed_rosters_20 = rosters_20[['name','height','weight','team','position', 'season']]
+processed_rosters_21 = rosters_21[['name','height','weight','team','position', 'season']]
+processed_rosters_22 = rosters_22[['name','height','weight','team','position', 'season']]
+processed_rosters_23 = rosters_23[['name','height','weight','team','position', 'season']]
+processed_rosters_24 = rosters_24[['name','height','weight','team','position', 'season']]
+processed_rosters_25 = rosters_25[['name','height','weight','team','position', 'season']]
 
+roster_years = [processed_rosters_19, processed_rosters_20, processed_rosters_21, processed_rosters_22, processed_rosters_23, processed_rosters_24, processed_rosters_25]
+processed_roster = pd.concat(roster_years, ignore_index = True)
+print(processed_roster)
+
+dfs = []
+for year in range(2015, 2026):
+
+    stats_raw = pd.read_json(f"data/raw/stats/player_stats_{year}.json")
+
+    stats_raw["stat_name"] = stats_raw["category"] + "_" + stats_raw["statType"]
+
+    stats_df = stats_raw.pivot_table(
+        index=["season","playerId","player","position","team","conference"],
+        columns="stat_name",
+        values="stat",
+        aggfunc="first"
+    ).reset_index()
+
+    dfs.append(stats_df)
+
+print(stats_df.shape)
+print(stats_df.dtypes)
+print(stats_df.head())
+
+all_stats = pd.concat(dfs, ignore_index=True)
+
+print(all_stats)
