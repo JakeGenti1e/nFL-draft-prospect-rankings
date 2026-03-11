@@ -59,6 +59,21 @@ print(stats_df.shape)
 print(stats_df.dtypes)
 print(stats_df.head())
 
-all_stats = pd.concat(dfs, ignore_index=True)
+all_stats = pd.concat(dfs, ignore_index=True) 
+print(all_stats)  
 
-print(all_stats)
+
+
+player_data = pd.merge(
+    processed_roster,
+    all_stats,
+    left_on=["name","team", "season"],
+    right_on=["player","team", "season"],
+    how="inner"
+)
+
+print(player_data.shape)
+print(player_data.head())
+print(player_data.isnull().sum())
+
+print(player_data.columns)
