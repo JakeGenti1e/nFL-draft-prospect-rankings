@@ -62,7 +62,12 @@ print(stats_df.head())
 all_stats = pd.concat(dfs, ignore_index=True) 
 print(all_stats)  
 
+all_americans_2010s = pd.read_csv("data/raw/honors/2010s_all_americans.csv")
+all_americans_2020s = pd.read_csv("data/raw/honors/2020s_all_americans.csv")
 
+total_all_americans = [all_americans_2010s, all_americans_2020s]
+processed_all_americans = pd.concat(total_all_americans, ignore_index= True)
+print(processed_all_americans.head())
 
 player_data = pd.merge(
     processed_roster,
@@ -72,8 +77,13 @@ player_data = pd.merge(
     how="inner"
 )
 
+
+
+'''
 print(player_data.shape)
 print(player_data.head())
 print(player_data.isnull().sum())
 
 print(player_data.columns)
+'''
+print(player_data.head())

@@ -1,0 +1,261 @@
+Year,Name,Position,School,Stats,Unaminous,ID
+2010,Cam Newton*,QB,Auburn,185 Cmp 280 Att 2854 Yds 30 TD 7 Int,No,cam-newton-1
+2010,Kendall Hunter*,RB,Oklahoma State,271 Att 1548 Yds 5.7 Avg 16 TD,No,kendall-hunter-1
+2010,LaMichael James*,RB,Oregon,294 Att 1731 Yds 5.9 Avg 21 TD,Yes,lamichael-james-1
+2010,Justin Blackmon*,WR,Oklahoma State,111 Rec 1782 Yds 16.1 Avg 20 TD,Yes,justin-blackmon-1
+2010,Ryan Broyles*,WR,Oklahoma,131 Rec 1622 Yds 12.4 Avg 14 TD,No,ryan-broyles-1
+2010,Michael Egnew*,TE,Missouri,90 Rec 762 Yds 8.5 Avg 5 TD,No,michael-egnew-1
+2010,Lance Kendricks*,TE,Wisconsin,43 Rec 663 Yds 15.4 Avg 5 TD,No,lance-kendricks-1
+2010,Chase Beeler*,OL,Stanford,,No,chase-beeler-1
+2010,Gabe Carimi*,OL,Wisconsin,,Yes,gabe-carimi-1
+2010,Rodney Hudson*,OL,Florida State,,Yes,rodney-hudson-1
+2010,Nate Solder,OL,Colorado,,No,nate-solder-1
+2010,Lee Ziemba*,OL,Auburn,,No,lee-ziemba-1
+2010,Josh Jasper*,K,LSU,36 XPM 37 XPA 28 FGM 34 FGA 120 Pts,No,josh-jasper-1
+2010,Eric Page*,AP,Toledo,99 Rec 1105 Yds 11.2 Avg 8 TD,No,eric-page-1
+2010,Cliff Harris*,AP,Oregon,,No,cliff-harris-1
+2010,Da'Quan Bowers*,DL,Clemson,41 Solo 26 Ast 15.5 Sk 1 Int,Yes,daquan-bowers-1
+2010,Adrian Clayborn*,DL,Iowa,19 Solo 33 Ast 3.5 Sk 0 Int,No,adrian-clayborn-1
+2010,Nick Fairley*,DL,Auburn,36 Solo 24 Ast 11.5 Sk 1 Int,No,nick-fairley-1
+2010,Ryan Kerrigan,DL,Purdue,50 Solo 20 Ast 12.5 Sk 0 Int,Yes,ryan-kerrigan-1
+2010,Stephen Paea,DL,Oregon State,20 Solo 25 Ast 6.0 Sk,No,stephen-paea-1
+2010,Greg Jones*,LB,Michigan State,49 Solo 57 Ast 1.0 Sk 2 Int,Yes,greg-jones-2
+2010,Luke Kuechly*,LB,Boston College,110 Solo 73 Ast 1.5 Sk 3 Int,Yes,luke-kuechly-1
+2010,Von Miller*,LB,Texas A&M,38 Solo 30 Ast 10.5 Sk 1 Int,No,von-miller-1
+2010,Prince Amukamara*,DB,Nebraska,36 Solo 23 Ast 1.0 Sk 0 Int,Yes,prince-amukamara-1
+2010,Quinton Carter*,DB,Oklahoma,59 Solo 37 Ast 0.0 Sk 4 Int,No,quinton-carter-1
+2010,Tejay Johnson*,DB,TCU,40 Solo 26 Ast 0.0 Sk 3 Int,No,tejay-johnson-1
+2010,Patrick Peterson*,DB,LSU,29 Solo 13 Ast 0.0 Sk 4 Int,Yes,patrick-peterson-1
+2010,Chas Henry*,P,Florida,50 Punts 2253 Yds 45.1 Avg,No,chas-henry-1
+2011,Robert Griffin III*,QB,Baylor,291 Cmp 402 Att 4293 Yds 37 TD 6 Int,No,robert-griffin-iii-1
+2011,Montee Ball*,RB,Wisconsin,307 Att 1923 Yds 6.3 Avg 33 TD,No,montee-ball-1
+2011,Trent Richardson*,RB,Alabama,283 Att 1679 Yds 5.9 Avg 21 TD,Yes,trent-richardson-1
+2011,Justin Blackmon*,WR,Oklahoma State,122 Rec 1522 Yds 12.5 Avg 18 TD,Yes,justin-blackmon-1
+2011,Ryan Broyles*,WR,Oklahoma,83 Rec 1157 Yds 13.9 Avg 10 TD,No,ryan-broyles-1
+2011,Robert Woods,WR,USC,111 Rec 1292 Yds 11.6 Avg 15 TD,No,robert-woods-1
+2011,Dwayne Allen*,TE,Clemson,50 Rec 598 Yds 12.0 Avg 8 TD,No,dwayne-allen-1
+2011,Levy Adcock*,OL,Oklahoma State,,No,levy-adcock-1
+2011,David DeCastro*,OL,Stanford,,Yes,david-decastro-1
+2011,Barrett Jones*,OL,Alabama,,Yes,barrett-jones-1
+2011,David Molk*,OL,Michigan,,No,david-molk-1
+2011,Nate Potter*,OL,Boise State,,No,nate-potter-1
+2011,Randy Bullock*,K,Texas A&M,55 XPM 57 XPA 29 FGM 33 FGA 142 Pts,No,randy-bullock-1
+2011,Joe Adams*,AP,Arkansas,54 Rec 652 Yds 12.1 Avg 3 TD,No,joe-adams-1
+2011,Melvin Ingram*,DL,South Carolina,31 Solo 17 Ast 10.0 Sk 2 Int,No,melvin-ingram-1
+2011,Whitney Mercilus*,DL,Illinois,28 Solo 29 Ast 16.0 Sk,Yes,whitney-mercilus-1
+2011,Devon Still*,DL,Penn State,29 Solo 26 Ast 4.5 Sk,No,devon-still-1
+2011,Jerel Worthy*,DL,Michigan State,19 Solo 11 Ast 3.5 Sk 0 Int,No,jerel-worthy-1
+2011,Dont'a Hightower*,LB,Alabama,40 Solo 45 Ast 4.0 Sk 1 Int,No,donta-hightower-1
+2011,Jarvis Jones*,LB,Georgia,39 Solo 31 Ast 13.5 Sk 0 Int,No,jarvis-jones-1
+2011,Luke Kuechly,LB,Boston College,102 Solo 89 Ast 0.0 Sk 3 Int,No,luke-kuechly-1
+2011,Mark Barron*,DB,Alabama,43 Solo 25 Ast 1.0 Sk 2 Int,Yes,mark-barron-1
+2011,Morris Claiborne*,DB,LSU,32 Solo 19 Ast 0.0 Sk 6 Int,Yes,morris-claiborne-1
+2011,Tyrann Mathieu*,DB,LSU,59 Solo 17 Ast 1.5 Sk 2 Int,No,tyrann-mathieu-1
+2011,Shawn Powell*,P,Florida State,57 Punts 2681 Yds 47.0 Avg,No,shawn-powell-1
+2012,Johnny Manziel*,QB,Texas A&M,295 Cmp 434 Att 3706 Yds 26 TD 9 Int,No,johnny-manziel-1
+2012,Montee Ball*,RB,Wisconsin,356 Att 1830 Yds 5.1 Avg 22 TD,No,montee-ball-1
+2012,Kenjon Barner*,RB,Oregon,278 Att 1767 Yds 6.4 Avg 21 TD,No,kenjon-barner-1
+2012,Ka'Deem Carey*,RB,Arizona,303 Att 1929 Yds 6.4 Avg 23 TD,No,kadeem-carey-1
+2012,Marqise Lee*,WR,USC,118 Rec 1721 Yds 14.6 Avg 14 TD,Yes,marqise-lee-1
+2012,Terrance Williams*,WR,Baylor,97 Rec 1832 Yds 18.9 Avg 12 TD,Yes,terrance-williams-2
+2012,Zach Ertz*,TE,Stanford,69 Rec 898 Yds 13.0 Avg 6 TD,No,zach-ertz-1
+2012,Jonathan Cooper,OL,North Carolina,,Yes,jonathan-cooper-1
+2012,Luke Joeckel,OL,Texas A&M,,Yes,luke-joeckel-1
+2012,Barrett Jones,OL,Alabama,,No,barrett-jones-1
+2012,Chance Warmack*,OL,Alabama,,Yes,chance-warmack-1
+2012,Cairo Santos,K,Tulane,26 XPM 27 XPA 21 FGM 21 FGA 89 Pts,No,cairo-santos-1
+2012,Dri Archer*,AP,Kent State,159 Att 1429 Yds 9.0 Avg 16 TD,No,dri-archer-1
+2012,Jadeveon Clowney*,DL,South Carolina,40 Solo 14 Ast 13.0 Sk,Yes,jadeveon-clowney-1
+2012,Damontre Moore*,DL,Texas A&M,57 Solo 28 Ast 12.5 Sk 0 Int,No,damontre-moore-1
+2012,Will Sutton*,DL,Arizona State,41 Solo 22 Ast 13.0 Sk,No,will-sutton-1
+2012,Bjoern Werner*,DL,Florida State,30 Solo 12 Ast 13.0 Sk 0 Int,Yes,bjoern-werner-1
+2012,Jarvis Jones*,LB,Georgia,52 Solo 33 Ast 14.5 Sk 1 Int,Yes,jarvis-jones-1
+2012,C.J. Mosley*,LB,Alabama,66 Solo 41 Ast 4.0 Sk 2 Int,No,cj-mosley-1
+2012,Manti Te'o*,LB,Notre Dame,55 Solo 58 Ast 1.5 Sk 7 Int,Yes,manti-teo-1
+2012,Demarcus Milliner*,DB,Alabama,34 Solo 20 Ast 1.5 Sk 2 Int,Yes,demarcus-milliner-1
+2012,Jordan Poyer*,DB,Oregon State,34 Solo 17 Ast 2.0 Sk 7 Int,No,jordan-poyer-1
+2012,Phillip Thomas*,DB,Fresno State,66 Solo 18 Ast 4.0 Sk 8 Int,Yes,phillip-thomas-2
+2012,Ryan Allen,P,Louisiana Tech,45 Punts 2162 Yds 48.0 Avg,Yes,ryan-allen-1
+2013,Jameis Winston*,QB,Florida State,257 Cmp 384 Att 4057 Yds 40 TD 10 Int,No,jameis-winston-1
+2013,Ka'Deem Carey*,RB,Arizona,349 Att 1885 Yds 5.4 Avg 19 TD,No,kadeem-carey-1
+2013,Andre Williams*,RB,Boston College,355 Att 2177 Yds 6.1 Avg 18 TD,Yes,andre-williams-2
+2013,Brandin Cooks*,WR,Oregon State,128 Rec 1730 Yds 13.5 Avg 16 TD,No,brandin-cooks-1
+2013,Mike Evans*,WR,Texas A&M,69 Rec 1394 Yds 20.2 Avg 12 TD,No,mike-evans-4
+2013,Jace Amaro*,TE,Texas Tech,106 Rec 1352 Yds 12.8 Avg 7 TD,Yes,jace-amaro-1
+2013,Gabe Ikard,OL,Oklahoma,,No,gabe-ikard-1
+2013,Cyrus Kouandjio,OL,Alabama,,No,cyrus-kouandjio-1
+2013,Jake Matthews,OL,Texas A&M,,Yes,jake-matthews-1
+2013,Cyril Richardson,OL,Baylor,,Yes,cyril-richardson-1
+2013,Bryan Stork*,OL,Florida State,,No,bryan-stork-1
+2013,David Yankey,OL,Stanford,,Yes,david-yankey-1
+2013,Anthony Fera*,K,Texas,45 XPM 46 XPA 20 FGM 21 FGA 105 Pts,No,anthony-fera-1
+2013,Ty Montgomery*,AP,Stanford,61 Rec 958 Yds 15.7 Avg 10 TD,No,ty-montgomery-1
+2013,Vic Beasley*,DL,Clemson,31 Solo 9 Ast 13.0 Sk 0 Int,No,vic-beasley-1
+2013,Aaron Donald*,DL,Pitt,43 Solo 16 Ast 11.0 Sk 0 Int,Yes,aaron-donald-1
+2013,Jackson Jeffcoat*,DL,Texas,46 Solo 34 Ast 13.0 Sk 1 Int,No,jackson-jeffcoat-1
+2013,Michael Sam*,DL,Missouri,30 Solo 17 Ast 10.0 Sk 0 Int,Yes,michael-sam-1
+2013,Anthony Barr*,LB,UCLA,43 Solo 23 Ast 10.0 Sk 0 Int,No,anthony-barr-1
+2013,C.J. Mosley*,LB,Alabama,62 Solo 44 Ast 0.0 Sk 0 Int,Yes,cj-mosley-1
+2013,Trent Murphy*,LB,Stanford,37 Solo 25 Ast 15.0 Sk 1 Int,No,trent-murphy-1
+2013,Ha Ha Clinton-Dix*,DB,Alabama,30 Solo 20 Ast 0.0 Sk 2 Int,No,ha-ha-clinton-dix-1
+2013,Darqueze Dennard*,DB,Michigan State,32 Solo 28 Ast 0.0 Sk 4 Int,Yes,darqueze-dennard-1
+2013,Justin Gilbert*,DB,Oklahoma State,36 Solo 6 Ast 0.0 Sk 7 Int,No,justin-gilbert-1
+2013,Lamarcus Joyner*,DB,Florida State,45 Solo 24 Ast 5.5 Sk 2 Int,Yes,lamarcus-joyner-1
+2013,Tom Hornsey,P,Memphis,62 Punts 2800 Yds 45.2 Avg,No,tom-hornsey-1
+2014,Marcus Mariota*,QB,Oregon,304 Cmp 445 Att 4454 Yds 42 TD 4 Int,Yes,marcus-mariota-1
+2014,Tevin Coleman,RB,Indiana,270 Att 2036 Yds 7.5 Avg 15 TD,Yes,tevin-coleman-1
+2014,Melvin Gordon*,RB,Wisconsin,343 Att 2587 Yds 7.5 Avg 29 TD,Yes,melvin-gordon-1
+2014,Amari Cooper*,WR,Alabama,124 Rec 1727 Yds 13.9 Avg 16 TD,Yes,amari-cooper-1
+2014,Rashard Higgins*,WR,Colorado State,96 Rec 1750 Yds 18.2 Avg 17 TD,No,rashard-higgins-1
+2014,Nick O'Leary*,TE,Florida State,48 Rec 618 Yds 12.9 Avg 6 TD,No,nick-oleary-1
+2014,Reese Dismukes*,OL,Auburn,,No,reese-dismukes-1
+2014,Spencer Drango*,OL,Baylor,,No,spencer-drango-1
+2014,Tre' Jackson*,OL,Florida State,,Yes,tre-jackson-1
+2014,Brandon Scherff*,OL,Iowa,,Yes,brandon-scherff-1
+2014,Laken Tomlinson*,OL,Duke,,No,laken-tomlinson-1
+2014,Roberto Aguayo*,K,Florida State,55 XPM 55 XPA 27 FGM 30 FGA 136 Pts,No,roberto-aguayo-1
+2014,Tyler Lockett*,AP,Kansas State,106 Rec 1515 Yds 14.3 Avg 11 TD,No,tyler-lockett-1
+2014,Vic Beasley*,DL,Clemson,28 Solo 6 Ast 12.0 Sk 0 Int,No,vic-beasley-1
+2014,Joey Bosa*,DL,Ohio State,39 Solo 16 Ast 13.5 Sk 0 Int,Yes,joey-bosa-1
+2014,Malcom Brown*,DL,Texas,39 Solo 32 Ast 6.5 Sk 0 Int,No,malcom-brown-1
+2014,Shane Ray*,DL,Missouri,47 Solo 18 Ast 14.5 Sk 0 Int,No,shane-ray-1
+2014,Paul Dawson*,LB,TCU,81 Solo 55 Ast 6.0 Sk 4 Int,No,paul-dawson-1
+2014,Hau'oli Kikaha*,LB,Washington,53 Solo 19 Ast 19.0 Sk 0 Int,Yes,hauoli-kikaha-2
+2014,Scooby Wright*,LB,Arizona,99 Solo 64 Ast 14.0 Sk 0 Int,Yes,scooby-wright-1
+2014,Landon Collins*,DB,Alabama,60 Solo 43 Ast 0.0 Sk 3 Int,Yes,landon-collins-1
+2014,Ifo Ekpre-Olomu*,DB,Oregon,43 Solo 20 Ast 0.0 Sk 2 Int,No,ifo-ekpre-olomu-1
+2014,Senquez Golson*,DB,Ole Miss,33 Solo 10 Ast 0.5 Sk 10 Int,Yes,senquez-golson-1
+2014,Gerod Holliman*,DB,Louisville,34 Solo 10 Ast 1.0 Sk 14 Int,Yes,gerod-holliman-1
+2014,Tom Hackett*,P,Utah,80 Punts 3736 Yds 46.7 Avg,No,tom-hackett-1
+2015,Deshaun Watson*,QB,Clemson,333 Cmp 491 Att 4104 Yds 35 TD 13 Int,No,deshaun-watson-1
+2015,Leonard Fournette*,RB,LSU,300 Att 1953 Yds 6.5 Avg 22 TD,No,leonard-fournette-1
+2015,Derrick Henry*,RB,Alabama,395 Att 2219 Yds 5.6 Avg 28 TD,Yes,derrick-henry-2
+2015,Corey Coleman*,WR,Baylor,74 Rec 1363 Yds 18.4 Avg 20 TD,Yes,corey-coleman-1
+2015,Josh Doctson*,WR,TCU,79 Rec 1327 Yds 16.8 Avg 14 TD,Yes,josh-doctson-1
+2015,Hunter Henry*,TE,Arkansas,51 Rec 739 Yds 14.5 Avg 3 TD,Yes,hunter-henry-1
+2015,Taylor Decker*,OL,Ohio State,,No,taylor-decker-1
+2015,Spencer Drango*,OL,Baylor,,Yes,spencer-drango-1
+2015,Joshua Garnett*,OL,Stanford,,Yes,joshua-garnett-1
+2015,Ryan Kelly*,OL,Alabama,,No,ryan-kelly-1
+2015,Ronnie Stanley*,OL,Notre Dame,,No,ronnie-stanley-2
+2015,Ka'Imi Fairbairn*,K,UCLA,47 XPM 47 XPA 20 FGM 24 FGA 107 Pts,No,kaimi-fairbairn-1
+2015,Christian McCaffrey*,AP,Stanford,337 Att 2019 Yds 6.0 Avg 8 TD,No,christian-mccaffrey-1
+2015,Evan Berry*,AP,Tennessee,,No,evan-berry-1
+2015,Joey Bosa*,DL,Ohio State,35 Solo 16 Ast 5.0 Sk 1 Int,No,joey-bosa-1
+2015,Shaq Lawson*,DL,Clemson,36 Solo 24 Ast 12.5 Sk 0 Int,No,shaq-lawson-1
+2015,Carl Nassib*,DL,Penn State,31 Solo 15 Ast 15.5 Sk 1 Int,Yes,carl-nassib-1
+2015,A'Shawn Robinson*,DL,Alabama,18 Solo 28 Ast 3.5 Sk 0 Int,No,ashawn-robinson-1
+2015,Tyler Matakevich*,LB,Temple,77 Solo 61 Ast 4.5 Sk 5 Int,No,tyler-matakevich-1
+2015,Reggie Ragland*,LB,Alabama,60 Solo 42 Ast 2.5 Sk 0 Int,Yes,reggie-ragland-1
+2015,Jaylon Smith*,LB,Notre Dame,69 Solo 45 Ast 1.0 Sk 0 Int,No,jaylon-smith-1
+2015,Jeremy Cash*,DB,Duke,57 Solo 44 Ast 2.5 Sk 0 Int,Yes,jeremy-cash-2
+2015,Vernon Hargreaves III*,DB,Florida,23 Solo 10 Ast 0.0 Sk 4 Int,Yes,vernon-hargreaves-iii-1
+2015,Desmond King*,DB,Iowa,46 Solo 26 Ast 0.0 Sk 8 Int,Yes,desmond-king-1
+2015,Jalen Ramsey*,DB,Florida State,37 Solo 15 Ast 1.0 Sk 0 Int,No,jalen-ramsey-1
+2015,Tom Hackett*,P,Utah,61 Punts 2925 Yds 48.0 Avg,Yes,tom-hackett-1
+2016,Pat Elflein*,C,Ohio State,,Yes,pat-elfein-1
+2016,Lamar Jackson*,QB,Louisville,230 Cmp 409 Att 3543 Yds 30 TD 9 Int,Yes,lamar-jackson-1
+2016,Dalvin Cook*,RB,Florida State,288 Att 1765 Yds 6.1 Avg 19 TD,Yes,dalvin-cook-1
+2016,D'Onta Foreman,RB,Texas,323 Att 2028 Yds 6.3 Avg 15 TD,No,donta-foreman-1
+2016,Corey Davis*,WR,Western Michigan,97 Rec 1500 Yds 15.5 Avg 19 TD,No,corey-davis-3
+2016,Dede Westbrook*,WR,Oklahoma,80 Rec 1524 Yds 19.1 Avg 17 TD,Yes,dede-westbrook-1
+2016,Jake Butt*,TE,Michigan,46 Rec 546 Yds 11.9 Avg 4 TD,No,jake-butt-1
+2016,Cody O'Connell*,OL,Washington State,,Yes,cody-oconnell-1
+2016,Ryan Ramczyk*,OL,Wisconsin,,No,ryan-ramczyk-1
+2016,Cam Robinson,OL,Alabama,,Yes,cam-robinson-2
+2016,Connor Williams,OL,Texas,,No,connor-williams-2
+2016,Zane Gonzalez,K,Arizona State,39 XPM 40 XPA 23 FGM 25 FGA 108 Pts,Yes,zane-gonzalez-1
+2016,Quadree Henderson*,AP,Pitt,60 Att 631 Yds 10.5 Avg 5 TD,No,quadree-henderson-1
+2016,Jonathan Allen*,DL,Alabama,33 Solo 36 Ast 10.5 Sk 0 Int,Yes,jonathan-allen-1
+2016,Derek Barnett*,DL,Tennessee,40 Solo 16 Ast 13.0 Sk 1 Int,No,derek-barnett-2
+2016,Myles Garrett*,DL,Texas A&M,18 Solo 15 Ast 8.5 Sk 0 Int,Yes,myles-garrett-1
+2016,Demarcus Walker*,DL,Florida State,46 Solo 22 Ast 16.0 Sk 0 Int,No,demarcus-walker-1
+2016,Zach Cunningham*,LB,Vanderbilt,71 Solo 54 Ast 0.0 Sk 0 Int,Yes,zach-cunningham-1
+2016,Reuben Foster*,LB,Alabama,60 Solo 55 Ast 5.0 Sk 0 Int,Yes,reuben-foster-1
+2016,Jabrill Peppers*,LB,Michigan,47 Solo 25 Ast 4.0 Sk 1 Int,Yes,jabrill-peppers-1
+2016,Budda Baker*,DB,Washington,49 Solo 22 Ast 3.0 Sk 2 Int,No,budda-baker-1
+2016,Minkah Fitzpatrick*,DB,Alabama,41 Solo 25 Ast 1.0 Sk 6 Int,No,minkah-fitzpatrick-1
+2016,Malik Hooker*,DB,Ohio State,43 Solo 31 Ast 0.5 Sk 7 Int,Yes,malik-hooker-1
+2016,Adoree Jackson*,DB,USC,46 Solo 9 Ast 0.0 Sk 5 Int,No,adoree-jackson-1
+2016,Jourdan Lewis*,DB,Michigan,18 Solo 7 Ast 0.0 Sk 2 Int,No,jourdan-lewis-1
+2016,Tre'Davious White*,DB,LSU,19 Solo 16 Ast 0.5 Sk 2 Int,No,tredavious-white-1
+2016,Mitch Wishnowsky*,P,Utah,64 Punts 3053 Yds 47.7 Avg,Yes,mitch-wishnowsky-1
+2017,Billy Price*,C,Ohio State,,Yes,billy-price-1
+2017,Baker Mayfield*,QB,Oklahoma,285 Cmp 404 Att 4627 Yds 43 TD 6 Int,Yes,baker-mayfield-1
+2017,Bryce Love*,RB,Stanford,263 Att 2118 Yds 8.1 Avg 19 TD,Yes,bryce-love-1
+2017,Rashaad Penny*,RB,San Diego State,289 Att 2248 Yds 7.8 Avg 23 TD,No,rashaad-penny-1
+2017,Michael Gallup*,WR,Colorado State,100 Rec 1413 Yds 14.1 Avg 7 TD,No,michael-gallup-1
+2017,Anthony Miller*,WR,Memphis,96 Rec 1462 Yds 15.2 Avg 18 TD,No,anthony-miller-6
+2017,James Washington*,WR,Oklahoma State,74 Rec 1549 Yds 20.9 Avg 13 TD,Yes,james-washington-5
+2017,Mark Andrews*,TE,Oklahoma,62 Rec 958 Yds 15.5 Avg 8 TD,Yes,mark-andrews-1
+2017,Orlando Brown*,OL,Oklahoma,,Yes,orlando-brown-2
+2017,Mike McGlinchey*,OL,Notre Dame,,No,mike-mcglinchey-1
+2017,Quenton Nelson*,OL,Notre Dame,,Yes,quenton-nelson-1
+2017,Cody O'Connell*,OL,Washington State,,No,cody-oconnell-1
+2017,Matt Gay*,K,Utah,40 XPM 40 XPA 30 FGM 34 FGA 130 Pts,No,matt-gay-2
+2017,Saquon Barkley*,AP,Penn State,217 Att 1271 Yds 5.9 Avg 18 TD,Yes,saquon-barkley-1
+2017,Dante Pettis*,AP,Washington,63 Rec 761 Yds 12.1 Avg 7 TD,No,dante-pettis-1
+2017,Bradley Chubb*,DL,North Carolina State,40 Solo 33 Ast 10.0 Sk 0 Int,Yes,bradley-chubb-1
+2017,Maurice Hurst Jr.*,DL,Michigan,25 Solo 35 Ast 5.0 Sk 0 Int,No,maurice-hurst-jr-1
+2017,Hercules Mata'afa*,DL,Washington State,31 Solo 14 Ast 10.5 Sk 0 Int,No,hercules-mataafa-1
+2017,Ed Oliver*,DL,Houston,47 Solo 26 Ast 5.5 Sk 0 Int,No,ed-oliver-2
+2017,Sutton Smith*,DL,Northern Illinois,43 Solo 20 Ast 14.0 Sk 0 Int,No,sutton-smith-1
+2017,Josey Jewell*,LB,Iowa,69 Solo 67 Ast 4.5 Sk 2 Int,Yes,josey-jewell-1
+2017,Roquan Smith*,LB,Georgia,85 Solo 52 Ast 6.5 Sk 0 Int,Yes,roquan-smith-1
+2017,DeShon Elliott*,DB,Texas,50 Solo 13 Ast 1.5 Sk 6 Int,Yes,deshon-elliott-1
+2017,Minkah Fitzpatrick*,DB,Alabama,38 Solo 22 Ast 1.5 Sk 1 Int,Yes,minkah-fitzpatrick-1
+2017,Joshua Jackson*,DB,Iowa,34 Solo 14 Ast 0.0 Sk 8 Int,Yes,joshua-jackson-3
+2017,Denzel Ward*,DB,Ohio State,30 Solo 7 Ast 0.0 Sk 2 Int,No,denzel-ward-3
+2017,Michael Dickson*,P,Texas,84 Punts 3984 Yds 47.4 Avg,Yes,michael-dickson-1
+2018,Garrett Bradbury*,C,North Carolina State,,No,garrett-bradbury-1
+2018,Tua Tagovailoa*,QB,Alabama,245 Cmp 355 Att 3966 Yds 43 TD 6 Int,No,tua-tagovailoa-1
+2018,Darrell Henderson*,RB,Memphis,214 Att 1909 Yds 8.9 Avg 22 TD,No,darrell-henderson-1
+2018,Jonathan Taylor*,RB,Wisconsin,307 Att 2194 Yds 7.1 Avg 16 TD,Yes,jonathan-taylor-1
+2018,Andy Isabella,WR,Massachusetts,102 Rec 1698 Yds 16.6 Avg 13 TD,No,andy-isabella-1
+2018,Jerry Jeudy*,WR,Alabama,68 Rec 1315 Yds 19.3 Avg 14 TD,No,jerry-jeudy-1
+2018,Jace Sternberger*,TE,Texas A&M,48 Rec 832 Yds 17.3 Avg 10 TD,No,jace-sternberger-1
+2018,Beau Benzschawel*,OL,Wisconsin,,No,beau-benzschawel-1
+2018,Mitch Hyatt*,OL,Clemson,,No,mitch-hyatt-1
+2018,Ben Powers*,OL,Oklahoma,,No,ben-powers-1
+2018,Jonah Williams*,OL,Alabama,,Yes,jonah-williams-1
+2018,Andre Szmyt*,K,Syracuse,61 XPM 61 XPA 30 FGM 34 FGA 151 Pts,Yes,andre-szmyt-1
+2018,Rondale Moore*,AP,Purdue,114 Rec 1258 Yds 11.0 Avg 12 TD,No,rondale-moore-1
+2018,Savon Scarver*,AP,Utah State,9 Rec 156 Yds 17.3 Avg 2 TD,No,savon-scarver-1
+2018,Clelin Ferrell*,DL,Clemson,29 Solo 25 Ast 11.5 Sk 0 Int,No,clelin-ferrell-1
+2018,Ed Oliver*,DL,Houston,29 Solo 25 Ast 3.0 Sk 0 Int,No,ed-oliver-2
+2018,Christian Wilkins*,DL,Clemson,26 Solo 24 Ast 6.0 Sk 0 Int,Yes,christian-wilkins-1
+2018,Quinnen Williams*,DL,Alabama,45 Solo 26 Ast 8.0 Sk 0 Int,Yes,quinnen-williams-1
+2018,Josh Allen*,LB,Kentucky,56 Solo 32 Ast 17.0 Sk 0 Int,Yes,josh-allen-6
+2018,Devin Bush*,LB,Michigan,38 Solo 40 Ast 5.0 Sk 0 Int,No,devin-bush-2
+2018,Devin White*,LB,LSU,62 Solo 61 Ast 3.0 Sk 0 Int,No,devin-white-1
+2018,Deandre Baker*,DB,Georgia,9 Solo 2 Ast 0.0 Sk 0 Int,No,deandre-baker-1
+2018,Grant Delpit*,DB,LSU,46 Solo 28 Ast 5.0 Sk 5 Int,Yes,grant-delpit-1
+2018,Julian Love*,DB,Notre Dame,49 Solo 14 Ast 0.0 Sk 1 Int,No,julian-love-1
+2018,Deionte Thompson*,DB,Alabama,48 Solo 31 Ast 0.0 Sk 2 Int,No,deionte-thompson-1
+2018,Greedy Williams*,DB,LSU,23 Solo 10 Ast 0.0 Sk 2 Int,No,greedy-williams-1
+2018,Braden Mann*,P,Texas A&M,50 Punts 2549 Yds 51.0 Avg,Yes,braden-mann-1
+2019,Tyler Biadasz*,C,Wisconsin,,Yes,tyler-biadasz-1
+2019,Joe Burrow*,QB,LSU,402 Cmp 527 Att 5671 Yds 60 TD 6 Int,Yes,joe-burrow-1
+2019,Chuba Hubbard*,RB,Oklahoma State,328 Att 2094 Yds 6.4 Avg 21 TD,Yes,chuba-hubbard-1
+2019,Jonathan Taylor*,RB,Wisconsin,320 Att 2003 Yds 6.3 Avg 21 TD,Yes,jonathan-taylor-1
+2019,Ja'Marr Chase*,WR,LSU,84 Rec 1780 Yds 21.2 Avg 20 TD,Yes,jamarr-chase-1
+2019,CeeDee Lamb*,WR,Oklahoma,62 Rec 1327 Yds 21.4 Avg 14 TD,No,ceedee-lamb-1
+2019,Harrison Bryant*,TE,Florida Atlantic,65 Rec 1004 Yds 15.4 Avg 7 TD,Yes,harrison-bryant-1
+2019,Wyatt Davis*,OL,Ohio State,,No,wyatt-davis-1
+2019,Penei Sewell*,OL,Oregon,,Yes,penei-sewell-1
+2019,John Simpson*,OL,Clemson,,No,john-simpson-3
+2019,Andrew Thomas*,OL,Georgia,,Yes,andrew-thomas-2
+2019,Keith Duncan*,K,Iowa,32 XPM 32 XPA 29 FGM 34 FGA 119 Pts,No,keith-duncan-1
+2019,Lynn Bowden Jr.*,AP,Kentucky,185 Att 1468 Yds 7.9 Avg 13 TD,No,lynn-bowden-jr-1
+2019,Bradlee Anae*,DL,Utah,30 Solo 11 Ast 13.0 Sk 0 Int,No,bradlee-anae-1
+2019,Derrick Brown*,DL,Auburn,33 Solo 22 Ast 4.0 Sk 0 Int,Yes,derrick-brown-6
+2019,James Lynch*,DL,Baylor,23 Solo 18 Ast 13.5 Sk 0 Int,Yes,james-lynch-3
+2019,Chase Young*,DL,Ohio State,32 Solo 14 Ast 16.5 Sk 0 Int,Yes,chase-young-1
+2019,Isaiah Simmons*,LB,Clemson,67 Solo 36 Ast 7.0 Sk 3 Int,Yes ,isaiah-simmons-1
+2019,Evan Weaver*,LB,California,103 Solo 79 Ast 2.5 Sk 0 Int,Yes,evan-weaver-1
+2019,Grant Delpit*,DB,LSU,38 Solo 27 Ast 2.0 Sk 2 Int,No,grant-delpit-1
+2019,Jeffrey Okudah*,DB,Ohio State,29 Solo 6 Ast 0.0 Sk 3 Int,Yes,jeffrey-okudah-1
+2019,J.R. Reed*,DB,Georgia,29 Solo 25 Ast 0.5 Sk 1 Int,No,jr-reed-3
+2019,Derek Stingley Jr.*,DB,LSU,31 Solo 7 Ast 0.0 Sk 6 Int,No,derek-stingley-jr-1
+2019,Antoine Winfield Jr.*,DB,Minnesota,62 Solo 26 Ast 3.0 Sk 7 Int,Yes,antoine-winfield-jr-1
+2019,Max Duffy*,P,Kentucky,49 Punts 2358 Yds 48.1 Avg,Yes,max-duffy-1
