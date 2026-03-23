@@ -69,6 +69,9 @@ total_all_americans = [all_americans_2010s, all_americans_2020s]
 processed_all_americans = pd.concat(total_all_americans, ignore_index= True)
 print(processed_all_americans.head())
 
+combine_data = pd.read_csv("data/raw/combine/nfl_combine_data_2020_2026.csv")
+print(combine_data.head())
+
 player_data = pd.merge(
     processed_roster,
     all_stats,
