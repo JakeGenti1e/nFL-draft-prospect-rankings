@@ -1,6 +1,6 @@
-import pandas as pd
+'''import pandas as pd
 
-df = pd.read_csv("data/raw/combine/Combine data.csv", header=None)
+df = pd.read_csv("data/raw/combine/Combine_data_cleaned.csv", header=None)
 
 df = df.iloc[:, 0].str.split(",", expand=True)
 df = df.iloc[:, :14]
@@ -20,4 +20,4 @@ df = df.iloc[1:].reset_index(drop=True)
 print(df.head())
 print(df.shape)
 
-df.to_csv("data/processed/combine_clean.csv", index=False)
+df.to_csv("data/processed/combine_clean.csv", index=False)'''

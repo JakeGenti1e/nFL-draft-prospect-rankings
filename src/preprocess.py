@@ -9,15 +9,6 @@ rosters_23 = pd.read_json("data/raw/rosters/rosters_2023.json")
 rosters_24 = pd.read_json("data/raw/rosters/rosters_2024.json")
 rosters_25 = pd.read_json("data/raw/rosters/rosters_2025.json")
 
-'''
-print(rosters_19[['height','weight','team','position']].isnull().sum())
-print(rosters_20[['height','weight','team','position']].isnull().sum())
-print(rosters_21[['height','weight','team','position']].isnull().sum())
-print(rosters_22[['height','weight','team','position']].isnull().sum())
-print(rosters_23[['height','weight','team','position']].isnull().sum())
-print(rosters_24[['height','weight','team','position']].isnull().sum())
-print(rosters_25[['height','weight','team','position']].isnull().sum())
-'''
 
 rosters_19["name"] = rosters_19["firstName"] + " " + rosters_19["lastName"]
 rosters_20["name"] = rosters_20["firstName"] + " " + rosters_20["lastName"]
@@ -37,7 +28,6 @@ processed_rosters_25 = rosters_25[['name','height','weight','team','position', '
 
 roster_years = [processed_rosters_19, processed_rosters_20, processed_rosters_21, processed_rosters_22, processed_rosters_23, processed_rosters_24, processed_rosters_25]
 processed_roster = pd.concat(roster_years, ignore_index = True)
-print(processed_roster)
 
 dfs = []
 for year in range(2015, 2026):
@@ -55,38 +45,73 @@ for year in range(2015, 2026):
 
     dfs.append(stats_df)
 
-print(stats_df.shape)
-print(stats_df.dtypes)
-print(stats_df.head())
-
 all_stats = pd.concat(dfs, ignore_index=True) 
-print(all_stats)  
+all_stats["name"] = all_stats["player"].str.lower().str.strip()
+all_stats = all_stats.drop(columns=['player'])
+
+processed_roster["team"] = processed_roster["team"].str.lower().str.strip()
+all_stats["team"] = all_stats["team"].str.lower().str.strip()
+
+print("processed_roster shape:", processed_roster.shape)
+print(processed_roster.head())
+
+print("all_stats shape:", all_stats.shape)
+print(all_stats.head())
+
+player_data = pd.merge(
+    processed_roster,
+    all_stats,
+    left_on= ["name","team", "season"],
+    right_on= ["name","team", "season"],
+    how="left"
+)
+
 
 all_americans_2010s = pd.read_csv("data/raw/honors/2010s_all_americans.csv")
 all_americans_2020s = pd.read_csv("data/raw/honors/2020s_all_americans.csv")
 
 total_all_americans = [all_americans_2010s, all_americans_2020s]
 processed_all_americans = pd.concat(total_all_americans, ignore_index= True)
-print(processed_all_americans.head())
 
-combine_data = pd.read_csv("data/raw/combine/nfl_combine_data_2020_2026.csv")
-print(combine_data.head())
+combine_data = pd.read_csv("data/raw/combine/Combine_data_repaired_v2.csv")
+combine_data["draft_year"] = combine_data["Drafted"].str.extract(r"(\d{4})")
+combine_data["draft_round"] = combine_data["Drafted"].str.extract(r"/ (\d+)(?:st|nd|rd|th) /")
+combine_data["draft_pick"] = combine_data["Drafted"].str.extract(r"/ (\d+)(?:st|nd|rd|th) pick /")
+
+combine_data["name"] = combine_data["Player"].str.lower().str.strip()
+
+player_data["name"] = player_data["name"].str.lower().str.strip()
+combine_data["player"] = combine_data["Player"].str.lower().str.strip()
 
 player_data = pd.merge(
-    processed_roster,
-    all_stats,
-    left_on=["name","team", "season"],
-    right_on=["player","team", "season"],
-    how="inner"
+    player_data,
+    combine_data,
+    left_on=["name"],
+    right_on=["player"],
+    how="left"   
+)
+processed_all_americans["name"] = (
+    processed_all_americans["Name"]
+    .str.lower()
+    .str.strip()
+)
+processed_all_americans["is_all_american"] = 1
+
+aa_features = (
+    processed_all_americans
+    .groupby("name", as_index=False)
+    .agg({"is_all_american": "max"})
 )
 
+player_data["name"] = player_data["name_x"].str.lower().str.strip()
+player_data = player_data.drop(columns=["name_x", "name_y"])
 
 
-'''
-print(player_data.shape)
-print(player_data.head())
-print(player_data.isnull().sum())
+player_data = pd.merge(
+    player_data,
+    aa_features,
+    on ="name",
+    how ="left"
+)
 
-print(player_data.columns)
-'''
-print(player_data.head())
+player_data = player_data.drop(columns=["player"])
