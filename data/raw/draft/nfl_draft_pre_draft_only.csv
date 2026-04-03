@@ -1,0 +1,1550 @@
+draft_year,round,pick,team,player,position,age,college_university,college_stats_label,player_id
+2020,1,1,CIN,Joe Burrow,QB,23,LSU,College Stats,BurrJo01
+2020,1,2,WAS,Chase Young,DE,21,Ohio St.,College Stats,YounCh04
+2020,1,3,DET,Jeff Okudah,CB,21,Ohio St.,College Stats,OkudJe00
+2020,1,4,NYG,Andrew Thomas,T,21,Georgia,College Stats,ThomAn02
+2020,1,5,MIA,Tua Tagovailoa,QB,22,Alabama,College Stats,TagoTu00
+2020,1,6,LAC,Justin Herbert,QB,22,Oregon,College Stats,HerbJu00
+2020,1,7,CAR,Derrick Brown,DT,22,Auburn,College Stats,BrowDe05
+2020,1,8,ARI,Isaiah Simmons,LB,22,Clemson,College Stats,SimmIs00
+2020,1,9,JAX,C.J. Henderson,CB,21,Florida,College Stats,HendCJ00
+2020,1,10,CLE,Jedrick Wills Jr.,T,21,Alabama,College Stats,WillJe04
+2020,1,11,NYJ,Mekhi Becton,T,21,Louisville,College Stats,BectMe00
+2020,1,12,LVR,Henry Ruggs III,WR,21,Alabama,College Stats,RuggHe00
+2020,1,13,TAM,Tristan Wirfs,T,21,Iowa,College Stats,WirfTr00
+2020,1,14,SFO,Javon Kinlaw,DT,22,South Carolina,College Stats,KinlJa00
+2020,1,15,DEN,Jerry Jeudy,WR,21,Alabama,College Stats,JeudJe00
+2020,1,16,ATL,AJ Terrell,CB,21,Clemson,College Stats,TerrAJ00
+2020,1,17,DAL,CeeDee Lamb,WR,21,Oklahoma,College Stats,LambCe00
+2020,1,18,MIA,Austin Jackson,T,21,USC,College Stats,JackAu00
+2020,1,19,LVR,Damon Arnette,CB,24,Ohio St.,College Stats,ArneDa00
+2020,1,20,JAX,K'Lavon Chaisson,DE,21,LSU,College Stats,ChaiKL00
+2020,1,21,PHI,Jalen Reagor,WR,21,TCU,College Stats,ReagJa00
+2020,1,22,MIN,Justin Jefferson,WR,21,LSU,College Stats,JeffJu00
+2020,1,23,LAC,Kenneth Murray,LB,21,Oklahoma,College Stats,MurrKe00
+2020,1,24,NOR,Cesar Ruiz,C,21,Michigan,College Stats,RuizCe00
+2020,1,25,SFO,Brandon Aiyuk,WR,22,Arizona St.,College Stats,AiyuBr00
+2020,1,26,GNB,Jordan Love,QB,21,Utah St.,College Stats,LoveJo03
+2020,1,27,SEA,Jordyn Brooks,LB,22,Texas Tech,College Stats,BrooJo01
+2020,1,28,BAL,Patrick Queen,LB,21,LSU,College Stats,QueePa00
+2020,1,29,TEN,Isaiah Wilson,T,21,Georgia,College Stats,WilsIs00
+2020,1,30,MIA,Noah Igbinoghene,CB,20,Auburn,College Stats,IgbiNo00
+2020,1,31,MIN,Jeff Gladney,CB,23,TCU,College Stats,GladJe00
+2020,1,32,KAN,Clyde Edwards-Helaire,RB,21,LSU,College Stats,EdwaCl00
+2020,2,33,CIN,Tee Higgins,WR,21,Clemson,College Stats,HiggTe00
+2020,2,34,IND,Michael Pittman Jr.,WR,22,USC,College Stats,PittMi01
+2020,2,35,DET,D'Andre Swift,RB,21,Georgia,College Stats,SwifDA00
+2020,2,36,NYG,Xavier McKinney,S,22,Alabama,College Stats,McKiXa00
+2020,2,37,NWE,Kyle Dugger,S,24,Lenoir-Rhyne,,DuggKy00
+2020,2,38,CAR,Yetur Gross-Matos,DE,22,Penn St.,College Stats,GrosYe00
+2020,2,39,MIA,Robert Hunt,G,24,Louisiana,College Stats,HuntRo01
+2020,2,40,HOU,Ross Blacklock,DT,22,TCU,College Stats,BlacRo00
+2020,2,41,IND,Jonathan Taylor,RB,21,Wisconsin,College Stats,TaylJo02
+2020,2,42,JAX,Laviska Shenault Jr.,WR,21,Colorado,College Stats,ShenLa00
+2020,2,43,CHI,Cole Kmet,TE,21,Notre Dame,College Stats,KmetCo00
+2020,2,44,CLE,Grant Delpit,S,21,LSU,College Stats,DelpGr00
+2020,2,45,TAM,Antoine Winfield Jr.,S,22,Minnesota,College Stats,WinfAn00
+2020,2,46,DEN,KJ Hamler,WR,21,Penn St.,College Stats,HamlKJ00
+2020,2,47,ATL,Marlon Davidson,DE,22,Auburn,College Stats,DaviMa01
+2020,2,48,SEA,Darrell Taylor,DE,23,Tennessee,College Stats,TaylDa00
+2020,2,49,PIT,Chase Claypool,WR,22,Notre Dame,College Stats,ClayCh01
+2020,2,50,CHI,Jaylon Johnson,CB,21,Utah,College Stats,JohnJa13
+2020,2,51,DAL,Trevon Diggs,CB,21,Alabama,College Stats,DiggTr00
+2020,2,52,LAR,Cam Akers,RB,21,Florida St.,College Stats,AkerCa00
+2020,2,53,PHI,Jalen Hurts,QB,22,Oklahoma,College Stats,HurtJa00
+2020,2,54,BUF,A.J. Epenesa,DE,21,Iowa,College Stats,EpenAJ00
+2020,2,55,BAL,J.K. Dobbins,RB,21,Ohio St.,College Stats,DobbJK00
+2020,2,56,MIA,Raekwon Davis,DT,23,Alabama,College Stats,DaviRa03
+2020,2,57,LAR,Van Jefferson,WR,24,Florida,College Stats,JeffVa00
+2020,2,58,MIN,Ezra Cleveland,T,22,Boise St.,College Stats,ClevEz00
+2020,2,59,NYJ,Denzel Mims,WR,22,Baylor,College Stats,MimsDe00
+2020,2,60,NWE,Joshua Uche,LB,21,Michigan,College Stats,UcheJo00
+2020,2,61,TEN,Kristian Fulton,CB,22,LSU,College Stats,FultKr00
+2020,2,62,GNB,AJ Dillon,RB,22,Boston Col.,College Stats,DillAJ00
+2020,2,63,KAN,Willie Gay Jr.,LB,22,Mississippi St.,College Stats,GayJWi00
+2020,2,64,CAR,Jeremy Chinn,S,22,Southern Illinois,,ChinJe00
+2020,3,65,CIN,Logan Wilson,LB,24,Wyoming,College Stats,WilsLo00
+2020,3,66,WAS,Antonio Gibson,RB,22,Memphis,College Stats,GibsAn00
+2020,3,67,DET,Julian Okwara,DE,22,Notre Dame,College Stats,OkwaJu00
+2020,3,68,NYJ,Ashtyn Davis,S,23,California,College Stats,DaviAs00
+2020,3,69,SEA,Damien Lewis,G,23,LSU,College Stats,LewiDa05
+2020,3,70,MIA,Brandon Jones,S,22,Texas,College Stats,JoneBr06
+2020,3,71,BAL,Nnamdi Madubuike,DT,22,Texas A&M,College Stats,MaduJu00
+2020,3,72,ARI,Josh Jones,T,23,Houston,College Stats,JoneJo07
+2020,3,73,JAX,DaVon Hamilton,DT,23,Ohio St.,College Stats,HamiDa02
+2020,3,74,NOR,Zack Baun,LB,23,Wisconsin,College Stats,BaunZa00
+2020,3,75,DET,Jonah Jackson,G,23,Ohio St.,College Stats,JackJo03
+2020,3,76,TAM,Ke'Shawn Vaughn,RB,23,Illinois,College Stats,VaugKe00
+2020,3,77,DEN,Michael Ojemudia,CB,22,Iowa,College Stats,OjemMi00
+2020,3,78,ATL,Matt Hennessy,C,22,Temple,College Stats,HennMa00
+2020,3,79,NYJ,Jabari Zuniga,DE,23,Florida,College Stats,ZuniJa00
+2020,3,80,LVR,Lynn Bowden Jr.,WR,22,Kentucky,College Stats,BowdLy00
+2020,3,81,LVR,Bryan Edwards,WR,21,South Carolina,College Stats,EdwaBr01
+2020,3,82,DAL,Neville Gallimore,DT,23,Oklahoma,College Stats,GallNe00
+2020,3,83,DEN,Lloyd Cushenberry III,C,22,LSU,College Stats,CushLl00
+2020,3,84,LAR,Terrell Lewis,LB,22,Alabama,College Stats,LewiTe00
+2020,3,85,IND,Julian Blackmon,S,22,Utah,College Stats,BlacJu01
+2020,3,86,BUF,Zack Moss,RB,22,Utah,College Stats,MossZa00
+2020,3,87,NWE,Anfernee Jennings,LB,23,Alabama,College Stats,JennAn00
+2020,3,88,CLE,Jordan Elliott,DT,22,Texas,College Stats,ElliJo02
+2020,3,89,MIN,Cameron Dantzler,CB,22,Mississippi St.,College Stats,DantCa00
+2020,3,90,HOU,Jonathan Greenard,DE,23,Florida,College Stats,GreeJo04
+2020,3,91,NWE,Devin Asiasi,TE,23,UCLA,College Stats,AsiaDe00
+2020,3,92,BAL,Devin Duvernay,WR,22,Texas,College Stats,DuveDe00
+2020,3,93,TEN,Darrynton Evans,RB,22,Appalachian St.,College Stats,EvanDa02
+2020,3,94,GNB,Josiah Deguara,TE,23,Cincinnati,College Stats,DeguJo00
+2020,3,95,DEN,McTelvin Agim,DT,22,Arkansas,College Stats,AgimMc00
+2020,3,96,KAN,Lucas Niang,T,22,TCU,College Stats,NianLu00
+2020,3,97,CLE,Jacob Phillips,LB,21,LSU,College Stats,PhilJa01
+2020,3,98,BAL,Malik Harrison,LB,22,Ohio St.,College Stats,HarrMa06
+2020,3,99,NYG,Matt Peart,T,23,Connecticut,College Stats,PearMa00
+2020,3,100,LVR,Tanner Muse,S,24,Clemson,College Stats,MuseTa00
+2020,3,101,NWE,Dalton Keene,TE,21,Virginia Tech,College Stats,KeenDa00
+2020,3,102,PIT,Alex Highsmith,LB,23,Charlotte,College Stats,HighAl02
+2020,3,103,PHI,Davion Taylor,LB,22,Colorado,College Stats,TaylDa01
+2020,3,104,LAR,Terrell Burgess,S,21,Utah,College Stats,BurgTe00
+2020,3,105,NOR,Adam Trautman,TE,23,Dayton,,TrauAd00
+2020,3,106,BAL,Tyre Phillips,T,23,Mississippi St.,College Stats,PhilTy00
+2020,4,107,CIN,Akeem Davis-Gaither,LB,22,Appalachian St.,College Stats,DaviAk01
+2020,4,108,WAS,Saahdiq Charles,T,21,LSU,College Stats,CharSa00
+2020,4,109,LVR,John Simpson,G,23,Clemson,College Stats,SimpJo00
+2020,4,110,NYG,Darnay Holmes,CB,22,UCLA,College Stats,HolmDa01
+2020,4,111,MIA,Solomon Kindley,G,23,Georgia,College Stats,KindSo00
+2020,4,112,LAC,Joshua Kelley,RB,22,UCLA,College Stats,KellJo01
+2020,4,113,CAR,Troy Pride Jr.,CB,22,Notre Dame,College Stats,PridTr00
+2020,4,114,ARI,Leki Fotu,DT,22,Utah,College Stats,FotuLe00
+2020,4,115,CLE,Harrison Bryant,TE,22,Florida Atlantic,College Stats,BryaHa00
+2020,4,116,JAX,Ben Bartch,G,22,Saint John's (MN),,BartBe00
+2020,4,117,MIN,D.J. Wonnum,DE,22,South Carolina,College Stats,WonnDJ00
+2020,4,118,DEN,Albert Okwuegbunam,TE,22,Missouri,College Stats,OkwuAl00
+2020,4,119,ATL,Mykal Walker,LB,23,Fresno St.,College Stats,WalkMy00
+2020,4,120,NYJ,La'Mical Perine,RB,22,Florida,College Stats,PeriLa00
+2020,4,121,DET,Logan Stenberg,G,23,Kentucky,College Stats,StenLo00
+2020,4,122,IND,Jacob Eason,QB,22,Washington,College Stats,EasoJa00
+2020,4,123,DAL,Reggie Robinson II,CB,23,Tulsa,College Stats,RobiRe00
+2020,4,124,PIT,Anthony McFarland Jr.,RB,22,Maryland,College Stats,McFaAn00
+2020,4,125,NYJ,James Morgan,QB,23,Florida International,College Stats,MorgJa00
+2020,4,126,HOU,Charlie Heck,T,23,North Carolina,College Stats,HeckCh00
+2020,4,127,PHI,K'Von Wallace,S,23,Clemson,College Stats,WallKV00
+2020,4,128,BUF,Gabe Davis,WR,21,Central Florida,College Stats,DaviGa01
+2020,4,129,NYJ,Cameron Clark,T,22,Charlotte,College Stats,ClarCa00
+2020,4,130,MIN,James Lynch,DT,21,Baylor,College Stats,LyncJa00
+2020,4,131,ARI,Rashard Lawrence,DT,22,LSU,College Stats,LawrRa01
+2020,4,132,MIN,Troy Dye,LB,23,Oregon,College Stats,DyexTr00
+2020,4,133,SEA,Colby Parkinson,TE,21,Stanford,College Stats,ParkCo02
+2020,4,134,ATL,Jaylinn Hawkins,S,23,California,College Stats,HawkJa00
+2020,4,135,PIT,Kevin Dotson,G,23,Louisiana,College Stats,DotsKe00
+2020,4,136,LAR,Brycen Hopkins,TE,23,Purdue,College Stats,HopkBr01
+2020,4,137,JAX,Josiah Scott,CB,21,Michigan St.,College Stats,ScotJo00
+2020,4,138,KAN,L'Jarius Sneed,S,23,Louisiana Tech,College Stats,SneeLJ00
+2020,4,139,LVR,Amik Robertson,CB,22,Louisiana Tech,College Stats,RobeAm00
+2020,4,140,JAX,Shaquille Quarterman,LB,22,Miami (FL),College Stats,QuarSh00
+2020,4,141,HOU,John Reid,CB,24,Penn St.,College Stats,ReidJo00
+2020,4,142,WAS,Antonio Gandy-Golden,WR,22,Liberty,College Stats,GandAn00
+2020,4,143,BAL,Ben Bredeson,G,22,Michigan,College Stats,BredBe00
+2020,4,144,SEA,DeeJay Dallas,RB,21,Miami (FL),College Stats,DallDe00
+2020,4,145,PHI,Jack Driscoll,G,23,Auburn,College Stats,DrisJa00
+2020,4,146,DAL,Tyler Biadasz,C,22,Wisconsin,College Stats,BiadTy00
+2020,5,147,CIN,Khalid Kareem,DE,22,Notre Dame,College Stats,KareKh00
+2020,5,148,SEA,Alton Robinson,DE,22,Syracuse,College Stats,RobiAl03
+2020,5,149,IND,Danny Pinter,G,24,Ball St.,College Stats,PintDa00
+2020,5,150,NYG,Shane Lemieux,G,23,Oregon,College Stats,LemiSh00
+2020,5,151,LAC,Joe Reed,WR,22,Virginia,College Stats,ReedJo03
+2020,5,152,CAR,Kenny Robinson Jr.,S,21,West Virginia,College Stats,RobiKe02
+2020,5,153,SFO,Colton McKivitz,T,24,West Virginia,College Stats,McKiCo00
+2020,5,154,MIA,Jason Strowbridge,DE,23,North Carolina,College Stats,StroJa02
+2020,5,155,CHI,Trevis Gipson,DE,23,Tulsa,College Stats,GipsTr00
+2020,5,156,WAS,Keith Ismael,C,22,San Diego St.,College Stats,IsmaKe00
+2020,5,157,JAX,Daniel Thomas,S,22,Auburn,College Stats,ThomDa07
+2020,5,158,NYJ,Bryce Hall,CB,22,Virginia,College Stats,HallBr02
+2020,5,159,NWE,Justin Rohrwasser,K,23,Marshall,College Stats,RohrJu00
+2020,5,160,CLE,Nick Harris,C,21,Washington,College Stats,HarrNi01
+2020,5,161,TAM,Tyler Johnson,WR,22,Minnesota,College Stats,JohnTy00
+2020,5,162,WAS,Khaleke Hudson,LB,22,Michigan,College Stats,HudsKh00
+2020,5,163,CHI,Kindle Vildor,CB,22,Georgia Southern,College Stats,VildKi00
+2020,5,164,MIA,Curtis Weaver,DE,22,Boise St.,College Stats,WeavCu00
+2020,5,165,JAX,Collin Johnson,WR,22,Texas,College Stats,JohnCo01
+2020,5,166,DET,Quintez Cephus,WR,22,Wisconsin,College Stats,CephQu00
+2020,5,167,BUF,Jake Fromm,QB,22,Georgia,College Stats,FromJa00
+2020,5,168,PHI,John Hightower,WR,24,Boise St.,College Stats,HighJo00
+2020,5,169,MIN,Harrison Hand,CB,21,Temple,College Stats,HandHa00
+2020,5,170,BAL,Broderick Washington Jr.,DT,23,Texas Tech,College Stats,WashBr01
+2020,5,171,HOU,Isaiah Coulter,WR,21,Rhode Island,,CoulIs00
+2020,5,172,DET,Jason Huntley,RB,22,New Mexico St.,College Stats,HuntJa01
+2020,5,173,CHI,Darnell Mooney,WR,22,Tulane,College Stats,MoonDa00
+2020,5,174,TEN,Larrell Murchison,DT,23,North Carolina St.,College Stats,MurcLa00
+2020,5,175,GNB,Kamal Martin,LB,22,Minnesota,College Stats,MartKa01
+2020,5,176,MIN,K.J. Osborn,WR,23,Miami (FL),College Stats,OsboKJ00
+2020,5,177,KAN,Michael Danna,DE,22,Michigan,College Stats,DannMi00
+2020,5,178,DEN,Justin Strnad,LB,24,Wake Forest,College Stats,StrnJu00
+2020,5,179,DAL,Bradlee Anae,DE,22,Utah,College Stats,AnaeBr00
+2020,6,180,CIN,Hakeem Adeniji,T,22,Kansas,College Stats,AdenHa00
+2020,6,181,DEN,Netane Muti,G,21,Fresno St.,College Stats,MutiNe00
+2020,6,182,NWE,Michael Onwenu,G,22,Michigan,College Stats,OnweMi00
+2020,6,183,NYG,Cam Brown,LB,22,Penn St.,College Stats,BrowCa01
+2020,6,184,CAR,Bravvion Roy,DT,23,Baylor,College Stats,RoyxBr00
+2020,6,185,MIA,Blake Ferguson,LS,23,LSU,College Stats,FergBl00
+2020,6,186,LAC,Alohi Gilman,S,22,Notre Dame,College Stats,GilmAl00
+2020,6,187,CLE,Donovan Peoples-Jones,WR,21,Michigan,College Stats,PeopDo00
+2020,6,188,BUF,Tyler Bass,K,23,Georgia Southern,College Stats,BassTy00
+2020,6,189,JAX,Jake Luton,QB,24,Oregon St.,College Stats,LutoJa00
+2020,6,190,SFO,Charlie Woerner,TE,22,Georgia,College Stats,WoerCh00
+2020,6,191,NYJ,Braden Mann,P,22,Texas A&M,College Stats,MannBr01
+2020,6,192,GNB,Jon Runyan Jr.,T,23,Michigan,College Stats,RunyJo00
+2020,6,193,IND,Robert Windsor,DT,23,Penn St.,College Stats,WindRo01
+2020,6,194,TAM,Khalil Davis,DT,24,Nebraska,College Stats,DaviKh00
+2020,6,195,NWE,Justin Herron,T,24,Wake Forest,College Stats,HerrJu00
+2020,6,196,PHI,Shaun Bradley,LB,23,Temple,College Stats,BradSh00
+2020,6,197,DET,John Penisini,DT,23,Utah,College Stats,PeniJo00
+2020,6,198,PIT,Antoine Brooks Jr.,S,22,Maryland,College Stats,BrooAn00
+2020,6,199,LAR,Jordan Fuller,S,22,Ohio St.,College Stats,FullJo01
+2020,6,200,PHI,Quez Watkins,WR,22,Southern Miss,College Stats,WatkQu00
+2020,6,201,BAL,James Proche,WR,23,SMU,College Stats,ProcJa00
+2020,6,202,ARI,Evan Weaver,LB,22,California,College Stats,WeavEv00
+2020,6,203,MIN,Blake Brandel,T,23,Oregon St.,College Stats,BranBl00
+2020,6,204,NWE,Cassh Maluia,LB,21,Wyoming,College Stats,MaluCa00
+2020,6,205,MIN,Josh Metellus,S,22,Michigan,College Stats,MeteJo00
+2020,6,206,JAX,Tyler Davis,TE,23,Georgia Tech,College Stats,DaviTy02
+2020,6,207,BUF,Isaiah Hodgins,WR,21,Oregon St.,College Stats,HodgIs00
+2020,6,208,GNB,Jake Hanson,C,23,Oregon,College Stats,HansJa00
+2020,6,209,GNB,Simon Stepaniak,T,23,Indiana,College Stats,StepSi00
+2020,6,210,PHI,Prince Tega Wanogho,T,22,Auburn,College Stats,WanoTe00
+2020,6,211,IND,Isaiah Rodgers,CB,22,Massachusetts,College Stats,RodgIs00
+2020,6,212,IND,Dezmon Patmon,WR,22,Washington St.,College Stats,PatmDe00
+2020,6,213,IND,Jordan Glasgow,LB,24,Michigan,College Stats,GlasJo00
+2020,6,214,SEA,Freddie Swain,WR,22,Florida,College Stats,SwaiFr00
+2020,7,215,CIN,Markus Bailey,LB,23,Purdue,College Stats,BailMa01
+2020,7,216,WAS,Kamren Curl,S,21,Arkansas,College Stats,CurlKa00
+2020,7,217,SFO,Jauan Jennings,WR,23,Tennessee,College Stats,JennJa00
+2020,7,218,NYG,Carter Coughlin,LB,23,Minnesota,College Stats,CougCa00
+2020,7,219,BAL,Geno Stone,S,21,Iowa,College Stats,StonGe00
+2020,7,220,LAC,K.J. Hill,WR,22,Ohio St.,College Stats,HillKJ00
+2020,7,221,CAR,Stantley Thomas-Oliver,CB,22,Florida International,College Stats,ThomSt00
+2020,7,222,ARI,Eno Benjamin,RB,21,Arizona St.,College Stats,BenjEn00
+2020,7,223,JAX,Chris Claybrooks,CB,23,Memphis,College Stats,ClayCh02
+2020,7,224,TEN,Cole McDonald,QB,22,Hawaii,College Stats,McDoCo00
+2020,7,225,MIN,Kenny Willekes,DE,23,Michigan St.,College Stats,WillKe06
+2020,7,226,CHI,Arlington Hambright,T,24,Colorado,College Stats,HambAr00
+2020,7,227,CHI,Lachavious Simmons,G,23,Tennessee St.,,SimmLa00
+2020,7,228,ATL,Sterling Hofrichter,P,23,Syracuse,College Stats,HofrSt00
+2020,7,229,WAS,James Smith-Williams,DE,23,North Carolina St.,College Stats,SmitJa08
+2020,7,230,NWE,Dustin Woodard,C,22,Memphis,College Stats,WoodDu01
+2020,7,231,DAL,Ben DiNucci,QB,23,James Madison,College Stats,DiNuBe00
+2020,7,232,PIT,Carlos Davis,DT,24,Nebraska,College Stats,DaviCa03
+2020,7,233,PHI,Casey Toohill,DE,24,Stanford,College Stats,ToohCa00
+2020,7,234,LAR,Clay Johnston,LB,24,Baylor,College Stats,JohnCl00
+2020,7,235,DET,Jashon Cornell,DT,23,Ohio St.,College Stats,CornJa01
+2020,7,236,GNB,Vernon Scott,S,22,TCU,College Stats,ScotVe00
+2020,7,237,KAN,Thakarius Keyes,CB,22,Tulane,College Stats,KeyeTh00
+2020,7,238,NYG,T.J. Brunson,LB,22,South Carolina,College Stats,BrunTJ00
+2020,7,239,BUF,Dane Jackson,CB,23,Pittsburgh,College Stats,JackDa02
+2020,7,240,NOR,Tommy Stevens,QB,23,Mississippi St.,College Stats,StevTo01
+2020,7,241,TAM,Chapelle Russell,LB,23,Temple,College Stats,RussCh00
+2020,7,242,GNB,Jonathan Garvin,DE,21,Miami (FL),College Stats,GarvJo00
+2020,7,243,TEN,Chris Jackson,S,22,Marshall,College Stats,JackCh01
+2020,7,244,MIN,Nate Stanley,QB,23,Iowa,College Stats,StanNa00
+2020,7,245,TAM,Raymond Calais,RB,22,Louisiana,College Stats,CalaRa00
+2020,7,246,MIA,Malcolm Perry,RB,23,Navy,College Stats,PerrMa00
+2020,7,247,NYG,Chris Williamson,CB,23,Minnesota,College Stats,WillCh07
+2020,7,248,LAR,Sam Sloman,K,22,Miami (OH),College Stats,SlomSa00
+2020,7,249,MIN,Brian Cole II,S,23,Mississippi St.,College Stats,ColeBr01
+2020,7,250,LAR,Tremayne Anchrum,G,22,Clemson,College Stats,AnchTr00
+2020,7,251,SEA,Stephen Sullivan,TE,23,LSU,College Stats,SullSt00
+2020,7,252,DEN,Tyrie Cleveland,WR,22,Florida,College Stats,ClevTy00
+2020,7,253,MIN,Kyle Hinton,G,22,Washburn,,HintKy00
+2020,7,254,DEN,Derrek Tuszka,LB,23,North Dakota St.,,TuszDe00
+2020,7,255,NYG,Tae Crowder,LB,23,Georgia,College Stats,CrowTa
+2021,1,1,JAX,Trevor Lawrence,QB,21,Clemson,College Stats,LawrTr00
+2021,1,2,NYJ,Zach Wilson,QB,22,BYU,College Stats,WilsZa00
+2021,1,3,SFO,Trey Lance,QB,21,North Dakota St.,College Stats,LancTr00
+2021,1,4,ATL,Kyle Pitts,TE,20,Florida,College Stats,PittKy00
+2021,1,5,CIN,Ja'Marr Chase,WR,21,LSU,College Stats,ChasJa00
+2021,1,6,MIA,Jaylen Waddle,WR,22,Alabama,College Stats,WaddJa00
+2021,1,7,DET,Penei Sewell,OL,20,Oregon,College Stats,SewePe00
+2021,1,8,CAR,Jaycee Horn,DB,21,South Carolina,College Stats,HornJa00
+2021,1,9,DEN,Patrick Surtain II,DB,21,Alabama,College Stats,SurtPa01
+2021,1,10,PHI,DeVonta Smith,WR,22,Alabama,College Stats,SmitDe07
+2021,1,11,CHI,Justin Fields,QB,22,Ohio St.,College Stats,FielJu00
+2021,1,12,DAL,Micah Parsons,LB,22,Penn St.,College Stats,ParsMi00
+2021,1,13,LAC,Rashawn Slater,OL,22,Northwestern,College Stats,SlatRa00
+2021,1,14,NYJ,Alijah Vera-Tucker,OL,22,USC,College Stats,VeraAl00
+2021,1,15,NWE,Mac Jones,QB,23,Alabama,College Stats,JoneMa05
+2021,1,16,ARI,Zaven Collins,LB,22,Tulsa,College Stats,CollZa00
+2021,1,17,LVR,Alex Leatherwood,OL,22,Alabama,College Stats,LeatAl00
+2021,1,18,MIA,Jaelan Phillips,DL,22,Miami (FL),College Stats,PhilJa02
+2021,1,19,WAS,Jamin Davis,LB,22,Kentucky,College Stats,DaviJa11
+2021,1,20,NYG,Kadarius Toney,WR,22,Florida,College Stats,ToneKa00
+2021,1,21,IND,Kwity Paye,DL,22,Michigan,College Stats,PayeKw00
+2021,1,22,TEN,Caleb Farley,DB,22,Virginia Tech,College Stats,FarlCa00
+2021,1,23,MIN,Christian Darrisaw,OL,22,Virginia Tech,College Stats,DarrCh00
+2021,1,24,PIT,Najee Harris,RB,23,Alabama,College Stats,HarrNa00
+2021,1,25,JAX,Travis Etienne,RB,22,Clemson,College Stats,EtieTr00
+2021,1,26,CLE,Greg Newsome II,DB,21,Northwestern,College Stats,NewsGr00
+2021,1,27,BAL,Rashod Bateman,WR,21,Minnesota,College Stats,BateRa00
+2021,1,28,NOR,Payton Turner,DE,22,Houston,College Stats,TurnPa02
+2021,1,29,GNB,Eric Stokes,DB,22,Georgia,College Stats,StokEr00
+2021,1,30,BUF,Gregory Rousseau,DL,21,Miami (FL),College Stats,RousGr00
+2021,1,31,BAL,Odafe Oweh,DE,22,Penn St.,College Stats,OwehJa00
+2021,1,32,TAM,Joe Tryon-Shoyinka,OLB,22,Washington,College Stats,TryoJo00
+2021,2,33,JAX,Tyson Campbell,DB,21,Georgia,College Stats,CampTy01
+2021,2,34,NYJ,Elijah Moore,WR,21,Mississippi,College Stats,MoorEl00
+2021,2,35,DEN,Javonte Williams,RB,21,North Carolina,College Stats,WillJa10
+2021,2,36,MIA,Jevon Holland,S,21,Oregon,College Stats,HollJe02
+2021,2,37,PHI,Landon Dickerson,OL,22,Alabama,College Stats,DickLa00
+2021,2,38,NWE,Christian Barmore,DL,22,Alabama,College Stats,BarmCh00
+2021,2,39,CHI,Teven Jenkins,OL,23,Oklahoma St.,College Stats,JenkTe00
+2021,2,40,ATL,Richie Grant,DB,23,Central Florida,College Stats,GranRi00
+2021,2,41,DET,Levi Onwuzurike,DL,23,Washington,College Stats,OnwuLe00
+2021,2,42,MIA,Liam Eichenberg,OL,23,Notre Dame,College Stats,EichLi00
+2021,2,43,LVR,Tre'von Moehrig,S,22,TCU,College Stats,MoehTr00
+2021,2,44,DAL,Kelvin Joseph,DB,21,Kentucky,College Stats,JoseKe02
+2021,2,45,JAX,Walker Little,T,22,Stanford,College Stats,LittWa00
+2021,2,46,CIN,Jackson Carman,T,21,Clemson,College Stats,CarmJa00
+2021,2,47,LAC,Asante Samuel Jr.,DB,21,Florida St.,College Stats,SamuAs00
+2021,2,48,SFO,Aaron Banks,OL,24,Notre Dame,College Stats,BankAa00
+2021,2,49,ARI,Rondale Moore,WR,21,Purdue,College Stats,MoorRo02
+2021,2,50,NYG,Azeez Ojulari,OLB,21,Georgia,College Stats,OjulAz00
+2021,2,51,WAS,Samuel Cosmi,OL,22,Texas,College Stats,CosmSa00
+2021,2,52,CLE,Jeremiah Owusu-Koramoah,LB,21,Notre Dame,College Stats,OwusJe00
+2021,2,53,TEN,Dillon Radunz,T,23,North Dakota St.,,RaduDi00
+2021,2,54,IND,Dayo Odeyingbo,DL,21,Vanderbilt,College Stats,OdeyDa00
+2021,2,55,PIT,Pat Freiermuth,TE,22,Penn St.,College Stats,FreiPa00
+2021,2,56,SEA,D'Wayne Eskridge,WR,24,Western Michigan,College Stats,EskrDW00
+2021,2,57,LAR,Tutu Atwell,WR,21,Louisville,College Stats,AtweTu00
+2021,2,58,KAN,Nick Bolton,LB,21,Missouri,College Stats,BoltNi00
+2021,2,59,CAR,Terrace Marshall Jr.,WR,21,LSU,College Stats,MarsTe00
+2021,2,60,NOR,Pete Werner,LB,22,Ohio St.,College Stats,WernPe00
+2021,2,61,BUF,Boogie Basham,DL,23,Wake Forest,College Stats,BashCa00
+2021,2,62,GNB,Josh Myers,C,23,Ohio St.,College Stats,MyerJo00
+2021,2,63,KAN,Creed Humphrey,OL,22,Oklahoma,College Stats,HumpCr00
+2021,2,64,TAM,Kyle Trask,QB,23,Florida,College Stats,TrasKy00
+2021,3,65,JAX,Andre Cisco,DB,21,Syracuse,College Stats,CiscAn00
+2021,3,66,MIN,Kellen Mond,QB,22,Texas A&M,College Stats,MondKe00
+2021,3,67,HOU,Davis Mills,QB,22,Stanford,College Stats,MillDa02
+2021,3,68,ATL,Jalen Mayfield,OL,21,Michigan,College Stats,MayfJa00
+2021,3,69,CIN,Joseph Ossai,LB,21,Texas,College Stats,OssaJo00
+2021,3,70,CAR,Brady Christensen,OL,24,BYU,College Stats,ChriBr00
+2021,3,71,NYG,Aaron Robinson,DB,22,Central Florida,College Stats,RobiAa00
+2021,3,72,DET,Alim McNeill,DT,21,North Carolina St.,College Stats,McNeAl00
+2021,3,73,PHI,Milton Williams,DL,22,Louisiana Tech,College Stats,WillMi08
+2021,3,74,WAS,Benjamin St-Juste,DB,23,Minnesota,College Stats,StJuBe00
+2021,3,75,DAL,Osa Odighizuwa,DL,23,UCLA,College Stats,OdigOs00
+2021,3,76,NOR,Paulson Adebo,CB,22,Stanford,College Stats,AdebPa00
+2021,3,77,LAC,Josh Palmer,WR,21,Tennessee,College Stats,PalmJo00
+2021,3,78,MIN,Chazz Surratt,LB,24,North Carolina,College Stats,SurrCh00
+2021,3,79,LVR,Malcolm Koonce,DE,23,Buffalo,College Stats,KoonMa00
+2021,3,80,LVR,Divine Deablo,DB,23,Virginia Tech,College Stats,DeabDi00
+2021,3,81,MIA,Hunter Long,TE,23,Boston Col.,College Stats,LongHu00
+2021,3,82,WAS,Dyami Brown,WR,21,North Carolina,College Stats,BrowDy00
+2021,3,83,CAR,Tommy Tremble,TE,21,Notre Dame,College Stats,TremTo00
+2021,3,84,DAL,Chauncey Golston,DL,23,Iowa,College Stats,GolsCh00
+2021,3,85,GNB,Amari Rodgers,WR,21,Clemson,College Stats,RodgAm00
+2021,3,86,MIN,Wyatt Davis,OL,22,Ohio St.,College Stats,DaviWy00
+2021,3,87,PIT,Kendrick Green,OL,22,Illinois,College Stats,GreeKe02
+2021,3,88,SFO,Trey Sermon,RB,22,Ohio St.,College Stats,SermTr00
+2021,3,89,HOU,Nico Collins,WR,22,Michigan,College Stats,CollNi00
+2021,3,90,MIN,Patrick Jones II,DL,22,Pittsburgh,College Stats,JonePa00
+2021,3,91,CLE,Anthony Schwartz,WR,21,Auburn,College Stats,SchwAn00
+2021,3,92,TEN,Monty Rice,LB,22,Georgia,College Stats,RiceMo00
+2021,3,93,BUF,Spencer Brown,OL,23,Northern Iowa,,BrowSp00
+2021,3,94,BAL,Ben Cleveland,OL,23,Georgia,College Stats,ClevBe00
+2021,3,95,TAM,Robert Hainsey,OL,23,Notre Dame,College Stats,HainRo00
+2021,3,96,NWE,Ronnie Perkins,DE,21,Oklahoma,College Stats,PerkRo00
+2021,3,97,LAC,Tre' McKitty,TE,22,Georgia,College Stats,McKiTr00
+2021,3,98,DEN,Quinn Meinerz,C,22,Wisconsin–Whitewater,,MeinQu02
+2021,3,99,DAL,Nahshon Wright,DB,22,Oregon St.,College Stats,WrigNa00
+2021,3,100,TEN,Elijah Molden,DB,22,Washington,College Stats,MoldEl00
+2021,3,101,DET,Ifeatu Melifonwu,DB,22,Syracuse,College Stats,MeliIf00
+2021,3,102,SFO,Ambry Thomas,DB,21,Michigan,College Stats,ThomAm00
+2021,3,103,LAR,Ernest Jones,LB,21,South Carolina,College Stats,JoneEr01
+2021,3,104,BAL,Brandon Stephens,CB,23,SMU,College Stats,StepBr01
+2021,3,105,DEN,Baron Browning,LB,22,Ohio St.,College Stats,BrowBa01
+2021,4,106,JAX,Jay Tufele,DL,22,USC,College Stats,TufeJa00
+2021,4,107,NYJ,Michael Carter,RB,22,North Carolina,College Stats,CartMi03
+2021,4,108,ATL,Darren Hall,CB,21,San Diego St.,College Stats,HallDa03
+2021,4,109,TEN,Dez Fitzpatrick,WR,23,Louisville,College Stats,FitzDe00
+2021,4,110,CLE,James Hudson,OL,22,Cincinnati,College Stats,HudsJa00
+2021,4,111,CIN,Cameron Sample,DE,21,Tulane,College Stats,SampCa00
+2021,4,112,DET,Amon-Ra St. Brown,WR,21,USC,College Stats,StxxAm00
+2021,4,113,DET,Derrick Barnes,DE,22,Purdue,College Stats,BarnDe02
+2021,4,114,ATL,Drew Dalman,C,22,Stanford,College Stats,DalmDr00
+2021,4,115,DAL,Jabril Cox,LB,23,LSU,College Stats,CoxxJa00
+2021,4,116,NYG,Elerson Smith,DL,23,Northern Iowa,,SmitEl00
+2021,4,117,LAR,Bobby Brown,DL,21,Texas A&M,College Stats,BrowBo04
+2021,4,118,LAC,Chris Rumph,DE,22,Duke,College Stats,RumpCh00
+2021,4,119,MIN,Kene Nwangwu,RB,23,Iowa St.,College Stats,NwanKe00
+2021,4,120,NWE,Rhamondre Stevenson,RB,23,Oklahoma,College Stats,StevRh00
+2021,4,121,JAX,Jordan Smith,OLB,23,Ala-Birmingham,College Stats,SmitJo03
+2021,4,122,CIN,Tyler Shelvin,DT,23,LSU,College Stats,ShelTy00
+2021,4,123,PHI,Zech McPhearson,DB,23,Texas Tech,College Stats,McPhZe00
+2021,4,124,WAS,John Bates,TE,23,Boise St.,College Stats,BateJo00
+2021,4,125,MIN,Camryn Bynum,CB,23,California,College Stats,BynuCa00
+2021,4,126,CAR,Chuba Hubbard,RB,22,Oklahoma St.,College Stats,HubbCh01
+2021,4,127,IND,Kylen Granson,TE,23,SMU,College Stats,GranKy00
+2021,4,128,PIT,Dan Moore,OL,22,Texas A&M,College Stats,MoorDa05
+2021,4,129,TAM,Jaelon Darden,WR,22,North Texas,College Stats,DardJa00
+2021,4,130,LAR,Robert Rochell,DB,23,Central Arkansas,,RochRo00
+2021,4,131,BAL,Tylan Wallace,WR,22,Oklahoma St.,College Stats,WallTy00
+2021,4,132,CLE,Tommy Togiai,DT,21,Ohio St.,College Stats,TogiTo00
+2021,4,133,NOR,Ian Book,QB,23,Notre Dame,College Stats,BookIa00
+2021,4,134,MIN,Janarius Robinson,DE,22,Florida St.,College Stats,RobiJa04
+2021,4,135,TEN,Rashad Weaver,DL,23,Pittsburgh,College Stats,WeavRa00
+2021,4,136,ARI,Marco Wilson,CB,22,Florida,College Stats,WilsMa04
+2021,4,137,SEA,Tre Brown,CB,23,Oklahoma,College Stats,BrowTr03
+2021,4,138,DAL,Josh Ball,OL,23,Marshall,College Stats,BallJo00
+2021,4,139,CIN,D'Ante Smith,T,23,East Carolina,College Stats,SmitDA03
+2021,4,140,PIT,Buddy Johnson,LB,22,Texas A&M,College Stats,JohnBu01
+2021,4,141,LAR,Jacob Harris,WR,24,Central Florida,College Stats,HarrJa03
+2021,4,142,GNB,Royce Newman,G,24,Mississippi,College Stats,NewmRo00
+2021,4,143,LVR,Tyree Gillespie,S,23,Missouri,College Stats,GillTy00
+2021,4,144,KAN,Joshua Kaindoh,DE,22,Florida St.,College Stats,KainJo00
+2021,5,145,JAX,Luke Farrell,TE,23,Ohio St.,College Stats,FarrLu00
+2021,5,146,NYJ,Jamien Sherwood,DB,21,Auburn,College Stats,SherJa00
+2021,5,147,HOU,Brevin Jordan,TE,21,Miami (FL),College Stats,JordBr00
+2021,5,148,ATL,Ta'Quon Graham,DL,22,Texas,College Stats,GrahTa00
+2021,5,149,CIN,Evan McPherson,K,22,Florida,College Stats,McPhEv00
+2021,5,150,PHI,Kenneth Gainwell,RB,22,Memphis,College Stats,GainKe00
+2021,5,151,CHI,Larry Borom,OL,22,Missouri,College Stats,BoroLa00
+2021,5,152,DEN,Caden Sterns,DB,21,Texas,College Stats,SterCa00
+2021,5,153,CLE,Tony Fields,LB,22,West Virginia,College Stats,FielTo00
+2021,5,154,NYJ,Michael Carter II,S,22,Duke,College Stats,CartMi02
+2021,5,155,SFO,Jaylon Moore,T,23,Western Michigan,College Stats,MoorJa04
+2021,5,156,PIT,Isaiahh Loudermilk,DE,23,Wisconsin,College Stats,LoudIs00
+2021,5,157,MIN,Ihmir Smith-Marsette,WR,22,Iowa,College Stats,SmitIh00
+2021,5,158,CAR,Daviyon Nixon,DT,22,Iowa,College Stats,NixoDa00
+2021,5,159,LAC,Brenden Jaimes,OL,22,Nebraska,College Stats,JaimBr00
+2021,5,160,BAL,Shaun Wade,CB,22,Ohio St.,College Stats,WadeSh00
+2021,5,161,BUF,Tommy Doyle,OL,23,Miami (OH),College Stats,DoylTo00
+2021,5,162,KAN,Noah Gray,TE,22,Duke,College Stats,GrayNo00
+2021,5,163,WAS,Darrick Forrest,S,22,Cincinnati,College Stats,ForrDa00
+2021,5,164,DEN,Jamar Johnson,DB,21,Indiana,College Stats,JohnJa15
+2021,5,165,IND,Shawn Davis,DB,23,Florida,College Stats,DaviSh02
+2021,5,166,CAR,Keith Taylor,DB,22,Washington,College Stats,TaylKe03
+2021,5,167,LVR,Nate Hobbs,CB,22,Illinois,College Stats,HobbNa00
+2021,5,168,MIN,Zach Davidson,TE,23,Central Missouri St.,,DaviZa00
+2021,5,169,CLE,Richard LeCounte,DB,22,Georgia,College Stats,LeCoRi00
+2021,5,170,HOU,Garret Wallow,LB,22,TCU,College Stats,WallGa00
+2021,5,171,BAL,Daelin Hayes,DL,23,Notre Dame,College Stats,HayeDa00
+2021,5,172,SFO,Deommodore Lenoir,CB,21,Oregon,College Stats,LenoDe00
+2021,5,173,GNB,Tedarrell Slaton,DL,23,Florida,College Stats,SlatTe00
+2021,5,174,LAR,Earnest Brown IV,DE,22,Northwestern,College Stats,BrowEa00
+2021,5,175,NYJ,Jason Pinnock,CB,22,Pittsburgh,College Stats,PinnJa01
+2021,5,176,TAM,K.J. Britt,LB,22,Auburn,College Stats,BritKJ00
+2021,5,177,NWE,Cameron McGrone,LB,21,Michigan,College Stats,McGrCa00
+2021,5,178,GNB,Shemar Jean-Charles,DB,23,Appalachian St.,College Stats,JeanSh00
+2021,5,179,DAL,Simi Fehoko,WR,23,Stanford,College Stats,FehoSi00
+2021,5,180,SFO,Talanoa Hufanga,S,22,USC,College Stats,HufaTa00
+2021,5,181,KAN,Cornell Powell,WR,23,Clemson,College Stats,PoweCo00
+2021,5,182,ATL,Adetokunbo Ogundeji,DL,22,Notre Dame,College Stats,OgunAd01
+2021,5,183,ATL,Avery Williams,CB,23,Boise St.,College Stats,WillAv02
+2021,5,184,BAL,Ben Mason,FB,22,Michigan,College Stats,MasoBe00
+2021,6,185,LAC,Nick Niemann,LB,23,Iowa,College Stats,NiemNi00
+2021,6,186,NYJ,Hamsah Nasirildeen,DB,22,Florida St.,College Stats,NasiHa00
+2021,6,187,ATL,Frank Darby,WR,23,Arizona St.,College Stats,DarbFr00
+2021,6,188,NWE,Joshuah Bledsoe,S,22,Missouri,College Stats,BledJo00
+2021,6,189,PHI,Marlon Tuipulotu,DL,22,USC,College Stats,TuipMa00
+2021,6,190,CIN,Trey Hill,OL,21,Georgia,College Stats,HillTr03
+2021,6,191,PHI,Tarron Jackson,DE,23,Coastal Carolina,College Stats,JackTa02
+2021,6,192,DAL,Quinton Bohanna,DT,22,Kentucky,College Stats,BohaQu00
+2021,6,193,CAR,Deonte Brown,OL,23,Alabama,College Stats,BrowDe06
+2021,6,194,SFO,Elijah Mitchell,RB,23,Louisiana,College Stats,MitcEl00
+2021,6,195,HOU,Roy Lopez,DL,24,Arizona,College Stats,LopeRo00
+2021,6,196,NYG,Gary Brightwell,RB,22,Arizona,College Stats,BrigGa00
+2021,6,197,NWE,William Sherman,OL,22,Colorado,College Stats,SherWi01
+2021,6,198,LAC,Larry Rountree,RB,22,Missouri,College Stats,RounLa00
+2021,6,199,MIN,Jaylen Twyman,DL,22,Pittsburgh,College Stats,TwymJa00
+2021,6,200,NYJ,Brandin Echols,CB,23,Kentucky,College Stats,EchoBr00
+2021,6,201,NYG,Rodarius Williams,CB,24,Oklahoma St.,College Stats,WillRo07
+2021,6,202,CIN,Chris Evans,RB,23,Michigan,College Stats,EvanCh02
+2021,6,203,BUF,Marquez Stevenson,WR,23,Houston,College Stats,StevMa00
+2021,6,204,CAR,Shi Smith,WR,22,South Carolina,College Stats,SmitSh03
+2021,6,205,TEN,Racey McMath,WR,22,LSU,College Stats,McMaRa00
+2021,6,206,NOR,Landon Young,T,24,Kentucky,College Stats,YounLa00
+2021,6,207,NYJ,Jonathan Marshall,DL,23,Arkansas,College Stats,MarsJo00
+2021,6,208,SEA,Stone Forsythe,OL,23,Florida,College Stats,ForsSt00
+2021,6,209,JAX,Jalen Camp,WR,23,Georgia Tech,College Stats,CampJa03
+2021,6,210,ARI,Victor Dimukeje,DE,21,Duke,College Stats,DimuVi00
+2021,6,211,CLE,Demetric Felton,RB,23,UCLA,College Stats,FeltDe00
+2021,6,212,BUF,Damar Hamlin,DB,23,Pittsburgh,College Stats,HamlDa00
+2021,6,213,BUF,Rachad Wildgoose,CB,21,Wisconsin,College Stats,WildRa00
+2021,6,214,GNB,Cole Van Lanen,OL,23,Wisconsin,College Stats,VanxCo00
+2021,6,215,TEN,Brady Breeze,S,23,Oregon,College Stats,BreeBr00
+2021,6,216,PIT,Quincy Roche,DL,23,Miami (FL),College Stats,RochQu00
+2021,6,217,CHI,Khalil Herbert,RB,23,Virginia Tech,College Stats,HerbKh00
+2021,6,218,IND,Sam Ehlinger,QB,22,Texas,College Stats,EhliSa00
+2021,6,219,DEN,Seth Williams,WR,21,Auburn,College Stats,WillSe00
+2021,6,220,GNB,Isaiah McDuffie,LB,22,Boston Col.,College Stats,McDuIs00
+2021,6,221,CHI,Dazz Newsome,WR,22,North Carolina,College Stats,NewsDa00
+2021,6,222,CAR,Thomas Fletcher,LS,22,Alabama,College Stats,FletTh00
+2021,6,223,ARI,Tay Gowan,DB,23,Central Florida,College Stats,GowaTa00
+2021,6,224,PHI,JaCoby Stevens,S,23,LSU,College Stats,StevJa00
+2021,6,225,WAS,Camaron Cheeseman,LS,23,Michigan,College Stats,CheeCa00
+2021,6,226,KAN,Trey Smith,OL,22,Tennessee,College Stats,SmitTr05
+2021,6,227,DAL,Israel Mukuamu,DB,21,South Carolina,College Stats,MukuIs00
+2021,6,228,CHI,Thomas Graham,CB,22,Oregon,College Stats,GrahTh00
+2021,7,229,IND,Mike Strachan,WR,24,Charleston (WV),,StraMi03
+2021,7,230,LVR,Jimmy Morrissey,OL,23,Pittsburgh,College Stats,MorrJi00
+2021,7,231,MIA,Larnel Coleman,T,23,Massachusetts,College Stats,ColeLa03
+2021,7,232,CAR,Phil Hoskins,DT,24,Kentucky,College Stats,HoskPh00
+2021,7,233,LAR,Jake Funk,RB,23,Maryland,College Stats,FunkJa00
+2021,7,234,PHI,Patrick Johnson,DE,23,Tulane,College Stats,JohnPa02
+2021,7,235,CIN,Wyatt Hubert,DE,23,Kansas St.,College Stats,HubeWy00
+2021,7,236,BUF,Jack Anderson,OL,22,Texas Tech,College Stats,AndeJa01
+2021,7,237,DEN,Kary Vincent Jr.,CB,22,LSU,College Stats,VincKa00
+2021,7,238,DAL,Matt Farniok,G,23,Nebraska,College Stats,FarnMa00
+2021,7,239,DEN,Jonathon Cooper,DE,23,Ohio St.,College Stats,CoopJo02
+2021,7,240,WAS,William Bradley-King,OLB,23,Baylor,College Stats,BradWi00
+2021,7,241,LAC,Mark Webb,DB,22,Georgia,College Stats,WebbMa01
+2021,7,242,NWE,Tre Nixon,WR,23,Central Florida,College Stats,NixoTr01
+2021,7,243,ARI,James Wiggins,S,24,Cincinnati,College Stats,WiggJa00
+2021,7,244,MIA,Gerrid Doaks,RB,23,Cincinnati,College Stats,DoakGe00
+2021,7,245,PIT,Tre Norwood,DB,22,Oklahoma,College Stats,NorwTr00
+2021,7,246,WAS,Shaka Toney,DE,23,Penn St.,College Stats,ToneSh00
+2021,7,247,ARI,Michal Menet,OL,24,Penn St.,College Stats,MeneMi00
+2021,7,248,IND,Will Fries,OL,23,Penn St.,College Stats,FrieWi00
+2021,7,249,LAR,Ben Skowronek,WR,24,Notre Dame,College Stats,SkowBe00
+2021,7,250,CHI,Khyiris Tonga,DL,25,BYU,College Stats,TongKh00
+2021,7,251,TAM,Chris Wilcox,DB,23,BYU,College Stats,WilcCh00
+2021,7,252,LAR,Chris Garrett,DE,23,Concordia-St.Paul (MN),,GarrCh00
+2021,7,253,DEN,Marquiss Spencer,DE,24,Mississippi St.,College Stats,SpenMa00
+2021,7,254,PIT,Pressley Harvin III,P,22,Georgia Tech,College Stats,HarvPr00
+2021,7,255,NOR,Kawaan Baker,WR,23,South Alabama,College Stats,BakeKa00
+2021,7,256,GNB,Kylin Hill,RB,23,Mississippi St.,College Stats,HillKy00
+2021,7,257,DET,Jermar Jefferson,RB,21,Oregon St.,College Stats,JeffJe00
+2021,7,258,WAS,Dax Milne,WR,22,BYU,College Stats,MilnDa00
+2021,7,259,TAM,Grant Stuard,LB,22,Houston,College Stats,StuaGr00
+2022,1,1,JAX,Travon Walker,DE,21,Georgia,College Stats,WalkTr03
+2022,1,2,DET,Aidan Hutchinson,DE,22,Michigan,College Stats,HutcAi00
+2022,1,3,HOU,Derek Stingley Jr.,CB,21,LSU,College Stats,StinDe00
+2022,1,4,NYJ,Sauce Gardner,CB,22,Cincinnati,College Stats,GardSa00
+2022,1,5,NYG,Kayvon Thibodeaux,DE,21,Oregon,College Stats,ThibKa00
+2022,1,6,CAR,Ikem Ekwonu,T,21,North Carolina St.,College Stats,EkwoIk00
+2022,1,7,NYG,Evan Neal,OL,21,Alabama,College Stats,NealEv00
+2022,1,8,ATL,Drake London,WR,21,USC,College Stats,LondDr00
+2022,1,9,SEA,Charles Cross,OL,21,Mississippi St.,College Stats,CrosCh00
+2022,1,10,NYJ,Garrett Wilson,WR,22,Ohio St.,College Stats,WilsGa00
+2022,1,11,NOR,Chris Olave,WR,22,Ohio St.,College Stats,OlavCh00
+2022,1,12,DET,Jameson Williams,WR,21,Alabama,College Stats,WillJa11
+2022,1,13,PHI,Jordan Davis,DT,22,Georgia,College Stats,DaviJo03
+2022,1,14,BAL,Kyle Hamilton,S,21,Notre Dame,College Stats,HamiKy00
+2022,1,15,HOU,Kenyon Green,OL,21,Texas A&M,College Stats,GreeKe03
+2022,1,16,WAS,Jahan Dotson,WR,22,Penn St.,College Stats,DotsJa00
+2022,1,17,LAC,Zion Johnson,G,22,Boston Col.,College Stats,JohnZi00
+2022,1,18,TEN,Treylon Burks,WR,22,Arkansas,College Stats,BurkTr00
+2022,1,19,NOR,Trevor Penning,T,23,Northern Iowa,,PennTr00
+2022,1,20,PIT,Kenny Pickett,QB,24,Pittsburgh,College Stats,PickKe00
+2022,1,21,KAN,Trent McDuffie,CB,21,Washington,College Stats,McDuTr00
+2022,1,22,GNB,Quay Walker,LB,22,Georgia,College Stats,WalkQu00
+2022,1,23,BUF,Kaiir Elam,CB,21,Florida,College Stats,ElamKa00
+2022,1,24,DAL,Tyler Smith,OL,21,Tulsa,College Stats,SmitTy02
+2022,1,25,BAL,Tyler Linderbaum,OL,22,Iowa,College Stats,LindTy00
+2022,1,26,NYJ,Jermaine Johnson II,LB,23,Florida St.,College Stats,JohnJe07
+2022,1,27,JAX,Devin Lloyd,LB,23,Utah,College Stats,LloyDe00
+2022,1,28,GNB,Devonte Wyatt,DT,24,Georgia,College Stats,WyatDe00
+2022,1,29,NWE,Cole Strange,OL,24,Chattanooga,,StraCo01
+2022,1,30,KAN,George Karlaftis III,DE,21,Purdue,College Stats,KarlGe00
+2022,1,31,CIN,Daxton Hill,DB,21,Michigan,College Stats,HillDa04
+2022,1,32,MIN,Lewis Cine,DB,22,Georgia,College Stats,CineLe00
+2022,2,33,TAM,Logan Hall,DE,22,Houston,College Stats,HallLo00
+2022,2,34,GNB,Christian Watson,WR,23,North Dakota St.,,WatsCh00
+2022,2,35,TEN,Roger McCreary,CB,22,Auburn,College Stats,McCrRo01
+2022,2,36,NYJ,Breece Hall,RB,21,Iowa St.,College Stats,HallBr03
+2022,2,37,HOU,Jalen Pitre,S,23,Baylor,College Stats,PitrJa00
+2022,2,38,ATL,Arnold Ebiketie,DE,23,Penn St.,College Stats,EbikAr00
+2022,2,39,CHI,Kyler Gordon,CB,22,Washington,College Stats,GordKy00
+2022,2,40,SEA,Boye Mafe,DE,23,Minnesota,College Stats,MafeBo00
+2022,2,41,SEA,Kenneth Walker III,RB,21,Michigan St.,College Stats,WalkKe00
+2022,2,42,MIN,Andrew Booth,CB,21,Clemson,College Stats,BootAn00
+2022,2,43,NYG,Wan'Dale Robinson,WR,21,Kentucky,College Stats,RobiWa01
+2022,2,44,HOU,John Metchie,WR,22,Alabama,College Stats,MetcJo00
+2022,2,45,BAL,David Ojabo,LB,22,Michigan,College Stats,OjabDa00
+2022,2,46,DET,Josh Paschal,DE,22,Kentucky,College Stats,PascJo00
+2022,2,47,WAS,Phidarian Mathis,DT,24,Alabama,College Stats,MathPh00
+2022,2,48,CHI,Jaquan Brisker,S,23,Penn St.,College Stats,BrisJa01
+2022,2,49,NOR,Alontae Taylor,DB,23,Tennessee,College Stats,TaylAl01
+2022,2,50,NWE,Tyquan Thornton,WR,21,Baylor,College Stats,ThorTy00
+2022,2,51,PHI,Cam Jurgens,OL,23,Nebraska,College Stats,JurgCa01
+2022,2,52,PIT,George Pickens,WR,21,Georgia,College Stats,PickGe00
+2022,2,53,IND,Alec Pierce,WR,22,Cincinnati,College Stats,PierAl00
+2022,2,54,KAN,Skyy Moore,WR,21,Western Michigan,College Stats,MoorSk01
+2022,2,55,ARI,Trey McBride,TE,22,Colorado St.,College Stats,McBrTr01
+2022,2,56,DAL,Sam Williams,DE,23,Mississippi,College Stats,WillSa00
+2022,2,57,TAM,Luke Goedeke,OL,23,Central Michigan,College Stats,GoedLu00
+2022,2,58,ATL,Troy Andersen,LB,23,Montana St.,,AndeTr00
+2022,2,59,MIN,Ed Ingram,G,23,LSU,College Stats,IngrEd00
+2022,2,60,CIN,Cam Taylor-Britt,CB,22,Nebraska,College Stats,TaylCa01
+2022,2,61,SFO,Drake Jackson,OLB,21,USC,College Stats,JackDr01
+2022,2,62,KAN,Bryan Cook,S,23,Cincinnati,College Stats,CookBr02
+2022,2,63,BUF,James Cook,RB,22,Georgia,College Stats,CookJa01
+2022,2,64,DEN,Nik Bonitto,OLB,22,Oklahoma,College Stats,BoniNi00
+2022,3,65,JAX,Luke Fortner,G,24,Kentucky,College Stats,FortLu01
+2022,3,66,MIN,Brian Asamoah,LB,22,Oklahoma,College Stats,AsamBr00
+2022,3,67,NYG,Joshua Ezeudu,OL,22,North Carolina,College Stats,EzeuJo00
+2022,3,68,CLE,Martin Emerson,CB,21,Mississippi St.,College Stats,EmerMa00
+2022,3,69,TEN,Nicholas Petit-Frere,T,22,Ohio St.,College Stats,PetiNi00
+2022,3,70,JAX,Chad Muma,LB,23,Wyoming,College Stats,MumaCh00
+2022,3,71,CHI,Velus Jones Jr.,WR,25,Tennessee,College Stats,JoneVe00
+2022,3,72,SEA,Abraham Lucas,OL,23,Washington St.,College Stats,LucaAb00
+2022,3,73,IND,Jelani Woods,TE,23,Virginia,College Stats,WoodJe01
+2022,3,74,ATL,Desmond Ridder,QB,23,Cincinnati,College Stats,RiddDe00
+2022,3,75,HOU,Christian Harris,LB,21,Alabama,College Stats,HarrCh06
+2022,3,76,BAL,Travis Jones,DT,22,Connecticut,College Stats,JoneTr00
+2022,3,77,IND,Bernhard Raimann,OL,24,Central Michigan,College Stats,RaimBe00
+2022,3,78,CLE,Alex Wright,DE,22,Ala-Birmingham,College Stats,WrigAl01
+2022,3,79,LAC,JT Woods,S,22,Baylor,College Stats,WoodJT00
+2022,3,80,DEN,Greg Dulcich,TE,22,UCLA,College Stats,DulcGr00
+2022,3,81,NYG,Cordale Flott,CB,21,LSU,College Stats,FlotCo00
+2022,3,82,ATL,DeAngelo Malone,DE,23,Western Kentucky,College Stats,MaloDe00
+2022,3,83,PHI,Nakobe Dean,LB,21,Georgia,College Stats,DeanNa00
+2022,3,84,PIT,DeMarvin Leal,DT,22,Texas A&M,College Stats,LealDe00
+2022,3,85,NWE,Marcus Jones,CB,23,Houston,College Stats,JoneMa06
+2022,3,86,TEN,Malik Willis,QB,23,Liberty,College Stats,WillMa12
+2022,3,87,ARI,Cameron Thomas,DE,22,San Diego St.,College Stats,ThomCa03
+2022,3,88,DAL,Jalen Tolbert,WR,23,South Alabama,College Stats,TolbJa00
+2022,3,89,BUF,Terrel Bernard,LB,23,Baylor,College Stats,BernTe00
+2022,3,90,LVR,Dylan Parham,OL,23,Memphis,College Stats,ParhDy00
+2022,3,91,TAM,Rachaad White,RB,23,Arizona St.,College Stats,WhitRa01
+2022,3,92,GNB,Sean Rhyan,OL,21,UCLA,College Stats,RhyaSe00
+2022,3,93,SFO,Tyrion Davis-Price,RB,21,LSU,College Stats,DaviTy03
+2022,3,94,CAR,Matt Corral,QB,23,Mississippi,College Stats,CorrMa00
+2022,3,95,CIN,Zachary Carter,DE,23,Florida,College Stats,CartZa00
+2022,3,96,IND,Nick Cross,DB,20,Maryland,College Stats,CrosNi00
+2022,3,97,DET,Kerby Joseph,DB,21,Illinois,College Stats,JoseKe03
+2022,3,98,WAS,Brian Robinson Jr.,RB,23,Alabama,College Stats,RobiBr01
+2022,3,99,CLE,David Bell,WR,21,Purdue,College Stats,BellDa02
+2022,3,100,ARI,Myjai Sanders,DE,24,Cincinnati,College Stats,SandMy00
+2022,3,101,NYJ,Jeremy Ruckert,TE,22,Ohio St.,College Stats,RuckJe00
+2022,3,102,MIA,Channing Tindall,LB,22,Georgia,College Stats,TindCh00
+2022,3,103,KAN,Leo Chenal,LB,21,Wisconsin,College Stats,ChenLe00
+2022,3,104,LAR,Logan Bruss,OL,23,Wisconsin,College Stats,BrusLo00
+2022,3,105,SFO,Danny Gray,WR,23,SMU,College Stats,GrayDa02
+2022,4,106,TAM,Cade Otton,TE,23,Washington,College Stats,OttoCa00
+2022,4,107,HOU,Dameon Pierce,RB,22,Florida,College Stats,PierDa01
+2022,4,108,CLE,Perrion Winfrey,DT,22,Oklahoma,College Stats,WinfPe00
+2022,4,109,SEA,Coby Bryant,CB,23,Cincinnati,College Stats,BryaCo01
+2022,4,110,BAL,Daniel Faalele,T,22,Minnesota,College Stats,FaalDa00
+2022,4,111,NYJ,Max Mitchell,T,22,Louisiana,College Stats,MitcMa02
+2022,4,112,NYG,Daniel Bellinger,TE,21,San Diego St.,College Stats,BellDa00
+2022,4,113,WAS,Percy Butler,S,22,Louisiana,College Stats,ButlPe00
+2022,4,114,NYG,Dane Belton,DB,21,Iowa,College Stats,BeltDa00
+2022,4,115,DEN,Damarri Mathis,DB,23,Pittsburgh,College Stats,MathDa00
+2022,4,116,DEN,Eyioma Uwazurike,DE,24,Iowa St.,College Stats,UwazEy00
+2022,4,117,NYJ,Micheal Clemons,DT,25,Texas A&M,College Stats,ClemMi03
+2022,4,118,MIN,Akayleb Evans,DB,23,Missouri,College Stats,EvanAk00
+2022,4,119,BAL,Jalyn Armour-Davis,DB,23,Alabama,College Stats,ArmoJa00
+2022,4,120,CAR,Brandon Smith,LB,21,Penn St.,College Stats,SmitBr08
+2022,4,121,NWE,Jack Jones,DB,24,Arizona St.,College Stats,JoneJa10
+2022,4,122,LVR,Zamir White,RB,22,Georgia,College Stats,WhitZa01
+2022,4,123,LAC,Isaiah Spiller,RB,21,Texas A&M,College Stats,SpilIs00
+2022,4,124,CLE,Cade York,K,21,LSU,College Stats,YorkCa00
+2022,4,125,MIA,Erik Ezukanma,WR,22,Texas Tech,College Stats,EzukEr00
+2022,4,126,LVR,Neil Farrell,DT,23,LSU,College Stats,FarrNe00
+2022,4,127,NWE,Pierre Strong,RB,23,South Dakota St.,,StroPi00
+2022,4,128,BAL,Charlie Kolar,TE,23,Iowa St.,College Stats,KolaCh00
+2022,4,129,DAL,Jake Ferguson,TE,23,Wisconsin,College Stats,FergJa00
+2022,4,130,BAL,Jordan Stout,P,24,Penn St.,College Stats,StouJo00
+2022,4,131,TEN,Hassan Haskins,RB,22,Michigan,College Stats,HaskHa00
+2022,4,132,GNB,Romeo Doubs,WR,22,Nevada,College Stats,DoubRo00
+2022,4,133,TAM,Jake Camarda,P,23,Georgia,College Stats,CamaJa00
+2022,4,134,SFO,Spencer Burford,OL,22,Texas-San Antonio,College Stats,BurfSp00
+2022,4,135,KAN,Joshua Williams,CB,22,Fayetteville St.,,WillJo03
+2022,4,136,CIN,Cordell Volson,T,24,North Dakota St.,,VolsCo02
+2022,4,137,NWE,Bailey Zappe,QB,23,Western Kentucky,College Stats,ZappBa00
+2022,4,138,PIT,Calvin Austin III,WR,23,Memphis,College Stats,AustCa00
+2022,4,139,BAL,Isaiah Likely,TE,22,Coastal Carolina,College Stats,LikeIs00
+2022,4,140,GNB,Zach Tom,OL,23,Wake Forest,College Stats,TomxZa00
+2022,4,141,BAL,Damarion Williams,CB,24,Houston,College Stats,WillDa15
+2022,4,142,LAR,Cobie Durant,DB,24,South Carolina St.,,DuraDe01
+2022,4,143,TEN,Chig Okonkwo,TE,22,Maryland,College Stats,OkonCh00
+2022,5,144,WAS,Sam Howell,QB,21,North Carolina,College Stats,HoweSa00
+2022,5,145,KAN,Darian Kinnard,T,22,Kentucky,College Stats,KinnDa00
+2022,5,146,NYG,Micah McFadden,LB,22,Indiana,College Stats,McFaMi01
+2022,5,147,NYG,D.J. Davidson,DT,22,Arizona St.,College Stats,DaviDJ00
+2022,5,148,BUF,Khalil Shakir,WR,22,Boise St.,College Stats,ShakKh00
+2022,5,149,WAS,Cole Turner,TE,22,Nevada,College Stats,TurnCo00
+2022,5,150,HOU,Thomas Booker,DE,22,Stanford,College Stats,BookTh00
+2022,5,151,ATL,Tyler Allgeier,RB,22,BYU,College Stats,AllgTy00
+2022,5,152,DEN,Delarrin Turner-Yell,S,22,Oklahoma,College Stats,TurnDe02
+2022,5,153,SEA,Riq Woolen,CB,23,Texas-San Antonio,College Stats,WoolTa00
+2022,5,154,JAX,Snoop Conner,RB,22,Mississippi,College Stats,ConnSn00
+2022,5,155,DAL,Matt Waletzko,OL,22,North Dakota,,WaleMa00
+2022,5,156,CLE,Jerome Ford,RB,22,Cincinnati,College Stats,FordJe00
+2022,5,157,TAM,Zyon McCollum,DB,23,Sam Houston St.,,McCoZy02
+2022,5,158,SEA,Tyreke Smith,DE,22,Ohio St.,College Stats,SmitTy03
+2022,5,159,IND,Eric Johnson,DT,24,Missouri State,,JohnEr01
+2022,5,160,LAC,Otito Ogbonnia,DT,22,UCLA,College Stats,OgboOt00
+2022,5,161,NOR,D'Marco Jackson,LB,24,Appalachian St.,College Stats,JackDM00
+2022,5,162,DEN,Montrell Washington,WR,23,Samford,,WashMo00
+2022,5,163,TEN,Kyle Philips,WR,23,UCLA,College Stats,PhilKy01
+2022,5,164,LAR,Kyren Williams,RB,22,Notre Dame,College Stats,WillKy02
+2022,5,165,MIN,Esezi Otomewo,DT,23,Minnesota,College Stats,OtomEs00
+2022,5,166,CIN,Tycen Anderson,S,23,Toledo,College Stats,AndeTy00
+2022,5,167,DAL,DaRon Bland,DB,23,Fresno St.,College Stats,BlanDa00
+2022,5,168,CHI,Braxton Jones,OL,23,Southern Utah,,JoneBr08
+2022,5,169,MIN,Ty Chandler,RB,24,North Carolina,College Stats,ChanTy01
+2022,5,170,HOU,Teagan Quitoriano,TE,22,Oregon St.,College Stats,QuitTe00
+2022,5,171,DEN,Luke Wattenberg,OL,24,Washington,College Stats,WattLu00
+2022,5,172,SFO,Samuel Womack,CB,23,Toledo,College Stats,WomaSa00
+2022,5,173,NYG,Marcus McKethan,OL,23,North Carolina,College Stats,McKeMa01
+2022,5,174,CHI,Dominique Robinson,DE,24,Miami (OH),College Stats,RobiDo00
+2022,5,175,LVR,Matthew Butler,DT,23,Tennessee,College Stats,ButlMa02
+2022,5,176,DAL,Damone Clark,LB,22,LSU,College Stats,ClarDa02
+2022,5,177,DET,James Mitchell,TE,23,Virginia Tech,College Stats,MitcJa00
+2022,5,178,DAL,John Ridgeway,DT,23,Arkansas,College Stats,RidgJo00
+2022,5,179,GNB,Kingsley Enagbare,DE,22,South Carolina,College Stats,EnagKi00
+2022,6,180,BUF,Matt Araiza,P,22,San Diego St.,College Stats,AraiMa00
+2022,6,181,PHI,Kyron Johnson,DE,24,Kansas,College Stats,JohnKy02
+2022,6,182,NYG,Darrian Beavers,LB,23,Cincinnati,College Stats,BeavDa00
+2022,6,183,NWE,Kevin Harris,RB,21,South Carolina,College Stats,HarrKe01
+2022,6,184,MIN,Vederian Lowe,OL,23,Illinois,College Stats,LoweVe00
+2022,6,185,BUF,Christian Benford,DB,21,Villanova,,BenfCh00
+2022,6,186,CHI,Zachary Thomas,OL,24,San Diego St.,College Stats,ThomZa04
+2022,6,187,SFO,Nick Zakelj,OL,23,Fordham,,ZakeNi00
+2022,6,188,DET,Malcolm Rodriguez,LB,23,Oklahoma St.,College Stats,RodrMa00
+2022,6,189,CAR,Amare Barno,DE,23,Virginia Tech,College Stats,BarnAm00
+2022,6,190,ATL,Justin Shaffer,OL,24,Georgia,College Stats,ShafJu00
+2022,6,191,MIN,Jalen Nailor,WR,23,Michigan St.,College Stats,NailJa00
+2022,6,192,IND,Andrew Ogletree,TE,24,Youngstown St.,,OgleAn00
+2022,6,193,DAL,Devin Harper,LB,24,Oklahoma St.,College Stats,HarpDe00
+2022,6,194,NOR,Jordan Jackson,DT,24,Air Force,College Stats,JackJo06
+2022,6,195,LAC,Jamaree Salyer,OL,22,Georgia,College Stats,SalyJa00
+2022,6,196,BAL,Tyler Badie,RB,22,Missouri,College Stats,BadiTy00
+2022,6,197,JAX,Gregory Junior,CB,23,Ouachita Baptist,,JuniGr00
+2022,6,198,PHI,Grant Calcaterra,TE,23,SMU,College Stats,CalcGr00
+2022,6,199,CAR,Cade Mays,OL,23,Tennessee,College Stats,MaysCa00
+2022,6,200,NWE,Sam Roberts,DE,24,NW Missouri St.,,RobeSa00
+2022,6,201,ARI,Keaontay Ingram,RB,22,USC,College Stats,IngrKe01
+2022,6,202,CLE,Michael Woods II,WR,22,Oklahoma,College Stats,WoodMi00
+2022,6,203,CHI,Trestan Ebner,RB,23,Baylor,College Stats,EbneTr00
+2022,6,204,TEN,Theo Jackson,DB,23,Tennessee,College Stats,JackTh00
+2022,6,205,HOU,Austin Deculus,T,23,LSU,College Stats,DecuAu00
+2022,6,206,DEN,Matt Henningsen,DE,23,Wisconsin,College Stats,HennMa01
+2022,6,207,CHI,Doug Kramer,OL,24,Illinois,College Stats,KramDo00
+2022,6,208,PIT,Connor Heyward,TE,23,Michigan St.,College Stats,HeywCo00
+2022,6,209,BUF,Luke Tenuta,OL,23,Virginia Tech,College Stats,TenuLu00
+2022,6,210,NWE,Chasen Hines,G,22,LSU,College Stats,HineCh00
+2022,6,211,LAR,Quentin Lake,DB,23,UCLA,College Stats,LakeQu00
+2022,6,212,LAR,Derion Kendrick,DB,22,Georgia,College Stats,KendDe00
+2022,6,213,ATL,John FitzPatrick,TE,22,Georgia,College Stats,FitzJo00
+2022,6,214,LAC,Ja'Sir Taylor,DB,23,Wake Forest,College Stats,TaylJa04
+2022,6,215,ARI,Lecitus Smith,OL,24,Virginia Tech,College Stats,SmitLe01
+2022,6,216,IND,Curtis Brooks,DT,24,Cincinnati,College Stats,BrooCu00
+2022,6,217,DET,James Houston,LB,23,Jackson St.,,HousJa01
+2022,6,218,TAM,Ko Kieft,TE,24,Minnesota,College Stats,KiefKo00
+2022,6,219,TEN,Chance Campbell,LB,22,Mississippi,College Stats,CampCh02
+2022,6,220,SFO,Kalia Davis,DT,23,Central Florida,College Stats,DaviKa01
+2022,6,221,SFO,Tariq Castro-Fields,CB,23,Penn St.,College Stats,CastTa00
+2022,7,222,JAX,Montaric Brown,DB,23,Arkansas,College Stats,BrowMo00
+2022,7,223,CLE,Isaiah Thomas,DE,23,Oklahoma,College Stats,ThomIs01
+2022,7,224,MIA,Cameron Goode,OLB,24,California,College Stats,GoodCa00
+2022,7,225,PIT,Mark Robinson,LB,23,Mississippi,College Stats,RobiMa03
+2022,7,226,CHI,Ja'Tyre Carter,OL,23,Southern,,CartJa04
+2022,7,227,MIN,Nick Muse,TE,23,South Carolina,College Stats,MuseNi00
+2022,7,228,GNB,Tariq Carpenter,DB,23,Georgia Tech,College Stats,CarpTa00
+2022,7,229,SEA,Bo Melton,WR,23,Rutgers,College Stats,MeltBo00
+2022,7,230,WAS,Chris Paul,OL,23,Tulsa,College Stats,PaulCh00
+2022,7,231,BUF,Baylon Spector,LB,23,Clemson,College Stats,SpecBa00
+2022,7,232,DEN,Faion Hicks,CB,24,Wisconsin,College Stats,HickFa00
+2022,7,233,SEA,Dareke Young,WR,23,Lenoir-Rhyne,,YounDa02
+2022,7,234,GNB,Jonathan Ford,DT,22,Miami (FL),College Stats,FordJo00
+2022,7,235,LAR,Daniel Hardy,LB,23,Montana St.,,HardDa01
+2022,7,236,LAC,Deane Leonard,DB,22,Mississippi,College Stats,LeonDe00
+2022,7,237,DET,Chase Lucas,DB,25,Arizona St.,College Stats,LucaCh01
+2022,7,238,LVR,Thayer Munford,OL,22,Ohio St.,College Stats,MunfTh00
+2022,7,239,IND,Rodney Thomas II,LB,24,Yale,,ThomRo07
+2022,7,240,WAS,Christian Holmes,CB,24,Oklahoma St.,College Stats,HolmCh00
+2022,7,241,PIT,Chris Oladokun,QB,25,South Dakota St.,,OladCh00
+2022,7,242,CAR,Kalon Barnes,CB,23,Baylor,College Stats,BarnKa00
+2022,7,243,KAN,Jaylen Watson,DB,23,Washington St.,College Stats,WatsJa02
+2022,7,244,ARI,Christian Matthew,DB,25,Valdosta St.,,MattCh01
+2022,7,245,NWE,Andrew Stueber,OL,23,Michigan,College Stats,StueAn00
+2022,7,246,CLE,Dawson Deaton,OL,23,Texas Tech,College Stats,DeatDa00
+2022,7,247,MIA,Skylar Thompson,QB,25,Kansas St.,College Stats,ThomSk00
+2022,7,248,TAM,Andre Anthony,DE,25,LSU,College Stats,AnthAn00
+2022,7,249,GNB,Rasheed Walker,OL,22,Penn St.,College Stats,WalkRa00
+2022,7,250,LVR,Brittain Brown,RB,24,UCLA,College Stats,BrowBr06
+2022,7,251,KAN,Isiah Pacheco,RB,23,Rutgers,College Stats,PachIs00
+2022,7,252,CIN,Jeff Gunter,OLB,23,Coastal Carolina,College Stats,GuntJe01
+2022,7,253,LAR,Russ Yeast,DB,23,Kansas St.,College Stats,YeasRu00
+2022,7,254,CHI,Elijah Hicks,S,22,California,College Stats,HickEl00
+2022,7,255,CHI,Trenton Gill,P,23,North Carolina St.,College Stats,GillTr01
+2022,7,256,ARI,Jesse Luketa,LB,23,Penn St.,College Stats,LukeJe00
+2022,7,257,ARI,Marquis Hayes,OL,23,Oklahoma,College Stats,HayeMa00
+2022,7,258,GNB,Samori Toure,WR,24,Nebraska,College Stats,TourSa00
+2022,7,259,KAN,Nazeeh Johnson,S,24,Marshall,College Stats,JohnNa01
+2022,7,260,LAC,Zander Horvath,RB,23,Purdue,College Stats,HorvZa00
+2022,7,261,LAR,AJ Arcuri,OT,25,Michigan St.,College Stats,ArcuAJ00
+2022,7,262,SFO,Brock Purdy,QB,22,Iowa St.,College Stats,PurdBr00
+2023,1,1,CAR,Bryce Young,QB,22,Alabama,College Stats,YounBr01
+2023,1,2,HOU,C.J. Stroud,QB,21,Ohio St.,College Stats,StroCJ00
+2023,1,3,HOU,Will Anderson,LB,22,Alabama,College Stats,AndeWi01
+2023,1,4,IND,Anthony Richardson,QB,21,Florida,College Stats,RichAn03
+2023,1,5,SEA,Devon Witherspoon,DB,22,Illinois,College Stats,WithDe00
+2023,1,6,ARI,Paris Johnson,OL,22,Ohio St.,College Stats,JohnPa03
+2023,1,7,LVR,Tyree Wilson,OLB,23,Texas Tech,College Stats,WilsTy01
+2023,1,8,ATL,Bijan Robinson,RB,21,Texas,College Stats,RobiBi01
+2023,1,9,PHI,Jalen Carter,DL,22,Georgia,College Stats,CartJa05
+2023,1,10,CHI,Darnell Wright,OL,22,Tennessee,College Stats,WrigDa00
+2023,1,11,TEN,Peter Skoronski,OL,22,Northwestern,College Stats,SkorPe00
+2023,1,12,DET,Jahmyr Gibbs,RB,21,Alabama,College Stats,GibbJa01
+2023,1,13,GNB,Lukas Van Ness,DL,22,Iowa,College Stats,VanNLu00
+2023,1,14,PIT,Broderick Jones,OL,22,Georgia,College Stats,JoneBr09
+2023,1,15,NYJ,Will McDonald,DE,24,Iowa St.,College Stats,McDoWi00
+2023,1,16,WAS,Emmanuel Forbes,CB,22,Mississippi St.,College Stats,ForbEm00
+2023,1,17,NWE,Christian Gonzalez,DB,21,Oregon,College Stats,GonzCh00
+2023,1,18,DET,Jack Campbell,LB,23,Iowa,College Stats,CampJa04
+2023,1,19,TAM,Calijah Kancey,DL,22,Pittsburgh,College Stats,KancCa00
+2023,1,20,SEA,Jaxon Smith-Njigba,WR,21,Ohio St.,College Stats,SmitJa06
+2023,1,21,LAC,Quentin Johnston,WR,22,TCU,College Stats,JohnQu02
+2023,1,22,BAL,Zay Flowers,WR,22,Boston Col.,College Stats,FlowZa00
+2023,1,23,MIN,Jordan Addison,WR,21,USC,College Stats,AddiJo00
+2023,1,24,NYG,Deonte Banks,DB,22,Maryland,College Stats,BankDe00
+2023,1,25,BUF,Dalton Kincaid,TE,23,Utah,College Stats,KincDa00
+2023,1,26,DAL,Mazi Smith,DL,22,Michigan,College Stats,SmitMa06
+2023,1,27,JAX,Anton Harrison,OL,21,Oklahoma,College Stats,HarrAn00
+2023,1,28,CIN,Myles Murphy,DE,21,Clemson,College Stats,MurpMy00
+2023,1,29,NOR,Bryan Bresee,DT,21,Clemson,College Stats,BresBr00
+2023,1,30,PHI,Nolan Smith,OLB,22,Georgia,College Stats,SmitNo02
+2023,1,31,KAN,Felix Anudike-Uzomah,DE,21,Kansas St.,College Stats,AnudFe00
+2023,2,32,PIT,Joey Porter Jr.,CB,23,Penn St.,College Stats,PortJo02
+2023,2,33,TEN,Will Levis,QB,24,Kentucky,College Stats,LeviWi00
+2023,2,34,DET,Sam LaPorta,TE,22,Iowa,College Stats,LaPoSa01
+2023,2,35,LVR,Michael Mayer,TE,22,Notre Dame,College Stats,MayeMi00
+2023,2,36,LAR,Steve Avila,C,23,TCU,College Stats,AvilSt00
+2023,2,37,SEA,Derick Hall,DE,22,Auburn,College Stats,HallDe04
+2023,2,38,ATL,Matthew Bergeron,OL,23,Syracuse,College Stats,BergMa00
+2023,2,39,CAR,Jonathan Mingo,WR,22,Mississippi,College Stats,MingJo00
+2023,2,40,NOR,Isaiah Foskey,DL,22,Notre Dame,College Stats,FoskIs00
+2023,2,41,ARI,BJ Ojulari,DE,21,LSU,College Stats,OjulBJ00
+2023,2,42,GNB,Luke Musgrave,TE,23,Oregon St.,College Stats,MusgLu00
+2023,2,43,NYJ,Joe Tippmann,OL,22,Wisconsin,College Stats,TippJo00
+2023,2,44,IND,Julius Brents,DB,23,Kansas St.,College Stats,BrenJu00
+2023,2,45,DET,Brian Branch,DB,21,Alabama,College Stats,BranBr00
+2023,2,46,NWE,Keion White,DL,24,Georgia Tech,College Stats,WhitKe03
+2023,2,47,WAS,Quan Martin,DB,23,Illinois,College Stats,MartJa04
+2023,2,48,TAM,Cody Mauch,T,24,North Dakota St.,,MaucCo00
+2023,2,49,PIT,Keeanu Benton,NT,22,Wisconsin,College Stats,BentKe00
+2023,2,50,GNB,Jayden Reed,WR,23,Michigan St.,College Stats,ReedJa03
+2023,2,51,MIA,Cam Smith,DB,22,South Carolina,College Stats,SmitCa02
+2023,2,52,SEA,Zach Charbonnet,RB,22,UCLA,College Stats,CharZa00
+2023,2,53,CHI,Gervon Dexter,DL,21,Florida,College Stats,DextGe00
+2023,2,54,LAC,Tuli Tuipulotu,DL,21,USC,College Stats,TuipTu00
+2023,2,55,KAN,Rashee Rice,WR,23,SMU,College Stats,RiceRa01
+2023,2,56,CHI,Tyrique Stevenson,CB,23,Miami (FL),College Stats,StevTy01
+2023,2,57,NYG,John Michael Schmitz,OL,24,Minnesota,College Stats,MichJo00
+2023,2,58,DAL,Luke Schoonmaker,TE,24,Michigan,College Stats,SchoLu00
+2023,2,59,BUF,O'Cyrus Torrence,OL,23,Florida,College Stats,TorrOC00
+2023,2,60,CIN,DJ Turner,DB,22,Michigan,College Stats,TurnDJ01
+2023,2,61,JAX,Brenton Strange,TE,22,Penn St.,College Stats,StraBr00
+2023,2,62,HOU,Juice Scruggs,OL,23,Penn St.,College Stats,ScruJu00
+2023,2,63,DEN,Marvin Mims,WR,21,Oklahoma,College Stats,MimsMa00
+2023,3,64,CHI,Zacch Pickens,DL,23,South Carolina,College Stats,PickZa00
+2023,3,65,PHI,Tyler Steen,OL,23,Alabama,College Stats,SteeTy00
+2023,3,66,PHI,Sydney Brown,DB,23,Illinois,College Stats,BrowSy00
+2023,3,67,DEN,Drew Sanders,LB,22,Arkansas,College Stats,SandDr00
+2023,3,68,DET,Hendon Hooker,QB,25,Tennessee,College Stats,HookHe00
+2023,3,69,HOU,Tank Dell,WR,23,Houston,College Stats,DellNa00
+2023,3,70,LVR,Byron Young,DL,22,Alabama,College Stats,YounBy00
+2023,3,71,NOR,Kendre Miller,RB,21,TCU,College Stats,MillKe01
+2023,3,72,ARI,Garrett Williams,DB,22,Syracuse,College Stats,WillGa00
+2023,3,73,NYG,Jalin Hyatt,WR,21,Tennessee,College Stats,HyatJa00
+2023,3,74,CLE,Cedric Tillman,WR,23,Tennessee,College Stats,TillCe01
+2023,3,75,ATL,Zach Harrison,DE,22,Ohio St.,College Stats,HarrZa00
+2023,3,76,NWE,Marte Mapu,DB,23,Sacramento St.,,MapuMa00
+2023,3,77,LAR,Byron Young,LB,25,Tennessee,College Stats,YounBy01
+2023,3,78,GNB,Tucker Kraft,TE,22,South Dakota St.,,KrafTu00
+2023,3,79,IND,Josh Downs,WR,22,North Carolina,College Stats,DownJo00
+2023,3,80,CAR,DJ Johnson,OLB,24,Oregon,College Stats,JohnDJ00
+2023,3,81,TEN,Tyjae Spears,RB,22,Tulane,College Stats,SpeaTy00
+2023,3,82,TAM,YaYa Diaby,DL,24,Louisville,College Stats,DiabYa00
+2023,3,83,DEN,Riley Moss,DB,23,Iowa,College Stats,MossRi00
+2023,3,84,MIA,De'Von Achane,RB,21,Texas A&M,College Stats,AchaDe00
+2023,3,85,LAC,Daiyan Henley,LB,23,Washington St.,College Stats,HenlDa00
+2023,3,86,BAL,Trenton Simpson,LB,22,Clemson,College Stats,SimpTr00
+2023,3,87,SFO,Ji'Ayir Brown,S,23,Penn St.,College Stats,BrowJi01
+2023,3,88,JAX,Tank Bigsby,RB,22,Auburn,College Stats,BigsTa00
+2023,3,89,LAR,Kobie Turner,DT,24,Wake Forest,College Stats,TurnKo00
+2023,3,90,DAL,DeMarvion Overshown,LB,23,Texas,College Stats,OverDe00
+2023,3,91,BUF,Dorian Williams,LB,22,Tulane,College Stats,WillDo04
+2023,3,92,KAN,Wanya Morris,OL,22,Oklahoma,College Stats,MorrWa01
+2023,3,93,PIT,Darnell Washington,TE,22,Georgia,College Stats,WashDa03
+2023,3,94,ARI,Michael Wilson,WR,23,Stanford,College Stats,WilsMi02
+2023,3,95,CIN,Jordan Battle,DB,22,Alabama,College Stats,BattJo00
+2023,3,96,DET,Brodric Martin,DT,24,Western Kentucky,College Stats,MartBr00
+2023,3,97,WAS,Ricky Stromberg,OL,22,Arkansas,College Stats,StroRi01
+2023,3,98,CLE,Siaki Ika,DL,22,Baylor,College Stats,IkaxSi00
+2023,3,99,SFO,Jake Moody,K,23,Michigan,College Stats,MoodJa00
+2023,3,100,LVR,Tre Tucker,WR,22,Cincinnati,College Stats,TuckTr00
+2023,3,101,SFO,Cameron Latu,TE,23,Alabama,College Stats,LatuCa01
+2023,3,102,MIN,Mekhi Blackmon,CB,24,USC,College Stats,BlacMe00
+2023,4,103,NOR,Nick Saldiveri,OL,23,Old Dominion,College Stats,SaldNi00
+2023,4,104,LVR,Jakorian Bennett,DB,23,Maryland,College Stats,BennJa00
+2023,4,105,PHI,Kelee Ringo,DB,21,Georgia,College Stats,RingKe00
+2023,4,106,IND,Blake Freeland,OL,22,BYU,College Stats,FreeBl00
+2023,4,107,NWE,Jake Andrews,OL,23,Troy,College Stats,AndrJa00
+2023,4,108,SEA,Anthony Bradford,OL,22,LSU,College Stats,BradAn00
+2023,4,109,HOU,Dylan Horton,DL,23,TCU,College Stats,HortDy00
+2023,4,110,IND,Adetomiwa Adebawore,DL,22,Northwestern,College Stats,AdebAd00
+2023,4,111,CLE,Dawand Jones,OL,22,Ohio St.,College Stats,JoneDa07
+2023,4,112,NWE,Chad Ryland,K,23,Maryland,College Stats,RylaCh00
+2023,4,113,ATL,Clark Phillips,CB,21,Utah,College Stats,PhilCl00
+2023,4,114,CAR,Chandler Zavala,G,24,North Carolina St.,College Stats,ZavaCh00
+2023,4,115,CHI,Roschon Johnson,RB,22,Texas,College Stats,JohnRo07
+2023,4,116,GNB,Colby Wooden,DE,22,Auburn,College Stats,WoodCo01
+2023,4,117,NWE,Sidy Sow,OL,25,Eastern Michigan,College Stats,SowxSi00
+2023,4,118,WAS,Braeden Daniels,OL,23,Utah,College Stats,DaniBr00
+2023,4,119,KAN,Chamarri Conner,DB,23,Virginia Tech,College Stats,ConnCh01
+2023,4,120,NYJ,Carter Warren,OL,24,Pittsburgh,College Stats,WarrCa00
+2023,4,121,JAX,Ventrell Miller,LB,24,Florida,College Stats,MillVe00
+2023,4,122,ARI,Jon Gaines,OL,24,UCLA,College Stats,GainJo00
+2023,4,123,SEA,Cameron Young,DT,23,Mississippi St.,College Stats,YounCa00
+2023,4,124,BAL,Tavius Robinson,DE,24,Mississippi,College Stats,RobiTa00
+2023,4,125,LAC,Derius Davis,WR,22,TCU,College Stats,DaviDe02
+2023,4,126,CLE,Isaiah McGuire,DL,22,Missouri,College Stats,McGuIs00
+2023,4,127,NOR,Jake Haener,QB,24,Fresno St.,College Stats,HaenJa00
+2023,4,128,LAR,Stetson Bennett,QB,25,Georgia,College Stats,BennSt00
+2023,4,129,DAL,Viliami Fehoko,DL,23,San Jose St.,College Stats,FehoVi00
+2023,4,130,JAX,Tyler Lacy,DE,23,Oklahoma St.,College Stats,LacyTy00
+2023,4,131,CIN,Charlie Jones,WR,24,Purdue,College Stats,JoneCh11
+2023,4,132,PIT,Nick Herbig,OLB,21,Wisconsin,College Stats,HerbNi00
+2023,4,133,CHI,Tyler Scott,WR,21,Cincinnati,College Stats,ScotTy00
+2023,4,134,MIN,Jay Ward,S,23,LSU,College Stats,WardJa00
+2023,4,135,LVR,Aidan O'Connell,QB,25,Purdue,College Stats,OConAi00
+2023,5,136,JAX,Yasir Abdullah,LB,23,Louisville,College Stats,AbduYa00
+2023,5,137,WAS,K.J. Henry,DE,24,Clemson,College Stats,HenrKJ00
+2023,5,138,IND,Darius Rush,DB,23,South Carolina,College Stats,RushDa00
+2023,5,139,ARI,Clayton Tune,QB,24,Houston,College Stats,TuneCl00
+2023,5,140,CLE,Dorian Thompson-Robinson,QB,23,UCLA,College Stats,ThomDo02
+2023,5,141,MIN,Jaquelin Roy,DT,22,LSU,College Stats,RoyxJa00
+2023,5,142,CLE,Cameron Mitchell,DB,21,Northwestern,College Stats,MitcCa01
+2023,5,143,NYJ,Israel Abanikanda,RB,20,Pittsburgh,College Stats,AbanIs00
+2023,5,144,NWE,Atonio Mafi,OL,22,UCLA,College Stats,MafiAt00
+2023,5,145,CAR,Jammie Robinson,DB,22,Florida St.,College Stats,RobiJa03
+2023,5,146,NOR,Jordan Howden,DB,23,Minnesota,College Stats,HowdJo00
+2023,5,147,TEN,Josh Whyle,TE,23,Cincinnati,College Stats,WhylJo01
+2023,5,148,CHI,Noah Sewell,LB,21,Oregon,College Stats,SeweNo00
+2023,5,149,GNB,Sean Clifford,QB,25,Penn St.,College Stats,ClifSe00
+2023,5,150,BUF,Justin Shorter,WR,23,Florida,College Stats,ShorJu00
+2023,5,151,SEA,Mike Morris,DE,22,Michigan,College Stats,MorrMi00
+2023,5,152,DET,Colby Sorsdal,OL,23,William & Mary,,SorsCo00
+2023,5,153,TAM,SirVocea Dennis,LB,23,Pittsburgh,College Stats,DennSi00
+2023,5,154,SEA,Olusegun Oluwatimi,C,24,Michigan,College Stats,OluwOl00
+2023,5,155,SFO,Darrell Luter,CB,23,South Alabama,College Stats,LuteDa00
+2023,5,156,LAC,Jordan McFadden,OL,23,Clemson,College Stats,McFaJo00
+2023,5,157,BAL,Kyu Blu Kelly,CB,22,Stanford,College Stats,BluxKy00
+2023,5,158,IND,Daniel Scott,S,24,California,College Stats,ScotDa03
+2023,5,159,GNB,Dontayvion Wicks,WR,22,Virginia,College Stats,WickDo00
+2023,5,160,JAX,Antonio Johnson,DB,21,Texas A&M,College Stats,JohnAn07
+2023,5,161,LAR,Nick Hampton,OLB,23,Appalachian St.,College Stats,HampNi00
+2023,5,162,IND,Will Mallory,TE,24,Miami (FL),College Stats,MallWi00
+2023,5,163,CIN,Chase Brown,RB,23,Illinois,College Stats,BrowCh10
+2023,5,164,MIN,Jaren Hall,QB,25,BYU,College Stats,HallJa00
+2023,5,165,CHI,Terell Smith,DB,24,Minnesota,College Stats,SmitTe05
+2023,5,166,KAN,BJ Thompson,DE,24,S.F. Austin,College Stats,ThomBJ00
+2023,5,167,HOU,Henry To'oTo'o,LB,22,Alabama,College Stats,TooTHe00
+2023,5,168,ARI,Owen Pappoe,LB,22,Auburn,College Stats,PappOw00
+2023,5,169,DAL,Asim Richards,OL,22,North Carolina,College Stats,RichAs00
+2023,5,170,LVR,Christopher Smith,DB,23,Georgia,College Stats,SmitCh04
+2023,5,171,TAM,Payne Durham,TE,23,Purdue,College Stats,DurhPa00
+2023,5,172,NYG,Eric Gray,RB,23,Oklahoma,College Stats,GrayEr01
+2023,5,173,SFO,Robert Beal,OLB,24,Georgia,College Stats,BealRo00
+2023,5,174,LAR,Warren McClendon,OL,22,Georgia,College Stats,McClWa00
+2023,5,175,LAR,Davis Allen,TE,22,Clemson,College Stats,AlleDa02
+2023,5,176,IND,Evan Hull,RB,22,Northwestern,College Stats,HullEv00
+2023,5,177,LAR,Puka Nacua,WR,22,BYU,College Stats,NacuPu00
+2023,6,178,DAL,Eric Scott,DB,25,Southern Miss,College Stats,ScotEr00
+2023,6,179,GNB,Karl Brooks,DT,23,Bowling Green,College Stats,BrooKa00
+2023,6,180,ARI,Kei'Trel Clark,DB,22,Louisville,College Stats,ClarKe02
+2023,6,181,TAM,Josh Hayes,CB,24,Kansas St.,College Stats,HayeJo01
+2023,6,182,LAR,Tre'Vius Tomlinson,CB,23,TCU,College Stats,HodgTr00
+2023,6,183,DEN,JL Skinner,S,22,Boise St.,College Stats,SkinJL00
+2023,6,184,NYJ,Zaire Barnes,LB,24,Western Michigan,College Stats,BarnZa00
+2023,6,185,JAX,Parker Washington,WR,21,Penn St.,College Stats,WashPa01
+2023,6,186,TEN,Jaelyn Duncan,OL,23,Maryland,College Stats,DuncJa00
+2023,6,187,NWE,Kayshon Boutte,WR,21,LSU,College Stats,BoutKa00
+2023,6,188,PHI,Tanner McKee,QB,23,Stanford,College Stats,McKeTa01
+2023,6,189,LAR,Ochaun Mathis,DE,24,Nebraska,College Stats,MathOc00
+2023,6,190,CLE,Luke Wypler,OL,22,Ohio St.,College Stats,WyplLu00
+2023,6,191,TAM,Trey Palmer,WR,22,Nebraska,College Stats,PalmTr00
+2023,6,192,NWE,Bryce Baringer,P,24,Michigan St.,College Stats,BariBr00
+2023,6,193,WAS,Chris Rodriguez,RB,22,Kentucky,College Stats,RodrCh00
+2023,6,194,KAN,Keondre Coburn,DT,23,Texas,College Stats,CobuKe00
+2023,6,195,NOR,A.T. Perry,WR,23,Wake Forest,College Stats,PerrAT00
+2023,6,196,TAM,Jose Ramirez,DL,24,Eastern Michigan,College Stats,RamiJo00
+2023,6,197,MIA,Elijah Higgins,WR,22,Stanford,College Stats,HiggEl00
+2023,6,198,SEA,Jerrick Reed,S,23,New Mexico,College Stats,ReedJe00
+2023,6,199,BAL,Malaesala Aumavae-Laulu,OL,24,Oregon,College Stats,AumaMa00
+2023,6,200,LAC,Scott Matlock,DT,23,Boise St.,College Stats,MatlSc00
+2023,6,201,HOU,Jarrett Patterson,OL,24,Notre Dame,College Stats,PattJa03
+2023,6,202,JAX,Christian Braswell,DB,23,Rutgers,College Stats,BrasCh00
+2023,6,203,LVR,Amari Burney,LB,23,Florida,College Stats,BurnAm00
+2023,6,204,NYJ,Jarrick Bernard-Converse,CB,23,LSU,College Stats,BernJa01
+2023,6,205,HOU,Xavier Hutchinson,WR,23,Iowa St.,College Stats,HutcXa00
+2023,6,206,CIN,Andrei Iosivas,WR,23,Princeton,,IosiAn00
+2023,6,207,GNB,Anders Carlson,K,25,Auburn,College Stats,CarlAn00
+2023,6,208,JAX,Erick Hallett,DB,23,Pittsburgh,College Stats,HallEr00
+2023,6,209,NYG,Tre Hawkins,CB,23,Old Dominion,College Stats,HawkTr00
+2023,6,210,NWE,DeMario Douglas,WR,22,Liberty,College Stats,DougDe00
+2023,6,211,IND,Titus Leo,LB,24,Wagner,,LeoxTi00
+2023,6,212,DAL,Deuce Vaughn,RB,21,Kansas St.,College Stats,VaugDe00
+2023,6,213,ARI,Dante Stills,DT,23,West Virginia,College Stats,StilDa01
+2023,6,214,NWE,Ameer Speed,CB,23,Michigan St.,College Stats,SpeeAm00
+2023,6,215,LAR,Zach Evans,RB,22,Mississippi,College Stats,EvanZa00
+2023,6,216,SFO,Dee Winters,LB,22,TCU,College Stats,WintDe00
+2023,6,217,CIN,Brad Robbins,P,24,Michigan,College Stats,RobbBr00
+2023,7,218,CHI,Travis Bell,DL,24,Kennesaw St.,,BellTr01
+2023,7,219,DET,Antoine Green,WR,23,North Carolina,College Stats,GreeAn00
+2023,7,220,NYJ,Zack Kuntz,TE,24,Old Dominion,College Stats,KuntZa00
+2023,7,221,IND,Jaylon Jones,DB,21,Texas A&M,College Stats,JoneJa13
+2023,7,222,MIN,DeWayne McBride,RB,22,Ala-Birmingham,College Stats,McBrDe00
+2023,7,223,LAR,Ethan Evans,P,22,Wingate,,EvanEt00
+2023,7,224,ATL,DeMarcco Hellams,DB,23,Alabama,College Stats,HellDe00
+2023,7,225,ATL,Jovaughn Gwyn,OL,24,South Carolina,College Stats,GwynJo00
+2023,7,226,JAX,Cooper Hodges,OL,23,Appalachian St.,College Stats,HodgCo00
+2023,7,227,JAX,Raymond Vohasek,DT,,North Carolina,College Stats,VohaRa00
+2023,7,228,TEN,Colton Dowell,WR,24,UT Martin,,DoweCo00
+2023,7,229,BAL,Andrew Vorhees,OL,24,USC,College Stats,VorhAn00
+2023,7,230,BUF,Nick Broeker,OL,22,Mississippi,College Stats,BroeNi00
+2023,7,231,LVR,Nesta Jade Silvera,DT,23,Arizona St.,College Stats,JadeNe00
+2023,7,232,GNB,Carrington Valentine,DB,21,Kentucky,College Stats,ValeCa00
+2023,7,233,WAS,Andre Jones,DE,24,Louisiana,College Stats,JoneAn02
+2023,7,234,LAR,Jason Taylor,S,23,Oklahoma St.,College Stats,TaylJa05
+2023,7,235,GNB,Lew Nichols,RB,22,Central Michigan,College Stats,NichLe00
+2023,7,236,IND,Jake Witt,OL,23,Northern Michigan,,WittJa01
+2023,7,237,SEA,Kenny McIntosh,RB,23,Georgia,College Stats,McInKe00
+2023,7,238,MIA,Ryan Hayes,OL,23,Michigan,College Stats,HayeRy00
+2023,7,239,LAC,Max Duggan,QB,22,TCU,College Stats,DuggMa00
+2023,7,240,JAX,Derek Parish,DL,24,Houston,College Stats,PariDe00
+2023,7,241,PIT,Cory Trice,CB,23,Purdue,College Stats,TricCo00
+2023,7,242,GNB,Anthony Johnson,DB,23,Iowa St.,College Stats,JohnAn08
+2023,7,243,NYG,Jordon Riley,DL,25,Oregon,College Stats,RileJo00
+2023,7,244,DAL,Jalen Brooks,WR,23,South Carolina,College Stats,BrooJa03
+2023,7,245,NWE,Isaiah Bolden,CB,23,Jackson St.,College Stats,BoldIs00
+2023,7,246,CIN,DJ Ivey,CB,23,Miami (FL),College Stats,IveyDJ00
+2023,7,247,SFO,Brayden Willis,TE,23,Oklahoma,College Stats,WillBr06
+2023,7,248,HOU,Brandon Hill,DB,23,Pittsburgh,College Stats,HillBr03
+2023,7,249,PHI,Moro Ojomo,DE,22,Texas,College Stats,OjomMo00
+2023,7,250,KAN,Nic Jones,CB,21,Ball St.,College Stats,JoneNi00
+2023,7,251,PIT,Spencer Anderson,OL,23,Maryland,College Stats,AndeSp00
+2023,7,252,BUF,Alex Austin,DB,22,Oregon St.,College Stats,AustAl00
+2023,7,253,SFO,Ronnie Bell,WR,23,Michigan,College Stats,BellRo01
+2023,7,254,NYG,Gervarrius Owens,DB,23,Houston,College Stats,OwenGe00
+2023,7,255,SFO,Jalen Graham,S,22,Purdue,College Stats,GrahJa02
+2023,7,256,GNB,Grant Dubose,WR,22,Charlotte,College Stats,DuboGr00
+2023,7,257,DEN,Alex Forsyth,OL,24,Oregon,College Stats,ForsAl00
+2023,7,258,CHI,Kendall Williamson,S,23,Stanford,College Stats,WillKe07
+2023,7,259,LAR,Desjuan Johnson,DT,24,Toledo,College Stats,JohnDe08
+2024,1,1,CHI,Caleb Williams,QB,22,USC,College Stats,WillCa03
+2024,1,2,WAS,Jayden Daniels,QB,23,LSU,College Stats,DaniJa02
+2024,1,3,NWE,Drake Maye,QB,22,North Carolina,College Stats,MayeDr00
+2024,1,4,ARI,Marvin Harrison Jr.,WR,22,Ohio St.,College Stats,HarrMa09
+2024,1,5,LAC,Joe Alt,OL,21,Notre Dame,College Stats,AltxJo01
+2024,1,6,NYG,Malik Nabers,WR,21,LSU,College Stats,NabeMa00
+2024,1,7,TEN,JC Latham,OL,21,Alabama,College Stats,LathJC00
+2024,1,8,ATL,Michael Penix,QB,24,Washington,College Stats,PeniMi00
+2024,1,9,CHI,Rome Odunze,WR,22,Washington,College Stats,OdunRo00
+2024,1,10,MIN,J.J. McCarthy,QB,21,Michigan,College Stats,McCaJJ00
+2024,1,11,NYJ,Olumuyiwa Fashanu,OL,21,Penn St.,College Stats,FashOl00
+2024,1,12,DEN,Bo Nix,QB,24,Oregon,College Stats,NixxBo00
+2024,1,13,LVR,Brock Bowers,TE,21,Georgia,College Stats,BoweBr01
+2024,1,14,NOR,Taliese Fuaga,OL,22,Oregon St.,College Stats,FuagTa00
+2024,1,15,IND,Laiatu Latu,DL,23,UCLA,College Stats,LatuLa00
+2024,1,16,SEA,Byron Murphy,DL,21,Texas,College Stats,MurpBy01
+2024,1,17,MIN,Dallas Turner,LB,21,Alabama,College Stats,TurnDa01
+2024,1,18,CIN,Amarius Mims,OL,21,Georgia,College Stats,MimsAm00
+2024,1,19,LAR,Jared Verse,DL,23,Florida St.,College Stats,VersJa00
+2024,1,20,PIT,Troy Fautanu,OL,23,Washington,College Stats,FautTr00
+2024,1,21,MIA,Chop Robinson,DE,21,Penn St.,College Stats,RobiCh00
+2024,1,22,PHI,Quinyon Mitchell,CB,23,Toledo,College Stats,MitcQu00
+2024,1,23,JAX,Brian Thomas,WR,21,LSU,College Stats,ThomBr06
+2024,1,24,DET,Terrion Arnold,DB,21,Alabama,College Stats,ArnoTe00
+2024,1,25,GNB,Jordan Morgan,OL,23,Arizona,College Stats,MorgJo03
+2024,1,26,TAM,Graham Barton,OL,22,Duke,College Stats,BartGr00
+2024,1,27,ARI,Darius Robinson,DL,22,Missouri,College Stats,RobiDa01
+2024,1,28,KAN,Xavier Worthy,WR,21,Texas,College Stats,WortXa00
+2024,1,29,DAL,Tyler Guyton,OL,23,Oklahoma,College Stats,GuytTy00
+2024,1,30,BAL,Nate Wiggins,CB,21,Clemson,College Stats,WiggNa00
+2024,1,31,SFO,Ricky Pearsall,WR,23,Florida,College Stats,PearRi00
+2024,1,32,CAR,Xavier Legette,WR,23,South Carolina,College Stats,LegeXa00
+2024,2,33,BUF,Keon Coleman,WR,21,Florida St.,College Stats,ColeKe02
+2024,2,34,LAC,Ladd McConkey,WR,22,Georgia,College Stats,McCoLa00
+2024,2,35,ATL,Ruke Orhorhoro,DT,22,Clemson,College Stats,OrhoRu00
+2024,2,36,WAS,Jer'Zhan Newton,DL,22,Illinois,College Stats,NewtJe00
+2024,2,37,NWE,Ja'Lynn Polk,WR,22,Washington,College Stats,PolkJa00
+2024,2,38,TEN,T'Vondre Sweat,DL,23,Texas,College Stats,SweaTV01
+2024,2,39,LAR,Braden Fiske,DL,24,Florida St.,College Stats,FiskBr00
+2024,2,40,PHI,Cooper DeJean,DB,21,Iowa,College Stats,DeJeCo00
+2024,2,41,NOR,Kool-Aid McKinstry,DB,21,Alabama,College Stats,McKiKo00
+2024,2,42,HOU,Kamari Lassiter,DB,21,Georgia,College Stats,LassKa00
+2024,2,43,ARI,Max Melton,DB,22,Rutgers,College Stats,MeltMa00
+2024,2,44,LVR,Jackson Powers-Johnson,OL,21,Oregon,College Stats,PoweJa00
+2024,2,45,GNB,Edgerrin Cooper,LB,22,Texas A&M,College Stats,CoopEd00
+2024,2,46,CAR,Jonathon Brooks,RB,21,Texas,College Stats,BrooJo02
+2024,2,47,NYG,Tyler Nubin,DB,23,Minnesota,College Stats,NubiTy00
+2024,2,48,JAX,Maason Smith,DT,21,LSU,College Stats,SmitMa07
+2024,2,49,CIN,Kris Jenkins,DL,22,Michigan,College Stats,JenkKr01
+2024,2,50,WAS,Mike Sainristil,DB,23,Michigan,College Stats,SainMi00
+2024,2,51,PIT,Zach Frazier,OL,23,West Virginia,College Stats,FrazZa00
+2024,2,52,IND,Adonai Mitchell,WR,21,Texas,College Stats,MitcAd00
+2024,2,53,WAS,Ben Sinnott,TE,22,Kansas St.,College Stats,SinnBe00
+2024,2,54,CLE,Michael Hall,DT,21,Ohio St.,College Stats,HallMi00
+2024,2,55,MIA,Patrick Paul,OL,22,Houston,College Stats,PaulPa01
+2024,2,56,DAL,Marshawn Kneeland,DL,23,Western Michigan,College Stats,KneeMa00
+2024,2,57,TAM,Chris Braswell,LB,22,Alabama,College Stats,BrasCh01
+2024,2,58,GNB,Javon Bullard,DB,22,Georgia,College Stats,BullJa00
+2024,2,59,HOU,Blake Fisher,OL,21,Notre Dame,College Stats,FishBl00
+2024,2,60,BUF,Cole Bishop,SAF,21,Utah,College Stats,BishCo00
+2024,2,61,DET,Ennis Rakestraw,DB,22,Missouri,College Stats,RakeEn00
+2024,2,62,BAL,Roger Rosengarten,OL,22,Washington,College Stats,RoseRo01
+2024,2,63,KAN,Kingsley Suamataia,OL,21,BYU,College Stats,SuamKi00
+2024,2,64,SFO,Renardo Green,DB,23,Florida St.,College Stats,GreeRe00
+2024,3,65,NYJ,Malachi Corley,WR,22,Western Kentucky,College Stats,CorlMa00
+2024,3,66,ARI,Trey Benson,RB,22,Florida St.,College Stats,BensTr01
+2024,3,67,WAS,Brandon Coleman,OL,23,TCU,College Stats,ColeBr02
+2024,3,68,NWE,Caedan Wallace,OL,24,Penn St.,College Stats,WallCa00
+2024,3,69,LAC,Junior Colson,LB,21,Michigan,College Stats,ColsJu00
+2024,3,70,NYG,Andru Phillips,DB,22,Kentucky,College Stats,PhilAn02
+2024,3,71,ARI,Isaiah Adams,OL,24,Illinois,College Stats,AdamIs01
+2024,3,72,CAR,Trevin Wallace,LB,21,Kentucky,College Stats,WallTr00
+2024,3,73,DAL,Cooper Beebe,OL,23,Kansas St.,College Stats,BeebCo00
+2024,3,74,ATL,Bralen Trice,DE,23,Washington,College Stats,TricBr00
+2024,3,75,CHI,Kiran Amegadjie,OL,22,Yale,,AmegKi00
+2024,3,76,DEN,Jonah Elliss,DE,21,Utah,College Stats,ElliJo03
+2024,3,77,LVR,Delmar Glaze,OL,22,Maryland,College Stats,GlazDe00
+2024,3,78,HOU,Calen Bullock,SAF,21,USC,College Stats,BullCa00
+2024,3,79,IND,Matt Goncalves,OL,23,Pittsburgh,College Stats,GoncMa00
+2024,3,80,CIN,Jermaine Burton,WR,23,Alabama,College Stats,BurtJe01
+2024,3,81,SEA,Christian Haynes,OL,24,Connecticut,College Stats,HaynCh00
+2024,3,82,ARI,Tip Reiman,TE,22,Illinois,College Stats,ReimTi00
+2024,3,83,LAR,Blake Corum,RB,23,Michigan,College Stats,CoruBl00
+2024,3,84,PIT,Roman Wilson,WR,23,Michigan,College Stats,WilsRo02
+2024,3,85,CLE,Zak Zinter,OL,23,Michigan,College Stats,ZintZa00
+2024,3,86,SFO,Dominick Puni,OL,24,Kansas,College Stats,PuniDo00
+2024,3,87,DAL,Marist Liufau,LB,23,Notre Dame,College Stats,LiufMa00
+2024,3,88,GNB,MarShawn Lloyd,RB,23,USC,College Stats,LloyMa00
+2024,3,89,TAM,Tykee Smith,DB,23,Georgia,College Stats,SmitTy05
+2024,3,90,ARI,Elijah Jones,DB,24,Boston Col.,College Stats,JoneEl00
+2024,3,91,GNB,Ty'Ron Hopper,LB,23,Missouri,College Stats,HoppTy00
+2024,3,92,TAM,Jalen McMillan,WR,22,Washington,College Stats,McMiJa01
+2024,3,93,BAL,Adisa Isaac,DE,22,Penn St.,College Stats,IsaaAd00
+2024,3,94,PHI,Jalyx Hunt,DE,23,Houston Christian,,HuntJa02
+2024,3,95,BUF,DeWayne Carter,DT,23,Duke,College Stats,CartDe03
+2024,3,96,JAX,Jarrian Jones,DB,23,Florida St.,College Stats,JoneJa14
+2024,3,97,CIN,McKinnley Jackson,DL,22,Texas A&M,College Stats,JackMc00
+2024,3,98,PIT,Payton Wilson,LB,24,North Carolina St.,College Stats,WilsPa00
+2024,3,99,LAR,Kamren Kinchens,SAF,21,Miami (FL),College Stats,KincKa00
+2024,3,100,WAS,Luke McCaffrey,WR,23,Rice,College Stats,McCaLu00
+2024,4,101,CAR,Ja'Tavion Sanders,TE,21,Texas,College Stats,SandJa01
+2024,4,102,DEN,Troy Franklin,WR,21,Oregon,College Stats,FranTr00
+2024,4,103,NWE,Layden Robinson,OL,23,Texas A&M,College Stats,RobiLa02
+2024,4,104,ARI,Dadrion Taylor-Demerson,DB,23,Texas Tech,College Stats,TaylDa02
+2024,4,105,LAC,Justin Eboigbe,DL,23,Alabama,College Stats,EboiJu00
+2024,4,106,TEN,Cedric Gray,LB,21,North Carolina,College Stats,GrayCe00
+2024,4,107,NYG,Theo Johnson,TE,23,Penn St.,College Stats,JohnTh00
+2024,4,108,MIN,Khyree Jackson,DB,25,Oregon,College Stats,JackKh00
+2024,4,109,ATL,Brandon Dorlus,DE,23,Oregon,College Stats,DorlBr00
+2024,4,110,NWE,Javon Baker,WR,22,Central Florida,College Stats,BakeJa00
+2024,4,111,GNB,Evan Williams,DB,23,Oregon,College Stats,WillEv00
+2024,4,112,LVR,Decamerion Richardson,CB,23,Mississippi St.,College Stats,RichDe01
+2024,4,113,BAL,Devontez Walker,WR,23,North Carolina,College Stats,WalkDe01
+2024,4,114,JAX,Javon Foster,OL,24,Missouri,College Stats,FostJa01
+2024,4,115,CIN,Erick All,TE,23,Iowa,College Stats,AllxEr00
+2024,4,116,JAX,Jordan Jefferson,DT,22,LSU,College Stats,JeffJo01
+2024,4,117,IND,Tanor Bortolini,OL,22,Wisconsin,College Stats,BortTa00
+2024,4,118,SEA,Tyrice Knight,LB,23,Texas-El Paso,College Stats,KnigTy00
+2024,4,119,PIT,Mason McCormick,OL,24,South Dakota St.,,McCoMa00
+2024,4,120,MIA,Jaylen Wright,RB,21,Tennessee,College Stats,WrigJa04
+2024,4,121,SEA,AJ Barner,TE,22,Michigan,College Stats,BarnAJ00
+2024,4,122,CHI,Tory Taylor,P,26,Iowa,College Stats,TaylTo01
+2024,4,123,HOU,Cade Stover,TE,24,Ohio St.,College Stats,StovCa00
+2024,4,124,SFO,Malik Mustapha,DB,22,Wake Forest,College Stats,MustMa00
+2024,4,125,TAM,Bucky Irving,RB,22,Oregon,College Stats,IrviBu00
+2024,4,126,DET,Giovanni Manu,OL,23,British Columbia,,ManuGi00
+2024,4,127,PHI,Will Shipley,RB,22,Clemson,College Stats,ShipWi00
+2024,4,128,BUF,Ray Davis,RB,24,Kentucky,College Stats,DaviRa04
+2024,4,129,SFO,Isaac Guerendo,RB,24,Louisville,College Stats,GuerIs00
+2024,4,130,BAL,T.J. Tampa,DB,22,Iowa St.,College Stats,TampTJ00
+2024,4,131,KAN,Jared Wiley,TE,23,TCU,College Stats,WileJa00
+2024,4,132,DET,Sione Vaki,SAF,23,Utah,College Stats,VakiSi00
+2024,4,133,KAN,Jaden Hicks,DB,22,Washington St.,College Stats,HickJa01
+2024,4,134,NYJ,Braelon Allen,RB,20,Wisconsin,College Stats,AlleBr05
+2024,4,135,SFO,Jacob Cowing,WR,23,Arizona,College Stats,CowiJa00
+2024,5,136,SEA,Nehemiah Pritchett,CB,23,Auburn,College Stats,PritNe00
+2024,5,137,LAC,Tarheeb Still,DB,22,Maryland,College Stats,StilTa00
+2024,5,138,ARI,Xavier Thomas,DE,24,Clemson,College Stats,ThomXa01
+2024,5,139,WAS,Jordan Magee,LB,23,Temple,College Stats,MageJo00
+2024,5,140,LAC,Cam Hart,CB,23,Notre Dame,College Stats,HartCa00
+2024,5,141,BUF,Sedrick Van Pran-Granger,OL,22,Georgia,College Stats,VanPSe00
+2024,5,142,IND,Anthony Gould,WR,23,Oregon St.,College Stats,GoulAn00
+2024,5,143,ATL,JD Bertrand,LB,24,Notre Dame,College Stats,BertJD00
+2024,5,144,CHI,Austin Booker,DL,21,Kansas,College Stats,BookAu00
+2024,5,145,DEN,Kris Abrams-Draine,DB,22,Missouri,College Stats,AbraKr00
+2024,5,146,TEN,Jarvis Brownlee,DB,23,Louisville,College Stats,BrowJa09
+2024,5,147,DEN,Audric Estime,RB,21,Notre Dame,College Stats,EstiAu00
+2024,5,148,LVR,Tommy Eichenberg,LB,23,Ohio St.,College Stats,EichTo00
+2024,5,149,CIN,Josh Newton,CB,23,TCU,College Stats,NewtJo00
+2024,5,150,NOR,Spencer Rattler,QB,23,South Carolina,College Stats,RattSp00
+2024,5,151,IND,Jaylon Carlies,DB,22,Missouri,College Stats,CarlJa01
+2024,5,152,PHI,Ainias Smith,WR,23,Texas A&M,College Stats,SmitAi00
+2024,5,153,JAX,Deantre Prince,CB,23,Mississippi,College Stats,PrinDe01
+2024,5,154,LAR,Brennan Jackson,DE,23,Washington St.,College Stats,JackBr02
+2024,5,155,PHI,Jeremiah Trotter Jr.,LB,21,Clemson,College Stats,TrotJe01
+2024,5,156,CLE,Jamari Thrash,WR,23,Louisville,College Stats,ThraJa01
+2024,5,157,CAR,Chau Smith-Wade,DB,21,Washington St.,College Stats,SmitCh05
+2024,5,158,MIA,Mohamed Kamara,DL,25,Colorado St.,College Stats,KamaMo00
+2024,5,159,KAN,Hunter Nourzad,OL,23,Penn St.,College Stats,NourHu00
+2024,5,160,BUF,Edefuan Ulofoshio,LB,24,Washington,College Stats,UlofEd00
+2024,5,161,WAS,Dominique Hampton,CB,24,Washington,College Stats,HampDo00
+2024,5,162,ARI,Christian Jones,OL,24,Texas,College Stats,JoneCh12
+2024,5,163,GNB,Jacob Monk,OL,23,Duke,College Stats,MonkJa00
+2024,5,164,IND,Jaylin Simpson,SAF,24,Auburn,College Stats,SimpJa00
+2024,5,165,BAL,Rasheen Ali,RB,23,Marshall,College Stats,AlixRa00
+2024,5,166,NYG,Tyrone Tracy Jr.,RB,24,Purdue,College Stats,TracTy00
+2024,5,167,JAX,Keilan Robinson,RB,24,Texas,College Stats,RobiKe03
+2024,5,168,BUF,Javon Solomon,DE,23,Troy,College Stats,SoloJa00
+2024,5,169,GNB,Kitan Oladapo,DB,23,Oregon St.,College Stats,OladKi00
+2024,5,170,NOR,Bub Means,WR,23,Pittsburgh,College Stats,MeanBu00
+2024,5,171,NYJ,Jordan Travis,QB,24,Florida St.,College Stats,TravJo00
+2024,5,172,PHI,Trevor Keegan,OL,24,Michigan,College Stats,KeegTr00
+2024,5,173,NYJ,Isaiah Davis,RB,22,South Dakota St.,,DaviIs00
+2024,5,174,DAL,Caelen Carson,DB,22,Wake Forest,College Stats,CarsCa01
+2024,5,175,NOR,Jaylan Ford,LB,22,Texas,College Stats,FordJa02
+2024,5,176,NYJ,Qwan'tez Stiggers,CB,22,,,StigQw00
+2024,6,177,MIN,Walter Rouse,OL,23,Oklahoma,College Stats,RousWa00
+2024,6,178,PIT,Logan Lee,DL,24,Iowa,College Stats,LeexLo00
+2024,6,179,SEA,Sataoa Laumea,OL,23,Utah,College Stats,LaumSa00
+2024,6,180,NWE,Marcellas Dial,DB,23,South Carolina,College Stats,DialMa00
+2024,6,181,LAC,Kimani Vidal,RB,23,Troy,College Stats,VidaKi00
+2024,6,182,TEN,Jha'Quan Jackson,WR,24,Tulane,College Stats,JackJh00
+2024,6,183,NYG,Darius Muasau,LB,23,UCLA,College Stats,MuasDa00
+2024,6,184,MIA,Malik Washington,WR,23,Virginia,College Stats,WashMa00
+2024,6,185,PHI,Johnny Wilson,WR,23,Florida St.,College Stats,WilsJo03
+2024,6,186,ATL,Jase McClellan,RB,22,Alabama,College Stats,McClJa05
+2024,6,187,ATL,Casey Washington,WR,23,Illinois,College Stats,WashCa01
+2024,6,188,HOU,Jamal Hill,LB,23,Oregon,College Stats,HillJa02
+2024,6,189,DET,Mekhi Wingo,DT,21,LSU,College Stats,WingMe00
+2024,6,190,PHI,Dylan McMahon,OL,23,North Carolina St.,College Stats,McMaDy00
+2024,6,191,ARI,Tejhaun Palmer,WR,24,Ala-Birmingham,College Stats,PalmTe00
+2024,6,192,SEA,D.J. James,CB,23,Auburn,College Stats,JameDJ00
+2024,6,193,NWE,Joe Milton,QB,24,Tennessee,College Stats,MiltJo00
+2024,6,194,CIN,Tanner McLachlan,TE,25,Arizona,College Stats,McLaTa00
+2024,6,195,PIT,Ryan Watts,SAF,22,Texas,College Stats,WattRy00
+2024,6,196,LAR,Tyler Davis,DT,23,Clemson,College Stats,DaviTy05
+2024,6,197,ATL,Zion Logue,DL,23,Georgia,College Stats,LoguZi00
+2024,6,198,MIA,Patrick McMorris,DB,22,California,College Stats,McMoPa00
+2024,6,199,NOR,Khristian Boyd,DL,24,Northern Iowa,,BoydKh00
+2024,6,200,CAR,Jaden Crumedy,DT,24,Mississippi St.,College Stats,CrumJa00
+2024,6,201,IND,Micah Abraham,CB,23,Marshall,College Stats,AbraMi00
+2024,6,202,GNB,Travis Glover,OT,24,Georgia St.,College Stats,GlovTr00
+2024,6,203,MIN,Will Reichard,K,23,Alabama,College Stats,ReicWi00
+2024,6,204,BUF,Tylan Grable,OL,24,Central Florida,College Stats,GrabTy00
+2024,6,205,HOU,Jawhar Jordan,RB,25,Louisville,College Stats,JordJa00
+2024,6,206,CLE,Nathaniel Watson,LB,24,Mississippi St.,College Stats,WatsNa00
+2024,6,207,SEA,Michael Jerrell,OT,25,Findlay,,JerrMi00
+2024,6,208,LVR,Dylan Laube,RB,24,New Hampshire,,LaubDy00
+2024,6,209,LAR,Joshua Karty,K,22,Stanford,College Stats,KartJo00
+2024,6,210,DET,Christian Mahogany,OL,23,Boston Col.,College Stats,MahoCh00
+2024,6,211,KAN,Kamal Hadden,DB,23,Tennessee,College Stats,HaddKa00
+2024,6,212,JAX,Cam Little,K,21,Arkansas,College Stats,LittCa00
+2024,6,213,LAR,Jordan Whittington,WR,23,Texas,College Stats,WhitJo04
+2024,6,214,CIN,Cedric Johnson,DE,22,Mississippi,College Stats,JohnCe01
+2024,6,215,SFO,Jarrett Kingston,OL,24,USC,College Stats,KingJa02
+2024,6,216,DAL,Ryan Flournoy,WR,24,SE Missouri St.,,FlouRy00
+2024,6,217,LAR,Beaux Limmer,OL,23,Arkansas,College Stats,LimmBe00
+2024,6,218,BAL,Devin Leary,QB,24,Kentucky,College Stats,LearDe00
+2024,6,219,BUF,Daequan Hardy,CB,23,Penn St.,College Stats,HardDa02
+2024,6,220,TAM,Elijah Klein,G,24,Texas-El Paso,College Stats,KleiEl00
+2024,7,221,BUF,Travis Clayton,OT,23,,,ClayTr00
+2024,7,222,WAS,Javontae Jean-Baptiste,DL,24,Notre Dame,College Stats,JeanJa00
+2024,7,223,LVR,Trey Taylor,FS,23,Air Force,College Stats,TaylTr03
+2024,7,224,CIN,Daijahn Anthony,SAF,23,Mississippi,College Stats,AnthDa00
+2024,7,225,LAC,Brenden Rice,WR,22,USC,College Stats,RiceBr00
+2024,7,226,ARI,Jaden Davis,DB,23,Miami (FL),College Stats,DaviJa09
+2024,7,227,CLE,Myles Harden,DB,22,South Dakota,,HardMy00
+2024,7,228,BAL,Nick Samac,C,23,Michigan St.,College Stats,SamaNi00
+2024,7,229,LVR,M.J. Devonshire,DB,23,Pittsburgh,College Stats,DevoMJ00
+2024,7,230,MIN,Michael Jurgens,OL,24,Wake Forest,College Stats,JurgMi02
+2024,7,231,NWE,Jaheim Bell,TE,23,Florida St.,College Stats,BellJa00
+2024,7,232,MIN,Levi Drake Rodriguez,DT,24,Texas A&M-Commerce,,RodrLe00
+2024,7,233,DAL,Nathan Thomas,OL,23,Louisiana,College Stats,ThomNa01
+2024,7,234,IND,Jonah Laulu,DL,24,Oklahoma,College Stats,LaulJo00
+2024,7,235,DEN,Devaughn Vele,WR,26,Utah,College Stats,VeleDe00
+2024,7,236,JAX,Myles Cole,OLB,24,Texas Tech,College Stats,ColeMy00
+2024,7,237,CIN,Matt Lee,C,23,Miami (FL),College Stats,LeexMa02
+2024,7,238,HOU,Solomon Byrd,DE,24,USC,College Stats,ByrdSo00
+2024,7,239,NOR,Josiah Ezirim,OT,23,Eastern Kentucky,,EzirJo00
+2024,7,240,CAR,Michael Barrett,LB,24,Michigan,College Stats,BarrMi00
+2024,7,241,MIA,Tahj Washington,WR,23,USC,College Stats,WashTa00
+2024,7,242,TEN,James Williams,SAF,21,Miami (FL),College Stats,WillJa15
+2024,7,243,CLE,Jowon Briggs,DE,23,Cincinnati,College Stats,BrigJo00
+2024,7,244,DAL,Justin Rogers,DL,22,Auburn,College Stats,RogeJu01
+2024,7,245,GNB,Michael Pratt,QB,22,Tulane,College Stats,PratMi00
+2024,7,246,TAM,Devin Culp,TE,24,Washington,College Stats,CulpDe00
+2024,7,247,HOU,Marcus Harris,DL,23,Auburn,College Stats,HarrMa08
+2024,7,248,KAN,C.J. Hanson,G,23,Holy Cross,,HansCJ00
+2024,7,249,HOU,LaDarius Henderson,OL,22,Michigan,College Stats,HendLa00
+2024,7,250,BAL,Sanoussi Kane,SAF,22,Purdue,College Stats,KaneSa00
+2024,7,251,SFO,Tatum Bethune,LB,23,Florida St.,College Stats,BethTa00
+2024,7,252,TEN,Jaylen Harrell,DE,22,Michigan,College Stats,HarrJa05
+2024,7,253,LAC,Cornelius Johnson,WR,23,Michigan,College Stats,JohnCo02
+2024,7,254,LAR,KT Leveston,OL,24,Kansas St.,College Stats,LeveKT00
+2024,7,255,GNB,Kalen King,CB,21,Penn St.,College Stats,KingKa00
+2024,7,256,DEN,Nick Gargiulo,OL,24,South Carolina,College Stats,GargNi00
+2024,7,257,NYJ,Jaylen Key,SAF,24,Alabama,College Stats,KeyxJa00
+2025,1,1,TEN,Cam Ward,QB,23,Miami (FL),College Stats,WardCa00
+2025,1,2,JAX,Travis Hunter,WR,22,Colorado,College Stats,HuntTr00
+2025,1,3,NYG,Abdul Carter,DE,21,Penn St.,College Stats,CartAb00
+2025,1,4,NWE,Will Campbell,OT,21,LSU,College Stats,CampWi01
+2025,1,5,CLE,Mason Graham,DT,22,Michigan,College Stats,GrahMa00
+2025,1,6,LVR,Ashton Jeanty,RB,21,Boise St.,College Stats,JeanAs00
+2025,1,7,NYJ,Armand Membou,OL,21,Missouri,College Stats,MembAr00
+2025,1,8,CAR,Tetairoa McMillan,WR,22,Arizona,College Stats,McMiTe00
+2025,1,9,NOR,Kelvin Banks,OL,21,Texas,College Stats,BankKe01
+2025,1,10,CHI,Colston Loveland,TE,21,Michigan,College Stats,LoveCo00
+2025,1,11,SFO,Mykel Williams,DL,21,Georgia,College Stats,WillMy00
+2025,1,12,DAL,Tyler Booker,OL,21,Alabama,College Stats,BookTy00
+2025,1,13,MIA,Kenneth Grant,DT,21,Michigan,College Stats,GranKe01
+2025,1,14,IND,Tyler Warren,TE,23,Penn St.,College Stats,WarrTy00
+2025,1,15,ATL,Jalon Walker,DE,21,Georgia,College Stats,WalkJa02
+2025,1,16,ARI,Walter Nolen,DT,21,Mississippi,College Stats,NoleWa00
+2025,1,17,CIN,Shemar Stewart,DE,21,Texas A&M,College Stats,StewSh00
+2025,1,18,SEA,Grey Zabel,OT,23,North Dakota St.,,ZabeGr00
+2025,1,19,TAM,Emeka Egbuka,WR,22,Ohio St.,College Stats,EgbuEm01
+2025,1,20,DEN,Jahdae Barron,CB,23,Texas,College Stats,BarrJa01
+2025,1,21,PIT,Derrick Harmon,DT,22,Oregon,College Stats,HarmDe01
+2025,1,22,LAC,Omarion Hampton,RB,22,North Carolina,College Stats,HampOm00
+2025,1,23,GNB,Matthew Golden,WR,22,Texas,College Stats,GoldMa02
+2025,1,24,MIN,Donovan Jackson,OL,22,Ohio St.,College Stats,JackDo03
+2025,1,25,NYG,Jaxson Dart,QB,22,Mississippi,College Stats,DartJa00
+2025,1,26,ATL,James Pearce,DE,21,Tennessee,College Stats,PearJa00
+2025,1,27,BAL,Malaki Starks,SAF,21,Georgia,College Stats,StarMa00
+2025,1,28,DET,Tyleik Williams,DT,22,Ohio St.,College Stats,WillTy02
+2025,1,29,WAS,Josh Conerly,OL,21,Oregon,College Stats,ConeJo00
+2025,1,30,BUF,Maxwell Hairston,CB,22,Kentucky,College Stats,HairMa00
+2025,1,31,PHI,Jihaad Campbell,LB,21,Alabama,College Stats,CampJi00
+2025,1,32,KAN,Josh Simmons,OL,22,Ohio St.,College Stats,SimmJo01
+2025,2,33,CLE,Carson Schwesinger,LB,22,UCLA,College Stats,SchwCa00
+2025,2,34,HOU,Jayden Higgins,WR,22,Iowa St.,College Stats,HiggJa00
+2025,2,35,SEA,Nick Emmanwori,SAF,21,South Carolina,College Stats,EmmaNi00
+2025,2,36,CLE,Quinshon Judkins,RB,21,Ohio St.,College Stats,JudkQu00
+2025,2,37,MIA,Jonah Savaiinaea,OL,21,Arizona,College Stats,SavaJo00
+2025,2,38,NWE,TreVeyon Henderson,RB,22,Ohio St.,College Stats,HendTr02
+2025,2,39,CHI,Luther Burden,WR,21,Missouri,College Stats,BurdLu00
+2025,2,40,NOR,Tyler Shough,QB,25,Louisville,College Stats,ShouTy00
+2025,2,41,BUF,T.J. Sanders,DT,22,South Carolina,College Stats,SandTJ00
+2025,2,42,NYJ,Mason Taylor,TE,21,LSU,College Stats,TaylMa02
+2025,2,43,SFO,Alfred Collins,DT,23,Texas,College Stats,CollAl01
+2025,2,44,DAL,Donovan Ezeiruaku,DE,21,Boston Col.,College Stats,EzeiDo00
+2025,2,45,IND,JT Tuimoloau,DE,22,Ohio St.,College Stats,TuimJT00
+2025,2,46,LAR,Terrance Ferguson,TE,22,Oregon,College Stats,FergTe00
+2025,2,47,ARI,Will Johnson,CB,22,Michigan,College Stats,JohnWi02
+2025,2,48,HOU,Aireontae Ersery,OL,23,Minnesota,College Stats,ErseAi00
+2025,2,49,CIN,Demetrius Knight,LB,25,South Carolina,College Stats,KnigDe00
+2025,2,50,SEA,Elijah Arroyo,TE,22,Miami (FL),College Stats,ArroEl00
+2025,2,51,CAR,Nic Scourton,DE,21,Texas A&M,College Stats,ScouNi00
+2025,2,52,TEN,Oluwafemi Oladejo,DE,21,UCLA,College Stats,OladOl00
+2025,2,53,TAM,Benjamin Morrison,CB,21,Notre Dame,College Stats,MorrBe00
+2025,2,54,GNB,Anthony Belton,OT,24,North Carolina St.,College Stats,BeltAn00
+2025,2,55,LAC,Tre Harris,WR,23,Mississippi,College Stats,HarrTr03
+2025,2,56,CHI,Ozzy Trapilo,OL,23,Boston Col.,College Stats,TrapOz00
+2025,2,57,DET,Tate Ratledge,OL,24,Georgia,College Stats,RatlTa00
+2025,2,58,LVR,Jack Bech,WR,22,TCU,College Stats,BechJa00
+2025,2,59,BAL,Mike Green,DE,22,Marshall,College Stats,GreeMi02
+2025,2,60,DEN,RJ Harvey,RB,24,Central Florida,College Stats,HarvRJ00
+2025,2,61,WAS,Trey Amos,CB,23,Mississippi,College Stats,AmosTr00
+2025,2,62,CHI,Shemar Turner,DE,22,Texas A&M,College Stats,TurnSh00
+2025,2,63,KAN,Omarr Norman-Lott,DT,23,Tennessee,College Stats,NormOm00
+2025,2,64,PHI,Andrew Mukuba,SAF,22,Texas,College Stats,MukuAn00
+2025,3,65,NYG,Darius Alexander,DT,25,Toledo,College Stats,AlexDa01
+2025,3,66,KAN,Ashton Gillotte,DE,22,Louisville,College Stats,GillAs00
+2025,3,67,CLE,Harold Fannin,TE,21,Bowling Green,College Stats,FannHa00
+2025,3,68,LVR,Darien Porter,CB,24,Iowa St.,College Stats,PortDa00
+2025,3,69,NWE,Kyle Williams,WR,22,Washington St.,College Stats,WillKy03
+2025,3,70,DET,Isaac TeSlaa,WR,23,Arkansas,College Stats,TeSlIs00
+2025,3,71,NOR,Vernon Broughton,DT,24,Texas,College Stats,BrouVe00
+2025,3,72,BUF,Landon Jackson,DE,22,Arkansas,College Stats,JackLa03
+2025,3,73,NYJ,Azareye'h Thomas,CB,21,Florida St.,College Stats,ThomAz00
+2025,3,74,DEN,Pat Bryant,WR,22,Illinois,College Stats,BryaPa00
+2025,3,75,SFO,Nick Martin,LB,22,Oklahoma St.,College Stats,MartNi01
+2025,3,76,DAL,Shavon Revel,CB,24,East Carolina,College Stats,ReveSh00
+2025,3,77,CAR,Princely Umanmielen,DE,23,Mississippi,College Stats,UmanPr00
+2025,3,78,ARI,Jordan Burch,DE,23,Oregon,College Stats,BurcJo00
+2025,3,79,HOU,Jaylin Noel,WR,23,Iowa St.,College Stats,NoelJa00
+2025,3,80,IND,Justin Walley,CB,22,Minnesota,College Stats,WallJu00
+2025,3,81,CIN,Dylan Fairchild,OL,22,Georgia,College Stats,FairDy00
+2025,3,82,TEN,Kevin Winston,SAF,21,Penn St.,College Stats,WinsKe02
+2025,3,83,PIT,Kaleb Johnson,RB,22,Iowa,College Stats,JohnKa03
+2025,3,84,TAM,Jacob Parrish,CB,21,Kansas St.,College Stats,ParrJa01
+2025,3,85,KAN,Nohl Williams,CB,22,California,College Stats,WillNo01
+2025,3,86,LAC,Jamaree Caldwell,DT,25,Oregon,College Stats,CaldJa00
+2025,3,87,GNB,Savion Williams,WR,23,TCU,College Stats,WillSa01
+2025,3,88,JAX,Caleb Ransaw,SAF,22,Tulane,College Stats,RansCa00
+2025,3,89,JAX,Wyatt Milum,OL,22,West Virginia,College Stats,MiluWy00
+2025,3,90,LAR,Josaiah Stewart,DE,22,Michigan,College Stats,StewJo03
+2025,3,91,BAL,Emery Jones,OL,21,LSU,College Stats,JoneEm02
+2025,3,92,SEA,Jalen Milroe,QB,22,Alabama,College Stats,MilrJa00
+2025,3,93,NOR,Jonas Sanker,SAF,22,Virginia,College Stats,SankJo00
+2025,3,94,CLE,Dillon Gabriel,QB,24,Oregon,College Stats,GabrDi00
+2025,3,95,NWE,Jared Wilson,OL,22,Georgia,College Stats,WilsJa02
+2025,3,96,ATL,Xavier Watts,SAF,23,Notre Dame,College Stats,WattXa00
+2025,3,97,HOU,Jaylin Smith,CB,21,USC,College Stats,SmitJa11
+2025,3,98,LVR,Caleb Rogers,OL,23,Texas Tech,College Stats,RogeCa01
+2025,3,99,LVR,Charles Grant,OL,23,William & Mary,,GranCh00
+2025,3,100,SFO,Upton Stout,CB,23,Western Kentucky,College Stats,StouUp00
+2025,3,101,DEN,Sai'vion Jones,DE,22,LSU,College Stats,JoneSa01
+2025,3,102,MIN,Tai Felton,WR,22,Maryland,College Stats,FeltTa00
+2025,4,103,TEN,Chimere Dike,WR,23,Florida,College Stats,DikeCh00
+2025,4,104,JAX,Bhayshul Tuten,RB,22,Virginia Tech,College Stats,TuteBh00
+2025,4,105,NYG,Cam Skattebo,RB,23,Arizona St.,College Stats,SkatCa00
+2025,4,106,NWE,Craig Woodson,SAF,24,California,College Stats,WoodCr00
+2025,4,107,JAX,Jack Kiser,LB,24,Notre Dame,College Stats,KiseJa00
+2025,4,108,LVR,Dont'e Thornton,WR,22,Tennessee,College Stats,ThorDo00
+2025,4,109,BUF,Deone Walker,DT,21,Kentucky,College Stats,WalkDe04
+2025,4,110,NYJ,Arian Smith,WR,23,Georgia,College Stats,SmitAr01
+2025,4,111,PHI,Ty Robinson,DT,24,Nebraska,College Stats,RobiTy02
+2025,4,112,NOR,Danny Stutsman,LB,22,Oklahoma,College Stats,StutDa00
+2025,4,113,SFO,CJ West,DT,23,Indiana,College Stats,WestCJ00
+2025,4,114,CAR,Trevor Etienne,RB,21,Georgia,College Stats,EtieTr01
+2025,4,115,ARI,Cody Simon,LB,23,Ohio St.,College Stats,SimoCo01
+2025,4,116,HOU,Woody Marks,RB,24,USC,College Stats,MarkWo00
+2025,4,117,LAR,Jarquez Hunter,RB,22,Auburn,College Stats,HuntJa03
+2025,4,118,ATL,Billy Bowman,SAF,22,Oklahoma,College Stats,BowmBi01
+2025,4,119,CIN,Barrett Carter,LB,22,Clemson,College Stats,CartBa00
+2025,4,120,TEN,Gunnar Helm,TE,23,Texas,College Stats,HelmGu00
+2025,4,121,TAM,David Walker,OLB,25,Central Arkansas,,WalkDa03
+2025,4,122,CAR,Lathan Ransom,SAF,23,Ohio St.,College Stats,RansLa00
+2025,4,123,PIT,Jack Sawyer,DE,23,Ohio St.,College Stats,SawyJa00
+2025,4,124,GNB,Barryn Sorrell,DE,22,Texas,College Stats,SorrBa00
+2025,4,125,LAC,Kyle Kennard,DE,23,South Carolina,College Stats,KennKy00
+2025,4,126,CLE,Dylan Sampson,RB,20,Tennessee,College Stats,SampDy00
+2025,4,127,IND,Jalen Travis,OT,23,Iowa St.,College Stats,TravJa00
+2025,4,128,WAS,Jaylin Lane,WR,23,Virginia Tech,College Stats,LaneJa00
+2025,4,129,BAL,Teddye Buchanan,LB,22,California,College Stats,BuchTe00
+2025,4,130,NYJ,Malachi Moore,SAF,23,Alabama,College Stats,MoorMa04
+2025,4,131,NOR,Quincy Riley,CB,24,Louisville,College Stats,RileQu00
+2025,4,132,CHI,Ruben Hyppolite,LB,23,Maryland,College Stats,HyppRu00
+2025,4,133,KAN,Jalen Royals,WR,22,Utah St.,College Stats,RoyaJa00
+2025,4,134,DEN,Quandarrius Robinson,LB,24,Alabama,College Stats,RobiQu00
+2025,4,135,LVR,Tonka Hemingway,DT,23,South Carolina,College Stats,HemiTo00
+2025,4,136,TEN,Elic Ayomanor,WR,22,Stanford,College Stats,AyomEl00
+2025,4,137,NWE,Joshua Farmer,DT,22,Florida St.,College Stats,FarmJo00
+2025,4,138,SFO,Jordan Watkins,WR,23,Mississippi,College Stats,WatkJo00
+2025,5,139,MIN,Tyrion Ingram-Dawkins,DE,22,Georgia,College Stats,IngrTy00
+2025,5,140,CAR,Cam Jackson,DT,23,Florida,College Stats,JackCa01
+2025,5,141,BAL,Carson Vinson,OT,23,Alabama A&M,,VinsCa00
+2025,5,142,SEA,Rylie Mills,DL,24,Notre Dame,College Stats,MillRy02
+2025,5,143,MIA,Jordan Phillips,DL,21,Maryland,College Stats,PhilJo02
+2025,5,144,CLE,Shedeur Sanders,QB,23,Colorado,College Stats,SandSh00
+2025,5,145,PHI,Mac McWilliams,CB,23,Central Florida,College Stats,McWiMa01
+2025,5,146,NWE,Bradyn Swinson,DE,23,LSU,College Stats,SwinBr01
+2025,5,147,SFO,Jordan James,RB,21,Oregon,College Stats,JameJo01
+2025,5,148,LAR,Ty Hamilton,DT,23,Ohio St.,College Stats,HamiTy00
+2025,5,149,DAL,Jaydon Blue,RB,21,Texas,College Stats,BlueJa01
+2025,5,150,MIA,Jason Marshall,CB,23,Florida,College Stats,MarsJa00
+2025,5,151,IND,DJ Giddens,RB,22,Kansas St.,College Stats,GiddDJ00
+2025,5,152,DAL,Shemar James,LB,21,Florida,College Stats,JameSh00
+2025,5,153,CIN,Jalen Rivers,OL,22,Miami (FL),College Stats,RiveJa00
+2025,5,154,NYG,Marcus Mbow,OL,22,Purdue,College Stats,MbowMa00
+2025,5,155,MIA,Dante Trader,SAF,22,Maryland,College Stats,TradDa00
+2025,5,156,KAN,Jeffrey Bassa,LB,22,Oregon,College Stats,BassJe00
+2025,5,157,TAM,Elijah Roberts,DT,23,SMU,College Stats,RobeEl01
+2025,5,158,LAC,KeAndre Lambert-Smith,WR,23,Auburn,College Stats,LambKe01
+2025,5,159,GNB,Collin Oliver,DE,22,Oklahoma St.,College Stats,OlivCo00
+2025,5,160,SFO,Marques Sigle,SAF,23,Kansas St.,College Stats,SiglMa00
+2025,5,161,PHI,Smael Mondon,LB,22,Georgia,College Stats,MondSm01
+2025,5,162,NYJ,Francisco Mauigoa,LB,22,Miami (FL),College Stats,MauiFr00
+2025,5,163,CAR,Mitchell Evans,TE,22,Notre Dame,College Stats,EvanMi01
+2025,5,164,PIT,Yahya Black,DT,23,Iowa,College Stats,BlacYa00
+2025,5,165,LAC,Oronde Gadsden II,TE,22,Syracuse,College Stats,GadsOr01
+2025,5,166,SEA,Tory Horton,WR,22,Colorado St.,College Stats,HortTo00
+2025,5,167,TEN,Jackson Slater,OL,22,Sacramento St.,,SlatJa01
+2025,5,168,PHI,Drew Kendall,C,23,Boston Col.,College Stats,KendDr00
+2025,5,169,CHI,Zah Frazier,CB,24,Texas-San Antonio,College Stats,FrazZa01
+2025,5,170,BUF,Jordan Hancock,SAF,22,Ohio St.,College Stats,HancJo00
+2025,5,171,DET,Miles Frazier,G,23,LSU,College Stats,FrazMi00
+2025,5,172,LAR,Chris Paul,LB,22,Mississippi,College Stats,PaulCh01
+2025,5,173,BUF,Jackson Hawes,TE,24,Georgia Tech,College Stats,HaweJa00
+2025,5,174,ARI,Denzel Burke,CB,22,Ohio St.,College Stats,BurkDe01
+2025,5,175,SEA,Robbie Ouzts,TE,23,Alabama,College Stats,OuztRo00
+2025,5,176,NYJ,Tyler Baron,DE,23,Miami (FL),College Stats,BaroTy00
+2025,6,177,BUF,Dorian Strong,CB,23,Virginia Tech,College Stats,StroDo01
+2025,6,178,BAL,Bilhal Kone,CB,23,Western Michigan,College Stats,KoneBi00
+2025,6,179,MIA,Ollie Gordon,RB,21,Oklahoma St.,College Stats,GordOl00
+2025,6,180,LVR,JJ Pegues,DT,23,Mississippi,College Stats,PeguJJ00
+2025,6,181,PHI,Kyle McCord,QB,22,Syracuse,College Stats,McCoKy00
+2025,6,182,NWE,Andres Borregales,K,22,Miami (FL),College Stats,BorrAn00
+2025,6,183,TEN,Marcus Harris,DB,24,California,College Stats,HarrMa10
+2025,6,184,NOR,Devin Neal,RB,22,Kansas,College Stats,NealDe00
+2025,6,185,PIT,Will Howard,QB,23,Ohio St.,College Stats,HowaWi01
+2025,6,186,BAL,Tyler Loop,K,24,Arizona,College Stats,LoopTy00
+2025,6,187,HOU,Jaylen Reed,SAF,22,Penn St.,College Stats,ReedJa04
+2025,6,188,TEN,Kalel Mullings,RB,22,Michigan,College Stats,MullKa00
+2025,6,189,IND,Riley Leonard,QB,22,Notre Dame,College Stats,LeonRi02
+2025,6,190,IND,Tim Smith,DL,23,Alabama,College Stats,SmitTi02
+2025,6,191,PHI,Myles Hinton,OT,23,Michigan,College Stats,HintMy00
+2025,6,192,SEA,Bryce Cabeldue,OT,24,Kansas,College Stats,CabeBr00
+2025,6,193,CIN,Tahj Brooks,RB,23,Texas Tech,College Stats,BrooTa00
+2025,6,194,JAX,Jalen McLeod,DE,23,Auburn,College Stats,McLeJa00
+2025,6,195,CHI,Luke Newman,G,23,Michigan St.,College Stats,NewmLu00
+2025,6,196,DET,Ahmed Hassanein,DE,23,Boise St.,College Stats,HassAh00
+2025,6,197,HOU,Graham Mertz,QB,24,Florida,College Stats,MertGr00
+2025,6,198,GNB,Warren Brinson,DL,23,Georgia,College Stats,BrinWa00
+2025,6,199,LAC,Branson Taylor,OL,23,Pittsburgh,College Stats,TaylBr04
+2025,6,200,JAX,Rayuan Lane,FS,22,Navy,College Stats,LaneRa00
+2025,6,201,MIN,Kobe King,LB,22,Penn St.,College Stats,KingKo00
+2025,6,202,MIN,Gavin Bartholomew,TE,22,Pittsburgh,College Stats,BartGa00
+2025,6,203,BAL,LaJohntay Wester,WR,23,Colorado,College Stats,WestLa01
+2025,6,204,DAL,Ajani Cornelius,OL,23,Oregon,College Stats,CornAj00
+2025,6,205,WAS,Kain Medrano,LB,24,UCLA,College Stats,MedrKa00
+2025,6,206,BUF,Chase Lundt,OL,25,Connecticut,College Stats,LundCh00
+2025,6,207,PHI,Cameron Williams,OL,21,Texas,College Stats,WillCa04
+2025,6,208,CAR,Jimmy Horn,WR,22,Colorado,College Stats,HornJi00
+2025,6,209,PHI,Antwaun Powell-Ryland,DE,23,Virginia Tech,College Stats,PoweAn00
+2025,6,210,BAL,Aeneas Peebles,DT,24,Virginia Tech,College Stats,PeebAe00
+2025,6,211,ARI,Hayden Conner,OL,23,Texas,College Stats,ConnHa00
+2025,6,212,BAL,Robert Longerbeam,DB,24,Rutgers,College Stats,LongRo00
+2025,6,213,LVR,Tommy Mellott,QB,,Montana St.,,MellTo00
+2025,6,214,LAC,R.J. Mickens,SAF,24,Clemson,College Stats,MickRJ00
+2025,6,215,LVR,Cam Miller,QB,24,North Dakota St.,,MillCa00
+2025,6,216,DEN,Jeremy Crawshaw,P,24,Florida,College Stats,CrawJe00
+2025,7,217,DAL,Jay Toia,DT,22,UCLA,College Stats,ToiaJa00
+2025,7,218,ATL,Jack Nelson,OT,23,Wisconsin,College Stats,NelsJa01
+2025,7,219,NYG,Thomas Fidone,TE,22,Nebraska,College Stats,FidoTh00
+2025,7,220,NWE,Marcus Bryant,OL,23,Missouri,College Stats,BryaMa02
+2025,7,221,JAX,Jonah Monheim,OL,23,USC,College Stats,MonhJo00
+2025,7,222,LVR,Cody Lindenberg,LB,23,Minnesota,College Stats,LindCo00
+2025,7,223,SEA,Damien Martinez,RB,21,Miami (FL),College Stats,MartDa02
+2025,7,224,HOU,Kyonte Hamilton,DL,22,Rutgers,College Stats,HamiKy01
+2025,7,225,ARI,Kitan Crawford,SAF,23,Nevada,College Stats,CrawKi00
+2025,7,226,PIT,Carson Bruener,LB,24,Washington,College Stats,BrueCa00
+2025,7,227,SFO,Kurtis Rourke,QB,24,Indiana,College Stats,RourKu01
+2025,7,228,KAN,Brashard Smith,RB,22,SMU,College Stats,SmitBr09
+2025,7,229,PIT,Donte Kent,CB,23,Central Michigan,College Stats,KentDo00
+2025,7,230,DET,Dan Jackson,SAF,24,Georgia,College Stats,JackDa04
+2025,7,231,MIA,Quinn Ewers,QB,22,Texas,College Stats,EwerQu00
+2025,7,232,IND,Hunter Wohler,SAF,22,Wisconsin,College Stats,WohlHu00
+2025,7,233,CHI,Kyle Monangai,RB,23,Rutgers,College Stats,MonaKy00
+2025,7,234,SEA,Mason Richman,OL,23,Iowa,College Stats,RichMa01
+2025,7,235,TAM,Tez Johnson,WR,23,Oregon,College Stats,JohnTe03
+2025,7,236,JAX,LeQuint Allen,RB,21,Syracuse,College Stats,AlleLe01
+2025,7,237,GNB,Micah Robinson,CB,23,Tulane,College Stats,RobiMi01
+2025,7,238,SEA,Ricky White,WR,23,UNLV,College Stats,WhitRi01
+2025,7,239,DAL,Phil Mafah,RB,22,Clemson,College Stats,MafaPh00
+2025,7,240,BUF,Kaden Prather,WR,23,Maryland,College Stats,PratKa00
+2025,7,241,DEN,Caleb Lohner,TE,24,Utah,College Stats,LohnCa00
+2025,7,242,LAR,Konata Mumpfield,WR,22,Pittsburgh,College Stats,MumpKo00
+2025,7,243,BAL,Garrett Dellinger,G,23,LSU,College Stats,DellGa00
+2025,7,244,DET,Dominic Lovett,WR,22,Georgia,College Stats,LoveDo00
+2025,7,245,WAS,Jacory Croskey-Merritt,RB,24,Arizona,College Stats,CrosJa00
+2025,7,246,NYG,Korie Black,CB,23,Oklahoma St.,College Stats,BlacKo00
+2025,7,247,DAL,Tommy Akingbesote,DT,22,Maryland,College Stats,AkinTo00
+2025,7,248,NOR,Moliki Matavao,TE,22,UCLA,College Stats,MataMo00
+2025,7,249,SFO,Connor Colby,OL,22,Iowa,College Stats,ColbCo00
+2025,7,250,GNB,John Williams,OL,23,Cincinnati,College Stats,WillJo11
+2025,7,251,NWE,Julian Ashby,LS,23,Vanderbilt,College Stats,AshbJu00
+2025,7,252,SFO,Junior Bergen,WR,,Montana,,BergJu00
+2025,7,253,MIA,Zeek Biggers,DL,21,Georgia Tech,College Stats,BiggZe01
+2025,7,254,NOR,Fadil Diggs,DE,23,Syracuse,College Stats,DiggFa00
+2025,7,255,HOU,Luke Lachey,TE,24,Iowa,College Stats,LachLu00
+2025,7,256,LAC,Trikweze Bridges,SAF,24,Florida,College Stats,BridTr00
+2025,7,257,NWE,Kobee Minor,DB,23,Memphis,College Stats,MinoKo00

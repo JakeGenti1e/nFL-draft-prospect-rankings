@@ -52,12 +52,6 @@ all_stats = all_stats.drop(columns=['player'])
 processed_roster["team"] = processed_roster["team"].str.lower().str.strip()
 all_stats["team"] = all_stats["team"].str.lower().str.strip()
 
-print("processed_roster shape:", processed_roster.shape)
-print(processed_roster.head())
-
-print("all_stats shape:", all_stats.shape)
-print(all_stats.head())
-
 player_data = pd.merge(
     processed_roster,
     all_stats,
@@ -115,3 +109,21 @@ player_data = pd.merge(
 )
 
 player_data = player_data.drop(columns=["player"])
+
+draft_data = pd.read_csv("data/raw/draft/nfl_draft_pre_draft_only.csv")
+draft_data = draft_data.drop(columns=["college_stats_label"])
+draft_data = draft_data.drop(columns=["player_id"])
+draft_data["name"] = draft_data["player"].str.lower().str.strip()
+draft_data = draft_data.drop(columns=["player"])
+draft_data["pro_team"] = draft_data["team"].str.lower().str.strip()
+draft_data = draft_data.drop(columns=["team"])
+draft_data["team"] = draft_data["college_university"].str.lower().str.strip()
+draft_data = draft_data.drop(columns=["college_university"])
+print(draft_data.head())
+
+player_data = pd.merge(
+    player_data,
+    draft_data,
+    on ="name",
+    how ="left"
+)
