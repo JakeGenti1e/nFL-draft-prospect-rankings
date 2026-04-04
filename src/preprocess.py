@@ -10,13 +10,13 @@ rosters_24 = pd.read_json("data/raw/rosters/rosters_2024.json")
 rosters_25 = pd.read_json("data/raw/rosters/rosters_2025.json")
 
 
-rosters_19["name"] = rosters_19["firstName"] + " " + rosters_19["lastName"]
-rosters_20["name"] = rosters_20["firstName"] + " " + rosters_20["lastName"]
-rosters_21["name"] = rosters_21["firstName"] + " " + rosters_21["lastName"]
-rosters_22["name"] = rosters_22["firstName"] + " " + rosters_22["lastName"]
-rosters_23["name"] = rosters_23["firstName"] + " " + rosters_23["lastName"]
-rosters_24["name"] = rosters_24["firstName"] + " " + rosters_24["lastName"]
-rosters_25["name"] = rosters_25["firstName"] + " " + rosters_25["lastName"]
+rosters_19["name"] = (rosters_19["firstName"] + " " + rosters_19["lastName"]).str.lower().str.strip()
+rosters_20["name"] = (rosters_20["firstName"] + " " + rosters_20["lastName"]).str.lower().str.strip()
+rosters_21["name"] = (rosters_21["firstName"] + " " + rosters_21["lastName"]).str.lower().str.strip()
+rosters_22["name"] = (rosters_22["firstName"] + " " + rosters_22["lastName"]).str.lower().str.strip()
+rosters_23["name"] = (rosters_23["firstName"] + " " + rosters_23["lastName"]).str.lower().str.strip()
+rosters_24["name"] = (rosters_24["firstName"] + " " + rosters_24["lastName"]).str.lower().str.strip()
+rosters_25["name"] = (rosters_25["firstName"] + " " + rosters_25["lastName"]).str.lower().str.strip()
 
 processed_rosters_19 = rosters_19[['name','height','weight','team','position', 'season']]
 processed_rosters_20 = rosters_20[['name','height','weight','team','position', 'season']]
@@ -64,9 +64,19 @@ player_data = pd.merge(
 all_americans_2010s = pd.read_csv("data/raw/honors/2010s_all_americans.csv")
 all_americans_2020s = pd.read_csv("data/raw/honors/2020s_all_americans.csv")
 
+all_americans_2020s["Unaminous"] = all_americans_2020s["Unaminous "].str.lower().str.strip()
 total_all_americans = [all_americans_2010s, all_americans_2020s]
 processed_all_americans = pd.concat(total_all_americans, ignore_index= True)
+processed_all_americans.columns = processed_all_americans.columns.str.strip()
 
+processed_all_americans["unanimous"] = (
+    processed_all_americans.loc[:, "Unaminous"]
+    .bfill(axis=1)
+    .iloc[:, 0]
+    .fillna(0)
+)
+
+processed_all_americans = processed_all_americans.loc[:, ~processed_all_americans.columns.duplicated()]
 combine_data = pd.read_csv("data/raw/combine/Combine_data_repaired_v2.csv")
 combine_data["draft_year"] = combine_data["Drafted"].str.extract(r"(\d{4})")
 combine_data["draft_round"] = combine_data["Drafted"].str.extract(r"/ (\d+)(?:st|nd|rd|th) /")
@@ -80,34 +90,45 @@ combine_data["player"] = combine_data["Player"].str.lower().str.strip()
 player_data = pd.merge(
     player_data,
     combine_data,
-    left_on=["name"],
-    right_on=["player"],
+    on="name",
     how="left"   
 )
+
+
 processed_all_americans["name"] = (
     processed_all_americans["Name"]
     .str.lower()
     .str.strip()
 )
+
+processed_all_americans.columns = processed_all_americans.columns.str.strip()
+processed_all_americans["name"] = processed_all_americans["Name"].str.lower().str.strip()
+processed_all_americans["season"] = processed_all_americans["Year"].astype(int)
 processed_all_americans["is_all_american"] = 1
 
+processed_all_americans = processed_all_americans.drop(columns=[
+    "Year",
+    "Name",
+    "Stats",
+    "Unaminous",
+    "ID",
+    "Unnamed: 6"
+], errors="ignore")
+
+print(processed_all_americans.columns)
+
 aa_features = (
-    processed_all_americans
-    .groupby("name", as_index=False)
-    .agg({"is_all_american": "max"})
+    processed_all_americans[["name", "season", "is_all_american"]]
+    .drop_duplicates()
 )
-
-player_data["name"] = player_data["name_x"].str.lower().str.strip()
-player_data = player_data.drop(columns=["name_x", "name_y"])
-
 
 player_data = pd.merge(
     player_data,
     aa_features,
-    on ="name",
-    how ="left"
+    on=["name", "season"],
+    how="left"
 )
-
+player_data["is_all_american"] = player_data["is_all_american"].fillna(0).astype(int)
 player_data = player_data.drop(columns=["player"])
 
 draft_data = pd.read_csv("data/raw/draft/nfl_draft_pre_draft_only.csv")
@@ -127,3 +148,51 @@ player_data = pd.merge(
     on ="name",
     how ="left"
 )
+final_df = (
+    player_data
+    .sort_values("season")
+    .groupby("name", as_index=False)
+    .tail(1)
+)
+
+# --- COMBINE ---
+combine_data["name"] = combine_data["Player"].str.lower().str.strip()
+
+combine_data = combine_data[[
+    col for col in [
+        "name", "height", "weight", "40yd", "vertical",
+        "bench", "broad_jump", "3cone", "shuttle"
+    ] if col in combine_data.columns
+]]
+
+final_df = pd.merge(final_df, combine_data, on="name", how="left")
+
+# --- DRAFT ---
+draft_data["name"] = draft_data["player"].str.lower().str.strip()
+
+draft_data = draft_data.rename(columns={
+    "round": "draft_round",
+    "pick": "draft_pick"
+})
+
+draft_data = draft_data[[
+    col for col in ["name", "draft_round", "draft_pick"]
+    if col in draft_data.columns
+]]
+
+final_df = pd.merge(final_df, draft_data, on="name", how="left")
+
+final_df["drafted"] = final_df["draft_round"].notna().astype(int)
+
+combine_data = combine_data.rename(columns={
+    "height": "combine_height",
+    "weight": "combine_weight",
+    "40yd": "forty_time",
+    "vertical": "vertical_jump",
+    "bench": "bench_reps",
+    "broad_jump": "broad_jump",
+    "3cone": "three_cone",
+    "shuttle": "shuttle_time"
+})
+
+final_df = pd.merge(final_df, combine_data, on="name", how="left")
