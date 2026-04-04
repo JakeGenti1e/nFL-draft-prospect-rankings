@@ -87,13 +87,6 @@ combine_data["name"] = combine_data["Player"].str.lower().str.strip()
 player_data["name"] = player_data["name"].str.lower().str.strip()
 combine_data["player"] = combine_data["Player"].str.lower().str.strip()
 
-player_data = pd.merge(
-    player_data,
-    combine_data,
-    on="name",
-    how="left"   
-)
-
 
 processed_all_americans["name"] = (
     processed_all_americans["Name"]
@@ -129,7 +122,7 @@ player_data = pd.merge(
     how="left"
 )
 player_data["is_all_american"] = player_data["is_all_american"].fillna(0).astype(int)
-player_data = player_data.drop(columns=["player"])
+print(player_data.head)
 
 draft_data = pd.read_csv("data/raw/draft/nfl_draft_pre_draft_only.csv")
 draft_data = draft_data.drop(columns=["college_stats_label"])
@@ -142,21 +135,13 @@ draft_data["team"] = draft_data["college_university"].str.lower().str.strip()
 draft_data = draft_data.drop(columns=["college_university"])
 print(draft_data.head())
 
-player_data = pd.merge(
-    player_data,
-    draft_data,
-    on ="name",
-    how ="left"
-)
+
 final_df = (
     player_data
     .sort_values("season")
     .groupby("name", as_index=False)
     .tail(1)
 )
-
-# --- COMBINE ---
-combine_data["name"] = combine_data["Player"].str.lower().str.strip()
 
 combine_data = combine_data[[
     col for col in [
@@ -166,9 +151,6 @@ combine_data = combine_data[[
 ]]
 
 final_df = pd.merge(final_df, combine_data, on="name", how="left")
-
-# --- DRAFT ---
-draft_data["name"] = draft_data["player"].str.lower().str.strip()
 
 draft_data = draft_data.rename(columns={
     "round": "draft_round",
@@ -194,5 +176,3 @@ combine_data = combine_data.rename(columns={
     "3cone": "three_cone",
     "shuttle": "shuttle_time"
 })
-
-final_df = pd.merge(final_df, combine_data, on="name", how="left")
