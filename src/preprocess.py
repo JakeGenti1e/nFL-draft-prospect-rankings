@@ -176,3 +176,6 @@ combine_data = combine_data.rename(columns={
     "3cone": "three_cone",
     "shuttle": "shuttle_time"
 })
+
+final_df.to_csv("data/processed/features.csv")
+
