@@ -36,7 +36,10 @@ model.score(X_val, y_val)
 
 results = test.copy()
 results["predicted_pick"] = model.predict(X_test)
+rankings  = results.sort_values("season")
+rankings = rankings.groupby("name")
 rankings  = results.sort_values("predicted_pick")
+
 print(rankings[["name", "predicted_pick"]].head(32))
 
 
