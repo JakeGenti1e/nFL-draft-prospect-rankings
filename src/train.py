@@ -4,6 +4,8 @@ import xgboost as xgb
 from xgboost import XGBRegressor
 import matplotlib.pyplot as plt
 import graphviz
+import matplotlib.pyplot as plt
+
 draft_multiplier = 4
 print("Loading data...")
 df = pd.read_csv("data/processed/player_data.csv", index_col = 0)
@@ -27,17 +29,18 @@ print(df[["draft_pick_x", "draft_score"]].sample(20))
 print(df["draft_score"].describe())
 #print(df["team"].unique())
 confrence_rankings = {
-    "SEC": 1.5,
-    "Big Ten": 1.4,
-    "ACC": 1.4,
-    "Pac-12": 1.4,
-    "Notre Dame":1.4,
-    "American Athletic":1.3,
-    "Mountain West":1.2,
-    "Mid-American": 1.1,
+    "SEC": 2.0,
+    "Big Ten": 2.0,
+    "ACC": 1.9,
+    "Pac-12": 1.9,
+    "Notre Dame":1.9,
+    "American Athletic":1.6,
+    "Mountain West":1.5,
+    "Pac-2":1.4,
+    "Sun Belt":1.3,
+    "Mid-American": 1.2,
     "Conference USA": 1.1,
-    "FBS Independents": 1.0,
-    "Sun Belt": 1.0
+    "Independent": 1.0,
 }
 
 df["confrence_weight"] = df["conference"].map(confrence_rankings)
@@ -75,15 +78,15 @@ y_val = val["draft_score"]
 
 X_test = test.drop(columns=["draft_score", "name", "playerId", "draft_pick_x", "draft_round_x", "Drafted", "draft_year_x"])
 
-
+print("train_df: ", train.shape)
 model = XGBRegressor(
     enable_categorical =True,
-    colsample_bytree = 0.4,
-    reg_lambda = 5,
-    min_child_weight = 5,
-    max_depth =4,
-    learning_rate = 0.04,
-    n_estimators = 400
+    colsample_bytree = 0.6,
+    reg_lambda = 6,
+    min_child_weight = 6,
+    max_depth =6,
+    learning_rate = 0.4,
+    n_estimators = 500
     )
 print("test_df:", test.shape)
 
@@ -111,8 +114,6 @@ print("max:", preds.max())
 print("mean:", preds.mean())
 print("std:", preds.std())
 
-import pandas as pd
-import matplotlib.pyplot as plt
 
 # feature importances
 feat_imp = pd.Series(model.feature_importances_, index=X_train.columns)

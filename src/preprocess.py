@@ -1,5 +1,7 @@
 import pandas as pd
 from pathlib import Path
+from conference_mapping import build_fbs_conference_map
+from conference_mapping import map_conference
 
 rosters_19 = pd.read_json("data/raw/rosters/rosters_2019.json")
 rosters_20 = pd.read_json("data/raw/rosters/rosters_2020.json")
@@ -18,13 +20,13 @@ rosters_23["name"] = (rosters_23["firstName"] + " " + rosters_23["lastName"]).st
 rosters_24["name"] = (rosters_24["firstName"] + " " + rosters_24["lastName"]).str.lower().str.strip()
 rosters_25["name"] = (rosters_25["firstName"] + " " + rosters_25["lastName"]).str.lower().str.strip()
 
-processed_rosters_19 = rosters_19[['name','height','weight','team','position', 'season']]
-processed_rosters_20 = rosters_20[['name','height','weight','team','position', 'season']]
-processed_rosters_21 = rosters_21[['name','height','weight','team','position', 'season']]
-processed_rosters_22 = rosters_22[['name','height','weight','team','position', 'season']]
-processed_rosters_23 = rosters_23[['name','height','weight','team','position', 'season']]
-processed_rosters_24 = rosters_24[['name','height','weight','team','position', 'season']]
-processed_rosters_25 = rosters_25[['name','height','weight','team','position', 'season']]
+processed_rosters_19 = rosters_19[['name','height','weight','team','position', 'season', 'id']]
+processed_rosters_20 = rosters_20[['name','height','weight','team','position', 'season', 'id']]
+processed_rosters_21 = rosters_21[['name','height','weight','team','position', 'season', 'id']]
+processed_rosters_22 = rosters_22[['name','height','weight','team','position', 'season', 'id']]
+processed_rosters_23 = rosters_23[['name','height','weight','team','position', 'season', 'id']]
+processed_rosters_24 = rosters_24[['name','height','weight','team','position', 'season', 'id']]
+processed_rosters_25 = rosters_25[['name','height','weight','team','position', 'season', 'id']]
 
 roster_years = [processed_rosters_19, processed_rosters_20, processed_rosters_21, processed_rosters_22, processed_rosters_23, processed_rosters_24, processed_rosters_25]
 processed_roster = pd.concat(roster_years, ignore_index = True)
@@ -47,20 +49,35 @@ for year in range(2015, 2026):
 
 all_stats = pd.concat(dfs, ignore_index=True) 
 all_stats["name"] = all_stats["player"].str.lower().str.strip()
-all_stats = all_stats.drop(columns=['player'])
+all_stats = all_stats.drop(columns=['player', 'conference'])
 
 processed_roster["team"] = processed_roster["team"].str.lower().str.strip()
 all_stats["team"] = all_stats["team"].str.lower().str.strip()
+all_stats.to_csv("data/raw/stats/all_stats.csv")
+processed_roster["conference"] = processed_roster.apply(
+    lambda row: map_conference(row["team"], row["season"]),
+    axis=1
+)
+print(all_stats.duplicated(["playerId","season"]).sum())
+
+processed_roster["playerId"] = processed_roster["id"]
+processed_roster = processed_roster.drop(columns= ["id"])
+
 
 player_data = pd.merge(
     processed_roster,
     all_stats,
-    left_on= ["team", "season"],
-    right_on= ["team", "season"],
+    on= ["name","team","playerId", "season"],
     how="left"
 )
 
+
+#player_data.to_csv("data/processed/player_data.csv")
+
 player_data["position"] = player_data["position_x"]
+player_data["position"] = player_data["position"].fillna("none")
+player_data["position"] = player_data["position"].replace("?","none")
+
 player_data = player_data.drop(columns=["position_y", "position_x"])
 
 all_americans_2010s = pd.read_csv("data/raw/honors/2010s_all_americans.csv")
@@ -86,8 +103,8 @@ combine_data["draft_pick"] = combine_data["Drafted"].str.extract(r"/ (\d+)(?:st|
 
 combine_data["name"] = combine_data["Player"].str.lower().str.strip()
 
-player_data["name"] = player_data["name_y"].str.lower().str.strip()
-player_data = player_data.drop(columns=["name_x", "name_y"])
+#player_data["name"] = player_data["name_y"].str.lower().str.strip()
+#player_data = player_data.drop(columns=["name_x", "name_y"])
 combine_data = combine_data.drop(columns=["Player"])
 
 processed_all_americans["name"] = (
@@ -120,12 +137,15 @@ unanimous_aa = {
     "No":0
 }
 aa_features["unanimous"] = aa_features["Unaminous"].map(unanimous_aa)
+#player_data.to_csv("data/processed/player_data.csv")
+
 player_data = pd.merge(
     player_data,
     aa_features,
     on=["name", "season"],
     how="left"
 )
+
 player_data["is_all_american"] = player_data["is_all_american"].fillna(0).astype(int)
 print(player_data.head)
 
@@ -169,5 +189,5 @@ player_data = pd.merge(
     on = ["name","position","team"],
     how = "left" 
 )
-
+#player_data = player_data["position"].fillna("none")
 player_data.to_csv("data/processed/player_data.csv")
