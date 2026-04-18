@@ -189,5 +189,25 @@ player_data = pd.merge(
     on = ["name","position","team"],
     how = "left" 
 )
-#player_data = player_data["position"].fillna("none")
+
+awards = pd.read_csv("data/raw/honors/cfb_awards_weighted.csv")
+awards["name"] = awards["name"].str.lower().str.strip()
+awards["season"] = awards["year"]
+awards = awards.drop(columns=["year"])
+#awards["winner"] = awards.map(award_rankings)
+player_data = pd.merge(
+    player_data,
+    awards,
+    on = ["name", "team", "season"],
+    how = "left"
+)
+
+stats_cols = [
+  "interceptions_AVG","interceptions_INT","interceptions_TD","interceptions_YDS","kickReturns_AVG","kickReturns_LONG","kickReturns_NO","kickReturns_TD","kickReturns_YDS","kicking_FGA","kicking_FGM","kicking_LONG","kicking_PCT","kicking_PTS","kicking_XPA","kicking_XPM","passing_ATT","passing_COMPLETIONS","passing_INT","passing_PCT","passing_TD","passing_YDS","passing_YPA","puntReturns_AVG","puntReturns_LONG","puntReturns_NO","puntReturns_TD","puntReturns_YDS","punting_In 20","punting_LONG","punting_NO","punting_TB","punting_YDS","punting_YPP","receiving_LONG","receiving_REC","receiving_TD","receiving_YDS","receiving_YPR","rushing_CAR","rushing_LONG","rushing_TD","rushing_YDS","rushing_YPC","defensive_PD","defensive_QB HUR","defensive_SACKS","defensive_SOLO","defensive_TD","defensive_TFL","defensive_TOT","fumbles_FUM","fumbles_LOST","fumbles_REC"
+]
+
+
+
+player_data[stats_cols] = player_data[stats_cols].fillna(0)
 player_data.to_csv("data/processed/player_data.csv")
+

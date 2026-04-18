@@ -141,7 +141,7 @@ def build_fbs_conference_map():
         "east carolina": "AAC",
         "houston": "AAC",
         "memphis": "AAC",
-        "navy": "AAC",
+        "navy": "Service Academy",
         "south florida": "AAC",
         "southern methodist": "AAC",
         "temple": "AAC",
@@ -180,7 +180,7 @@ def build_fbs_conference_map():
         "western michigan": "MAC",
 
         # Mountain West
-        "air force": "MWC",
+        "air force": "Service Academy",
         "boise state": "MWC",
         "colorado state": "MWC",
         "fresno state": "MWC",
@@ -206,7 +206,7 @@ def build_fbs_conference_map():
         "troy": "Sun Belt",
 
         # Independents
-        "army": "Independent",
+        "army": "Service Academy",
         "brigham young": "Independent",
         "liberty": "Independent",
         "new mexico state": "Independent",
@@ -251,7 +251,7 @@ def build_fbs_conference_map():
     # No longer independents in 2023
     # BYU, Liberty, NMSU moved out
     # Army / Notre Dame / UMass / UConn remain independent-ish for football, ND custom
-    y2023["army"] = "Independent"
+    y2023["army"] = "Service Academy"
     y2023["umass"] = "Independent"
     y2023["connecticut"] = "Independent"
     y2023["notre dame"] = "Notre Dame"
@@ -277,7 +277,7 @@ def build_fbs_conference_map():
         y2024_2025[team] = "Big 12"
 
     # AAC adds Army
-    y2024_2025["army"] = "AAC"
+    y2024_2025["army"] = "Service Academy"
 
     # C-USA adds Kennesaw State
     y2024_2025["kennesaw state"] = "C-USA"
