@@ -161,6 +161,14 @@ skill_y_val = skill_val["draft_pick_x"]
 
 skill_X_test = skill_test.drop(columns=["draft_pick_x", "name"])
 
+def_X_train = def_train.drop(columns=["draft_pick_x", "name"])
+def_y_train = def_train["draft_pick_x"]
+
+def_X_val = def_val.drop(columns=["draft_pick_x", "name"])
+def_y_val = def_val["draft_pick_x"]
+
+def_X_test = def_test.drop(columns=["draft_pick_x", "name"])
+
 print(" qb train_df: ", qb_train.shape)
 qb_model = XGBRegressor(
     enable_categorical =True,
@@ -192,6 +200,8 @@ skill_model = XGBRegressor(
 skill_model.fit(skill_X_train, skill_y_train)
 skill_preds = skill_model.predict(skill_X_test)
 
+
+
 print(train_score)
 
 #skill_model.fit(skill_X_train, skill_y_train)
@@ -211,6 +221,24 @@ skill_results = skill_test.reset_index(drop=True).copy()
 skill_results["predicted_pick"]= skill_preds
 skill_rankings  = skill_results.sort_values(["predicted_pick","position"], ascending=[True, True])
 print(skill_rankings[["name", "predicted_pick"]].head(32))
+
+def_model = XGBRegressor(
+    enable_categorical =True,
+    colsample_bytree = 0.8,
+    reg_lambda = 5,
+    min_child_weight = 5,
+    max_depth =2,
+    learning_rate = 0.03,
+    n_estimators = 500
+    )
+def_model.fit(def_X_train, def_y_train)
+def_preds = def_model.predict(def_X_test)
+
+def_results = def_test.reset_index(drop=True).copy()
+def_results["predicted_pick"]= def_preds
+def_rankings  = def_results.sort_values(["predicted_pick","position"], ascending=[True, True])
+print(def_rankings[["name", "predicted_pick"]].head(32))
+
 
 print("min:", preds.min())
 print("max:", preds.max())
