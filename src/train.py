@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 draft_multiplier = 4
 print("Loading data...")
-df = pd.read_csv("player_data_2025_adjusted (2) - Copy.csv", index_col = 0)
+df = pd.read_csv("player_data_2025_adjusted (2) - Copy.csv", low_memory=False)
 df.columns = df.columns.str.replace("_x$", "", regex=True)
 df = df.loc[:, ~df.columns.str.endswith("_y")]
 df["team"] = df["team"].astype("category")
@@ -30,6 +30,8 @@ df["rushing_TD"] *= 1.5
 df["rushing_YPC"] *= 1.6
 df["int_rate"] = df["passing_INT"] / df["passing_ATT"].replace(0, np.nan)
 df["td_rate"] = df["passing_TD"] / df["passing_ATT"].replace(0, np.nan)
+df["win_pct"] = (df["W"]/(df["W"]+df["L"]))
+df["win_pct"] = df["win_pct"] + df["SRS"]
 df["qb_score"] = (
     df["passing_YPA"] * 1.5 +
     df["passing_PCT"] * 0.30 +
@@ -102,27 +104,19 @@ df["score"] = df["draft_round_x"].map(player_score)
 df.loc[df["draft_pick_x"] <= 5, "score"] += 5
 df.loc[df["draft_pick_x"] <= 10, "score"] += 3
 df.loc[df["draft_pick_x"] <= 20, "score"] += 2
-df.loc[df["passing_ATT"] >= 200, "OSRS"]+=100
-df.loc[df["passing_ATT"] >= 200, "W"]+=6
-df.loc[df["passing_ATT"] >= 200, "Off"]+=25
-df.loc[df["receiving_YDS"] >= 600, "OSRS"]+=100
-df.loc[df["receiving_YDS"] >= 600, "W"]+=6
-df.loc[df["receiving_YDS"] >= 600, "Off"]+=25
-df.loc[df["rushing_YDS"] >= 600, "OSRS"]+=100
-df.loc[df["rushing_YDS"] >= 600, "W"]+=6
-df.loc[df["rushing_YDS"] >= 600, "Off"]+=25
 
-df.loc[df]
+
+
 df["ap_rank_score"] = 30-df["AP Rank"]
 qb_cols = [
     "career_stage",
     "name",
     "OSRS",
-    "W",
     "ap_rank_score",
-    "L",
+    "win_pct",
     "Off",
     "height",
+    "passing_PCT",
     "weight",
     "team",
     "season",
@@ -144,13 +138,55 @@ qb_cols = [
 
 qb_df = df[df["position"] == "QB"][qb_cols + ["score"]]
 
+qb_df.loc[qb_df["passing_ATT"] >= 300, "OSRS"]+=100
+qb_df.loc[qb_df["passing_ATT"] >= 300, "win_pct"]+=15
+qb_df.loc[qb_df["passing_ATT"] >= 300, "Off"]+=25
+
+qb_df.loc[qb_df["passing_YDS"] >= 3000, "OSRS"]+=100
+qb_df.loc[qb_df["passing_YDS"] >= 3000, "win_pct"]+=15
+qb_df.loc[qb_df["passing_YDS"] >= 3000, "Off"]+=25
+
+qb_df.loc[qb_df["passing_TD"] >= 25, "OSRS"]+=200
+qb_df.loc[qb_df["passing_TD"] >= 25, "win_pct"]+=30
+qb_df.loc[qb_df["passing_TD"] >= 25, "Off"]+=50
+
+qb_df.loc[qb_df["passing_PCT"] >= 63, "OSRS"]+=100
+qb_df.loc[qb_df["passing_PCT"] >= 63, "win_pct"]+=15
+qb_df.loc[qb_df["passing_PCT"] >= 63, "Off"]+=25
+
+qb_df.loc[qb_df["passing_PCT"] <= 63, "OSRS"]-=100
+qb_df.loc[qb_df["passing_PCT"] <= 63, "win_pct"]-=15
+qb_df.loc[qb_df["passing_PCT"] <= 63, "Off"]-=25
+
+qb_df.loc[qb_df["passing_ATT"] <= 200, "qb_score"]-=300
+qb_df.loc[qb_df["passing_ATT"] <= 300, "OSRS"]-=300
+qb_df.loc[qb_df["passing_ATT"] <= 300, "win_pct"]-=45
+qb_df.loc[qb_df["passing_ATT"] <= 300, "Off"]-=75
+
+qb_df.loc[qb_df["passing_YDS"] <= 3000, "OSRS"]-=100
+qb_df.loc[qb_df["passing_YDS"] <= 3000, "win_pct"]-=15
+qb_df.loc[qb_df["passing_YDS"] <= 3000, "Off"]-=25
+
+qb_df.loc[qb_df["passing_TD"] <= 25, "OSRS"]-=200
+qb_df.loc[qb_df["passing_TD"] <= 25, "win_pct"]-=30
+qb_df.loc[qb_df["passing_TD"] <= 25, "Off"]-=50
+qb_df.loc[qb_df["passing_TD"] <= 20, "qb_score"]-=150
+
+qb_df.loc[qb_df["is_all_american"] == 1, "OSRS"]+=250
+qb_df.loc[qb_df["is_all_american"] == 1, "win_pct"]+=20
+
+
 
 skill_cols = [
     "career_stage",
     "name",
     "height",
     "weight",
+    "ap_rank_score",
+    "win_pct",
     "OSRS",
+    "Tot_Off",
+    "Off",
     "confrence_weight",
     "season",
     "position",
@@ -173,13 +209,21 @@ skill_cols = [
 ]
 
 skill_df = df[df["position"].isin(["RB","WR","TE"])][skill_cols + ["score"]]
-
+skill_df.loc[skill_df["receiving_YDS"] >= 600, "OSRS"]+=100
+skill_df.loc[skill_df["receiving_YDS"] >= 600, "Off"]+=25
+skill_df.loc[skill_df["rushing_YDS"] >= 600, "OSRS"]+=100
+skill_df.loc[skill_df["rushing_YDS"] >= 600, "Off"]+=25
+skill_df.loc[skill_df["is_all_american"] == 1, "OSRS"]+=250
+skill_df.loc[skill_df["receiving_YDS"] >= 600, "win_pct"]+=15
+skill_df.loc[skill_df["rushing_YDS"] >= 600, "win_pct"]+=15
 edge_cols = [
     "career_stage",
     "name",
     "position",
     "season",
     "DSRS",
+    "ap_rank_score",
+    "win_pct",
     "is_all_american",
     "unanimous",
     "ted_hendricks",      # strong signal here
@@ -200,6 +244,11 @@ edge_cols = [
 edge_df = df[df["position"].isin(["DE", "EDGE", "OLB","DL"])][edge_cols + ["score"]]
 edge_df["defensive_SACKS"] = edge_df["defensive_SACKS"]*1.5
 edge_df["defensive_TFL"] = edge_df["defensive_TFL"]*2
+edge_df.loc[edge_df["edge_pressure_score"] >= 8, "DSRS"]+=100
+edge_df.loc[edge_df["defensive_TOT"] >= 50, "DSRS"]+=100
+edge_df.loc[edge_df["is_all_american"] == 1, "DSRS"]+=250
+edge_df.loc[edge_df["edge_pressure_score"] >= 8, "win_pct"]+=15
+edge_df.loc[edge_df["defensive_TOT"] >= 50, "win_pct"]+=15
 
 
 idl_cols = [
@@ -208,7 +257,11 @@ idl_cols = [
     "season",
     "position",
     "DSRS",
+    "Rush_Def",
+    "Tot_Def",
     "is_all_american",
+    "ap_rank_score",
+    "win_pct",
     "unanimous",
     "confrence_weight",
     "defensive_TFL",
@@ -219,7 +272,11 @@ idl_cols = [
 ]
 
 idl_df = df[df["position"].isin(["DT", "NT"])][idl_cols + ["score"]]
-
+idl_df.loc[idl_df["defensive_TFL"] >= 7, "DSRS"]+=100
+idl_df.loc[idl_df["defensive_TOT"] >= 40, "DSRS"]+=100
+idl_df.loc[idl_df["is_all_american"] == 1, "DSRS"]+=250
+idl_df.loc[idl_df["defensive_TFL"] >= 7, "win_pct"]+=15
+idl_df.loc[idl_df["defensive_TOT"] >= 40, "win_pct"]+=15
 
 lb_cols = [
     "career_stage",
@@ -227,6 +284,10 @@ lb_cols = [
     "season",
     "position",
     "DSRS",
+    "Def",
+    "ap_rank_score",
+    "win_pct",
+    "Tot_Def",
     "is_all_american",
     "unanimous",
     "dick_butkus",        
@@ -241,7 +302,11 @@ lb_cols = [
 ]
 
 lb_df = df[df["position"].isin(["LB", "ILB"])][idl_cols + ["score"]]
-
+lb_df.loc[lb_df["defensive_TFL"] >= 3, "DSRS"]+=100
+lb_df.loc[lb_df["defensive_TOT"] >= 40, "DSRS"]+=100
+lb_df.loc[lb_df["is_all_american"] == 1, "DSRS"]+=250
+lb_df.loc[lb_df["defensive_TFL"] >= 7, "win_pct"]+=15
+lb_df.loc[lb_df["defensive_TOT"] >= 7, "win_pct"]+=15
 
 db_cols = [
     "career_stage",
@@ -250,12 +315,21 @@ db_cols = [
     "position",
     "season",
     "DSRS",
+    "ap_rank_score",
+    "win_pct",
+    "Def",
+    "Tot_Def",
+    "Pass_Def",
     "is_all_american",
     "unanimous",
     "weighted_award_score",
     "confrence_weight",
     "interceptions_INT",
     "db_score",
+    "Vertical",
+    "40yd",
+    "3Cone",
+    "Shuttle",
     "interceptions_TD",
     "defensive_PD",
     "declared",
@@ -267,6 +341,34 @@ db_cols = [
 ]
 
 db_df = df[df["position"].isin(["CB", "DB","S"])][db_cols + ["score"]]
+db_df.loc[db_df["defensive_PD"] >= 6, "DSRS"]+=300
+db_df.loc[db_df["db_score"] >= 8, "DSRS"]+=300
+db_df.loc[db_df["db_score"] >= 8, "win_pct"]+=30
+
+db_df.loc[db_df["defensive_TOT"] <= 10, "DSRS"]-=10000
+db_df.loc[db_df["defensive_TOT"] <= 10, "db_score"]-=10000
+db_df.loc[db_df["defensive_TOT"] >= 40, "DSRS"]+=50
+db_df.loc[db_df["defensive_TOT"] >= 80, "DSRS"]+=100
+db_df.loc[db_df["defensive_TFL"] >= 3, "DSRS"]+=50
+db_df.loc[db_df["is_all_american"] == 1, "DSRS"]+=200
+db_df.loc[db_df["is_all_american"] == 1, "win_pct"]+=20
+db_df.loc[db_df["is_all_american"] == 1, "win_pct"]+=20
+db_df.loc[db_df["defensive_PD"] >= 6, "win_pct"]+=35
+db_df.loc[db_df["defensive_PD"] == 0, "win_pct"]-=35
+db_df.loc[db_df["db_score"] >= 10, "win_pct"]+=35
+db_df.loc[db_df["weighted_award_score"] >= 1, "win_pct"]+=80
+db_df.loc[db_df["weighted_award_score"] >= 1, "DSRS"]+=600
+db_df.loc[db_df["Vertical"] >= 38, "DSRS"] +=200
+db_df.loc[db_df["40yd"] >= 4.35, "DSRS"] +=200
+db_df.loc[db_df["3Cone"]<= 6.70, "DSRS"]+=200
+db_df.loc[db_df["Shuttle"] <= 4.05, "DSRS"]+=200
+db_df.loc[db_df["Vertical"] >= 38, "db_score"] +=20
+db_df.loc[db_df["40yd"] >= 4.35, "db_score"] +=20
+db_df.loc[db_df["3Cone"]<= 6.70, "db_score"]+=20
+db_df.loc[db_df["Shuttle"] <= 4.05, "db_score"]+=20
+
+
+
 db_df["defensive_PD"] = db_df["defensive_PD"].fillna(0)*2
 db_df = db_df.drop(columns=["first_season"])
 
@@ -368,14 +470,14 @@ db_X_test = db_test.drop(columns=["score", "name"])
 print(" qb train_df: ", qb_train.shape)
 qb_model = XGBRegressor(
     enable_categorical =True,
-    colsample_bytree = 0.75,
-    subsample=0.75,
+    colsample_bytree = 0.70,
+    subsample=0.70,
     reg_alpha =8,
     reg_lambda =8,
     min_child_weight = 8,
     max_depth = 2,
-    learning_rate = 0.03,
-    n_estimators = 100,
+    learning_rate = 0.01,
+    n_estimators = 90,
     random_state = 42
     )
 print("test_df:", qb_test.shape)
@@ -482,12 +584,12 @@ print(lb_rankings[["name", "predicted_score"]].head(32))
 
 db_model = XGBRegressor(
     enable_categorical =True,
-    colsample_bytree = 0.75,
-    reg_lambda = 8,
-    min_child_weight = 4,
+    colsample_bytree = 0.55,
+    reg_lambda = 4,
+    min_child_weight = 2,
     max_depth = 2,
-    learning_rate = 0.02,
-    n_estimators = 75,
+    learning_rate = 0.01,
+    n_estimators = 50,
     reg_alpha= 2,
     random_state = 42
     )
