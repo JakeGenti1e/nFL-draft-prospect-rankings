@@ -151,12 +151,12 @@ qb_df.loc[qb_df["passing_TD"] >= 25, "win_pct"]+=30
 qb_df.loc[qb_df["passing_TD"] >= 25, "Off"]+=50
 
 qb_df.loc[qb_df["passing_PCT"] >= 63, "OSRS"]+=100
-qb_df.loc[qb_df["passing_PCT"] >= 63, "win_pct"]+=15
-qb_df.loc[qb_df["passing_PCT"] >= 63, "Off"]+=25
+qb_df.loc[qb_df["passing_PCT"] >= 63, "win_pct"]+=45
+qb_df.loc[qb_df["passing_PCT"] >= 63, "Off"]+=35
 
 qb_df.loc[qb_df["passing_PCT"] <= 63, "OSRS"]-=100
-qb_df.loc[qb_df["passing_PCT"] <= 63, "win_pct"]-=15
-qb_df.loc[qb_df["passing_PCT"] <= 63, "Off"]-=25
+qb_df.loc[qb_df["passing_PCT"] <= 63, "win_pct"]-=45
+qb_df.loc[qb_df["passing_PCT"] <= 63, "Off"]-=35
 
 qb_df.loc[qb_df["passing_ATT"] <= 200, "qb_score"]-=300
 qb_df.loc[qb_df["passing_ATT"] <= 300, "OSRS"]-=300
@@ -206,6 +206,12 @@ skill_cols = [
     "rushing_YPC",
     "heisman",
     "declared",
+    "Vertical",
+    "40yd",
+    "3Cone",
+    "Bench",
+    "Broad Jump",
+    "Shuttle"
 ]
 
 skill_df = df[df["position"].isin(["RB","WR","TE"])][skill_cols + ["score"]]
@@ -216,6 +222,13 @@ skill_df.loc[skill_df["rushing_YDS"] >= 600, "Off"]+=25
 skill_df.loc[skill_df["is_all_american"] == 1, "OSRS"]+=250
 skill_df.loc[skill_df["receiving_YDS"] >= 600, "win_pct"]+=15
 skill_df.loc[skill_df["rushing_YDS"] >= 600, "win_pct"]+=15
+skill_df.loc[skill_df["40yd"]<=4.35, "OSRS"]+=500
+skill_df.loc[skill_df["Vertical"]>=38, "OSRS"]+=475
+skill_df.loc[skill_df["Broad Jump"]>=10.0, "OSRS"]+=450
+skill_df.loc[skill_df["Shuttle"]<=4.05, "OSRS"]+=425
+skill_df.loc[skill_df["3Cone"]<=6.70, "OSRS"]+=400
+
+
 edge_cols = [
     "career_stage",
     "name",
@@ -226,7 +239,7 @@ edge_cols = [
     "win_pct",
     "is_all_american",
     "unanimous",
-    "ted_hendricks",      # strong signal here
+    "ted_hendricks",      
     "vince_lombardi",
     "weighted_award_score",
     "confrence_weight",
@@ -238,18 +251,34 @@ edge_cols = [
     "sack_share",
     "ronnie_lott",
     "defensive_SOLO",
-    "declared"
+    "declared",
+    "Vertical",
+    "40yd",
+    "3Cone",
+    "Bench",
+    "Broad Jump",
+    "Shuttle"
 ]
 
 edge_df = df[df["position"].isin(["DE", "EDGE", "OLB","DL"])][edge_cols + ["score"]]
 edge_df["defensive_SACKS"] = edge_df["defensive_SACKS"]*1.5
 edge_df["defensive_TFL"] = edge_df["defensive_TFL"]*2
 edge_df.loc[edge_df["edge_pressure_score"] >= 8, "DSRS"]+=100
-edge_df.loc[edge_df["defensive_TOT"] >= 50, "DSRS"]+=100
+edge_df.loc[edge_df["defensive_TOT"] >= 50, "DSRS"]+=500
+edge_df.loc[edge_df["defensive_TOT"] <= 15, "DSRS"]-=1000
 edge_df.loc[edge_df["is_all_american"] == 1, "DSRS"]+=250
 edge_df.loc[edge_df["edge_pressure_score"] >= 8, "win_pct"]+=15
 edge_df.loc[edge_df["defensive_TOT"] >= 50, "win_pct"]+=15
-
+edge_df.loc[edge_df["weighted_award_score"] >= 1, "win_pct"]+=80
+edge_df.loc[edge_df["weighted_award_score"] >= 1, "DSRS"]+=100
+edge_df.loc[edge_df["is_all_american"] == 1, "DSRS"]+=120
+edge_df.loc[edge_df["career_stage"]<=4, "DSRS"]+=100
+edge_df.loc[edge_df["Vertical"] >= 38, "DSRS"]+=450
+edge_df.loc[edge_df["40yd"] <= 4.90, "DSRS"] +=400
+edge_df.loc[edge_df["3Cone"]<= 6.90, "DSRS"]+=475
+edge_df.loc[edge_df["Broad Jump"] >= 10.0, "DSRS"]+=500
+edge_df.loc[edge_df["Shuttle"] >= 4.20, "DSRS"]+=425
+edge_df.loc[edge_df["Bench"] >= 25, "DSRS"]+=375
 
 idl_cols = [
     "career_stage",
@@ -261,6 +290,7 @@ idl_cols = [
     "Tot_Def",
     "is_all_american",
     "ap_rank_score",
+    "weighted_award_score",
     "win_pct",
     "unanimous",
     "confrence_weight",
@@ -268,15 +298,28 @@ idl_cols = [
     "defensive_TOT",
     "defensive_SOLO",
     "ronnie_lott",
-    "declared"
+    "declared",
+    "Vertical",
+    "40yd",
+    "3Cone",
+    "Bench",
+    "Broad Jump",
+    "Shuttle"
 ]
 
 idl_df = df[df["position"].isin(["DT", "NT"])][idl_cols + ["score"]]
 idl_df.loc[idl_df["defensive_TFL"] >= 7, "DSRS"]+=100
 idl_df.loc[idl_df["defensive_TOT"] >= 40, "DSRS"]+=100
+idl_df.loc[idl_df["career_stage"]<=4, "DSRS"]+=100
 idl_df.loc[idl_df["is_all_american"] == 1, "DSRS"]+=250
 idl_df.loc[idl_df["defensive_TFL"] >= 7, "win_pct"]+=15
 idl_df.loc[idl_df["defensive_TOT"] >= 40, "win_pct"]+=15
+idl_df.loc[idl_df["Vertical"] >= 34, "DSRS"]+=400
+idl_df.loc[idl_df["40yd"] <= 4.90, "DSRS"] +=450
+idl_df.loc[idl_df["3Cone"]<= 7.40, "DSRS"]+=370
+idl_df.loc[idl_df["Broad Jump"] >= 9.6, "DSRS"]+=500
+idl_df.loc[idl_df["Shuttle"] <= 4.40, "DSRS"]+=500
+idl_df.loc[idl_df["Bench"] >= 30, "DSRS"]+=400
 
 lb_cols = [
     "career_stage",
@@ -298,16 +341,31 @@ lb_cols = [
     "defensive_TFL",
     "defensive_SOLO",
     "ronnie_lott",
-    "declared"
+    "declared",
+    "Vertical",
+    "40yd",
+    "3Cone",
+    "Bench",
+    "Shuttle"
 ]
 
-lb_df = df[df["position"].isin(["LB", "ILB"])][idl_cols + ["score"]]
+lb_df = df[df["position"].isin(["LB", "ILB"])][lb_cols + ["score"]]
 lb_df.loc[lb_df["defensive_TFL"] >= 3, "DSRS"]+=100
 lb_df.loc[lb_df["defensive_TOT"] >= 40, "DSRS"]+=100
 lb_df.loc[lb_df["is_all_american"] == 1, "DSRS"]+=250
 lb_df.loc[lb_df["defensive_TFL"] >= 7, "win_pct"]+=15
 lb_df.loc[lb_df["defensive_TOT"] >= 7, "win_pct"]+=15
-
+lb_df.loc[lb_df["career_stage"]<=4, "DSRS"]+=100
+lb_df.loc[lb_df["weighted_award_score"] >= 1, "win_pct"]+=80
+lb_df.loc[lb_df["weighted_award_score"] >= 1, "DSRS"]+=100
+lb_df.loc[lb_df["defensive_TOT"] <= 20, "DSRS"]-=10000
+lb_df.loc[lb_df["defensive_TOT"] <= 20, "DSRS"]-=10000
+lb_df.loc[lb_df["Vertical"] >= 38, "DSRS"]+=400
+lb_df.loc[lb_df["40yd"] <= 4.50, "DSRS"] +=450
+lb_df.loc[lb_df["3Cone"]<= 6.90, "DSRS"]+=370
+lb_df.loc[lb_df["Shuttle"] <= 4.25, "DSRS"]+=500
+lb_df.loc[lb_df["Shuttle"] <= 4.25, "DSRS"]+=500
+lb_df.loc[lb_df["Bench"] >= 25, "DSRS"]+400
 db_cols = [
     "career_stage",
     "first_season",
@@ -344,28 +402,24 @@ db_df = df[df["position"].isin(["CB", "DB","S"])][db_cols + ["score"]]
 db_df.loc[db_df["defensive_PD"] >= 6, "DSRS"]+=300
 db_df.loc[db_df["db_score"] >= 8, "DSRS"]+=300
 db_df.loc[db_df["db_score"] >= 8, "win_pct"]+=30
-
-db_df.loc[db_df["defensive_TOT"] <= 10, "DSRS"]-=10000
-db_df.loc[db_df["defensive_TOT"] <= 10, "db_score"]-=10000
+db_df.loc[db_df["career_stage"]<=4, "DSRS"]+=100
+db_df.loc[db_df["defensive_TOT"] <= 10, "DSRS"]-=20000
 db_df.loc[db_df["defensive_TOT"] >= 40, "DSRS"]+=50
 db_df.loc[db_df["defensive_TOT"] >= 80, "DSRS"]+=100
-db_df.loc[db_df["defensive_TFL"] >= 3, "DSRS"]+=50
-db_df.loc[db_df["is_all_american"] == 1, "DSRS"]+=200
+db_df.loc[db_df["defensive_TFL"] >= 3, "db_score"]+=50
+db_df.loc[db_df["is_all_american"] == 1, "db_score"]+=200
 db_df.loc[db_df["is_all_american"] == 1, "win_pct"]+=20
 db_df.loc[db_df["is_all_american"] == 1, "win_pct"]+=20
 db_df.loc[db_df["defensive_PD"] >= 6, "win_pct"]+=35
-db_df.loc[db_df["defensive_PD"] == 0, "win_pct"]-=35
+db_df.loc[db_df["defensive_PD"] == 0, "win_pct"]-=350
 db_df.loc[db_df["db_score"] >= 10, "win_pct"]+=35
 db_df.loc[db_df["weighted_award_score"] >= 1, "win_pct"]+=80
-db_df.loc[db_df["weighted_award_score"] >= 1, "DSRS"]+=600
-db_df.loc[db_df["Vertical"] >= 38, "DSRS"] +=200
-db_df.loc[db_df["40yd"] >= 4.35, "DSRS"] +=200
-db_df.loc[db_df["3Cone"]<= 6.70, "DSRS"]+=200
-db_df.loc[db_df["Shuttle"] <= 4.05, "DSRS"]+=200
-db_df.loc[db_df["Vertical"] >= 38, "db_score"] +=20
-db_df.loc[db_df["40yd"] >= 4.35, "db_score"] +=20
-db_df.loc[db_df["3Cone"]<= 6.70, "db_score"]+=20
-db_df.loc[db_df["Shuttle"] <= 4.05, "db_score"]+=20
+db_df.loc[db_df["weighted_award_score"] >= 1, "DSRS"]+=100
+db_df.loc[db_df["Vertical"] >= 38, "DSRS"] +=500
+db_df.loc[db_df["40yd"] <= 4.35, "DSRS"] +=500
+db_df.loc[db_df["3Cone"]<= 6.70, "DSRS"]+=500
+db_df.loc[db_df["Shuttle"] <= 4.05, "DSRS"]+=500
+
 
 
 
@@ -527,12 +581,12 @@ skill_rankings  = skill_results.sort_values(["predicted_score","position"], asce
 print(skill_rankings[["name", "predicted_score"]].head(32))
 edge_model = XGBRegressor(
     enable_categorical =True,
-    colsample_bytree = 0.75,
-    reg_lambda = 8,
+    colsample_bytree = 0.65,
+    reg_lambda =6,
     min_child_weight = 2,
-    max_depth = 3,
-    learning_rate = 0.1,
-    n_estimators = 150,
+    max_depth = 2,
+    learning_rate = 0.08,
+    n_estimators = 115,
     reg_alpha= 2,
     random_state = 42
     )
@@ -547,9 +601,9 @@ print(edge_rankings[["name", "predicted_score"]].head(32))
 idl_model = XGBRegressor(
     enable_categorical =True,
     colsample_bytree = 0.75,
-    reg_lambda = 8,
-    min_child_weight = 4,
-    max_depth = 3,
+    reg_lambda = 7,
+    min_child_weight = 3,
+    max_depth = 2,
     learning_rate = 0.08,
     n_estimators = 150,
     reg_alpha= 2,
@@ -584,12 +638,12 @@ print(lb_rankings[["name", "predicted_score"]].head(32))
 
 db_model = XGBRegressor(
     enable_categorical =True,
-    colsample_bytree = 0.55,
-    reg_lambda = 4,
+    colsample_bytree = 0.75,
+    reg_lambda = 6,
     min_child_weight = 2,
     max_depth = 2,
     learning_rate = 0.01,
-    n_estimators = 50,
+    n_estimators = 70,
     reg_alpha= 2,
     random_state = 42
     )
@@ -639,4 +693,4 @@ print("db: ", db_feat_imp.head(15))
 
 plt.figure(figsize=(100,50))
 plot_tree(db_model, num_trees=0)
-plt.show()
+#plt.show()
