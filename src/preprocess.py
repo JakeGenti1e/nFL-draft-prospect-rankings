@@ -54,6 +54,20 @@ all_stats = all_stats.drop(columns=['player', 'conference'])
 processed_roster["team"] = processed_roster["team"].str.lower().str.strip()
 all_stats["team"] = all_stats["team"].str.lower().str.strip()
 all_stats.to_csv("data/raw/stats/all_stats.csv")
+
+
+srs = pd.read_csv("srs_2019_2025_clean_v2.csv")
+srs["team"] = srs["School"].str.lower().str.strip()
+srs["conference"] = srs["Conf"].str.lower().str.strip()
+srs = srs.drop(columns=["School","Conf"])
+
+processed_roster = pd.merge(
+    processed_roster,
+    srs,
+    on = ["team","season"],
+    how="left"
+)
+
 processed_roster["conference"] = processed_roster.apply(
     lambda row: map_conference(row["team"], row["season"]),
     axis=1
@@ -207,7 +221,16 @@ stats_cols = [
 ]
 
 
-
 player_data[stats_cols] = player_data[stats_cols].fillna(0)
-player_data.to_csv("data/processed/player_data.csv")
 
+final_data = pd.read_csv("player_data_2025_adjusted (2) - Copy.csv")
+
+player_data = pd.merge(
+    player_data,
+    final_data,
+    on = ["name", "team", "season", "conference", "height","weight"],
+    how = "left"
+
+)
+
+player_data.to_csv("data/processed/player_data.csv")
